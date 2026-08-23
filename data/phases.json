@@ -1,0 +1,60 @@
+{
+  "updated": "2026-08-22T12:00:00Z",
+  "notes": "Phases 01-04 follow spec/SAMPLE_ACTIVITY.md. Phases 05-06 drafted from open-source August reporting (GlobalSecurity ops log, MapPR Hormuz timeline, CENTCOM releases). Boundaries are hand-set; uncovered spans render as intermissions.",
+  "phases": [
+    {
+      "id": "maritime-retaliation",
+      "number": "01",
+      "title": "Initial maritime retaliation",
+      "start": "2026-07-07",
+      "end": "2026-07-08",
+      "accent": "amber",
+      "summary": "170+ targets struck · Hormuz security · IRGC naval capabilities degraded"
+    },
+    {
+      "id": "thirteen-nights",
+      "number": "02",
+      "title": "13 consecutive nights",
+      "start": "2026-07-11",
+      "end": "2026-07-23",
+      "accent": "red",
+      "summary": "Sustained strike campaign · Command, missile, drone and coastal target sets"
+    },
+    {
+      "id": "operational-pause",
+      "number": "03",
+      "title": "Operational pause",
+      "start": "2026-07-24",
+      "end": "2026-07-27",
+      "accent": "blue",
+      "summary": "Kinetic pause · Naval blockade maintained · ISR and force protection"
+    },
+    {
+      "id": "renewed-escalation",
+      "number": "04",
+      "title": "Renewed escalation",
+      "start": "2026-07-28",
+      "end": "2026-07-31",
+      "accent": "orange",
+      "summary": "Iranian missile attack · U.S. retaliation · Maritime pressure resumes"
+    },
+    {
+      "id": "truce-and-talks",
+      "number": "05",
+      "title": "Truce and Hormuz talks",
+      "start": "2026-08-01",
+      "end": "2026-08-10",
+      "accent": "green",
+      "summary": "Strike halt · Two-lane corridor draft · Blockade tightens daily"
+    },
+    {
+      "id": "economic-siege",
+      "number": "06",
+      "title": "Economic siege",
+      "start": "2026-08-11",
+      "end": "2026-08-22",
+      "accent": "violet",
+      "summary": "Disabling fire · Indefinite blockade doctrine · Sanctions 'one-two punch'"
+    }
+  ]
+}

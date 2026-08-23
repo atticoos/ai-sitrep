@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-05",
+  "theme": "Qeshm incident",
+  "tempo": "low",
+  "us": "Enforcement patrols · Transits ~8/day",
+  "effects": "48 redirected · Traffic stays in single digits",
+  "iran": "Two explosions reported on Qeshm Island · Attribution contested · Local denial",
+  "tldr": "Late evening, two explosions were reported on Qeshm Island at the strait's entrance ~21:40 local. Tasnim attributed them to forces confronting 'hostile enemy targets'; Hormozgan's deputy governor denied any incident.",
+  "events": [
+    {
+      "time": "~21:40",
+      "actor": "Iran (attributed)",
+      "title": "Two explosions reported on Qeshm Island",
+      "summary": "Tasnim attributed the blasts to Iranian armed forces confronting 'hostile enemy targets'; the provincial government denied any strike or incident.",
+      "confidence": "low"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MapPR — Strait of Hormuz Crisis 2026 timeline",
+      "url": "https://www.mappr.co/strait-of-hormuz-crisis-2026/"
+    }
+  ]
+}
