@@ -1,0 +1,40 @@
+{
+  "date": "2026-08-08",
+  "theme": "'Acts of piracy'",
+  "tempo": "low",
+  "us": "Blockade increments to 53 · Vance: 'we don't trust; we verify'",
+  "effects": "ADNOC tanker hit in strait · Company toll: 15 attacked, 1 dead, 20 injured",
+  "iran": "Zolghadr publishes full reopening terms",
+  "tldr": "A missile struck an ADNOC-linked tanker in the strait's early hours — the UAE's fifteenth shipping attack of the war, called 'an act of piracy by Iran's Revolutionary Guard Corps.' Tehran's security council laid out its full price for reopening as the Oman track neared text. Strike pause held a ninth consecutive night.",
+  "events": [
+    {
+      "time": "~early",
+      "actor": "Iran (attributed)",
+      "title": "Missile hits ADNOC-linked tanker inside the strait",
+      "summary": "Early-morning strike, no casualties. Abu Dhabi called it 'an act of piracy by Iran's Revolutionary Guard Corps' and a violation of UN Security Council Resolution 2817; Tehran did not immediately comment. ADNOC disclosed that 15 of its ships have been attacked since February 28 — three in the past week — killing one crew member and injuring 20. Qatar condemned the strike.",
+      "confidence": "medium",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "SNSC secretary states Tehran's full reopening terms",
+      "summary": "Mohammad Bagher Zolghadr: the strait stays shut until Washington permanently ends the war and threats against Iran and its allies, lifts the naval blockade, withdraws US naval and air forces from around Iran, pays full compensation for war damage, lifts sanctions and unconditionally releases frozen assets. The IRGC spokesman set the same bar and warned Washington off the Oman talks.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Vance: Tehran had promised maximum flow — 'we don't trust; we verify'",
+      "summary": "The vice president said Iran had committed to maximum oil and gas transit and to not firing on commercial vessels, framing verification as the outstanding question. Araghchi separately said the Oman agreement was close but 'not a sign of the reopening.' CENTCOM's tally rose to 53 redirected / 2 disabled / 2 boarded, with more than 30 ships passed on humanitarian grounds.",
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    }
+  ],
+  "sources": [
+    { "title": "MapPR — Strait of Hormuz Crisis 2026 timeline", "url": "https://www.mappr.co/strait-of-hormuz-crisis-2026/" },
+    { "title": "GlobalSecurity.org — Iran War daily ops report", "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm" }
+  ]
+}

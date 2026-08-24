@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-16",
+  "theme": "Traffic hits zero",
+  "tempo": "low",
+  "us": "Wright claims 30 crossings · Kpler counts none",
+  "effects": "First zero-transit day of the blockade · Red Sea thins to 49",
+  "iran": "Hatami prices an American life at $30,000 · Javani: defence turning offensive",
+  "tldr": "Kpler tracked no commodity vessels through the strait at all on Sunday — against roughly 130 crossings a day before the war — after the week's run of tanker strikes. Washington's flow claims and the trackers fully diverged. Iran put a bounty on US troops and declared its deterrence posture offensive. Seventeenth consecutive night without confirmed strikes inside Iran.",
+  "events": [
+    {
+      "time": "data",
+      "actor": "Effects",
+      "title": "Zero transits recorded; flow claims diverge completely",
+      "summary": "Kpler tracked five commodity vessels Saturday and none Sunday, against 31 the previous weekend — shipping slowed to a near standstill after three ADNOC-linked attacks in the week. Energy Secretary Chris Wright said 30 vessels crossed and put flow at 8–9 million barrels/day; pressed on Fox News he conceded 'we're not fully back to the full flow.' Bab el-Mandeb fell to 49 transits in the week with no Saudi oil tracked.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Army chief announces bounty for killing or capturing US troops",
+      "summary": "Major General Amir Hatami announced a reward of 5 billion tomans (~$30,000) for the killing or capture of an American service member, doubled if carried out by a woman.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/", "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "IRGC: 'maximum deterrence' goes on offence",
+      "summary": "Political deputy Yadollah Javani, citing Ahmad Vahidi's mandate: defensive action 'will now take an offensive form' — 'the enemy should know that it cannot catch us off guard... it is the enemy that must anticipate strategic surprises.' Araghchi separately said the Oman route deal was 'very close' but 'completely separate' from reopening.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    }
+  ],
+  "sources": [
+    { "title": "MapPR — Strait of Hormuz Crisis 2026 timeline", "url": "https://www.mappr.co/strait-of-hormuz-crisis-2026/" },
+    { "title": "GlobalSecurity.org — Iran War daily ops report (Day 177)", "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm" }
+  ]
+}

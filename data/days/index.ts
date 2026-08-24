@@ -31,14 +31,23 @@ import day026 from "./2026-08-04.json";
 import day027 from "./2026-08-05.json";
 import day028 from "./2026-08-06.json";
 import day029 from "./2026-08-07.json";
-import day030 from "./2026-08-11.json";
-import day031 from "./2026-08-13.json";
-import day032 from "./2026-08-18.json";
-import day033 from "./2026-08-20.json";
-import day034 from "./2026-08-21.json";
-import day035 from "./2026-08-22.json";
-import day036 from "./2026-08-23.json";
-import day037 from "./2026-08-24.json";
+import day030 from "./2026-08-08.json";
+import day031 from "./2026-08-09.json";
+import day032 from "./2026-08-10.json";
+import day033 from "./2026-08-11.json";
+import day034 from "./2026-08-12.json";
+import day035 from "./2026-08-13.json";
+import day036 from "./2026-08-14.json";
+import day037 from "./2026-08-15.json";
+import day038 from "./2026-08-16.json";
+import day039 from "./2026-08-17.json";
+import day040 from "./2026-08-18.json";
+import day041 from "./2026-08-19.json";
+import day042 from "./2026-08-20.json";
+import day043 from "./2026-08-21.json";
+import day044 from "./2026-08-22.json";
+import day045 from "./2026-08-23.json";
+import day046 from "./2026-08-24.json";
 
 export interface RawDayEntry {
   file: string;
@@ -77,12 +86,21 @@ export const RAW_DAYS: RawDayEntry[] = [
   { file: "2026-08-05.json", data: day027 },
   { file: "2026-08-06.json", data: day028 },
   { file: "2026-08-07.json", data: day029 },
-  { file: "2026-08-11.json", data: day030 },
-  { file: "2026-08-13.json", data: day031 },
-  { file: "2026-08-18.json", data: day032 },
-  { file: "2026-08-20.json", data: day033 },
-  { file: "2026-08-21.json", data: day034 },
-  { file: "2026-08-22.json", data: day035 },
-  { file: "2026-08-23.json", data: day036 },
-  { file: "2026-08-24.json", data: day037 },
+  { file: "2026-08-08.json", data: day030 },
+  { file: "2026-08-09.json", data: day031 },
+  { file: "2026-08-10.json", data: day032 },
+  { file: "2026-08-11.json", data: day033 },
+  { file: "2026-08-12.json", data: day034 },
+  { file: "2026-08-13.json", data: day035 },
+  { file: "2026-08-14.json", data: day036 },
+  { file: "2026-08-15.json", data: day037 },
+  { file: "2026-08-16.json", data: day038 },
+  { file: "2026-08-17.json", data: day039 },
+  { file: "2026-08-18.json", data: day040 },
+  { file: "2026-08-19.json", data: day041 },
+  { file: "2026-08-20.json", data: day042 },
+  { file: "2026-08-21.json", data: day043 },
+  { file: "2026-08-22.json", data: day044 },
+  { file: "2026-08-23.json", data: day045 },
+  { file: "2026-08-24.json", data: day046 },
 ];

@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-17",
+  "theme": "Memorandum expires",
+  "tempo": "medium",
+  "us": "No extension · 'White flag of surrender' · Claims IRGC backchannel",
+  "effects": "Tally 64/3/2 · Amara seized near Qeshm · Brent at war high $90.87",
+  "iran": "Route map with Oman agreed · Backchannel called 'fantasies'",
+  "tldr": "The June memorandum's 60-day window lapsed with neither capital asking for more time — no extension, no successor deal, the strait still shut. Trump demanded surrender while claiming a direct IRGC backchannel Tehran denied, and threatened to bomb mediator Oman. Iran seized the tanker Amara over transit rules as Brent hit its war high. Eighteenth consecutive night without confirmed strikes inside Iran.",
+  "events": [
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Trump rules out extension; demands surrender; threatens Oman",
+      "summary": "'Put up the white flag of surrender.' No extension sought after the window lapsed: 'I have no time schedule. I'm not in a hurry.' He claimed a direct backchannel with the IRGC — 'good poker players' who are 'dying' — and of mediator Oman: 'If Oman gets in the way, we'll bomb the s— out of them,' his second such threat at Muscat this year. Senator Kaine moved to bar military action against Oman.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/", "https://www.pbs.org/newshour/world/irans-president-says-u-s-memorandum-is-best-path-out-of-stalled-war-and-other-middle-east-news"]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Transit-route map agreed with Oman; backchannel denied",
+      "summary": "Baghaei: 'an understanding has been reached regarding the map of the transit route' with Muscat, prepared as a package with a joint statement pending — the first mechanism to safeguard both littoral states' sovereign rights and safe passage. Tehran held the memorandum void long before expiry. An IRGC spokesman called Trump's backchannel claim a lie, 'fantasies stemming from delusions and nightmares brought on by defeat.'",
+      "significance": 4,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "~day",
+      "actor": "Iran",
+      "title": "Tanker Amara seized near Qeshm over transit and fee rules",
+      "summary": "Windward identified the Liberia-flagged Amara, stopped near Qeshm Island on August 17 — the first confirmed Iranian seizure since June 22 — though tracking still showed it under way, not under escort. Iranian media also reported a UAE-linked tanker taken in the northern corridor, unconfirmed. CENTCOM's tally rose to 64 redirected / 3 disabled / 2 boarded.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    }
+  ],
+  "dossier": "A senior White House official described the negotiations to Politico as 'static'; Tehran said there was nothing to extend because Washington broke the terms first. The Houthis claimed ballistic-missile hits on a Saudi landing ship and four escort boats off Mokha, unconfirmed by Riyadh. Oil: Brent settled at $90.87 (+2.7%), its highest of the war so far, trading near $91.20 into August 18.",
+  "sources": [
+    { "title": "MapPR — Strait of Hormuz Crisis 2026 timeline", "url": "https://www.mappr.co/strait-of-hormuz-crisis-2026/" },
+    { "title": "PBS News — Iran's president says U.S. memorandum is best path out of stalled war", "url": "https://www.pbs.org/newshour/world/irans-president-says-u-s-memorandum-is-best-path-out-of-stalled-war-and-other-middle-east-news" }
+  ]
+}

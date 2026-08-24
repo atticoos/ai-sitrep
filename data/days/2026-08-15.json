@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-15",
+  "theme": "The Omani lane is where ships get hit",
+  "tempo": "low",
+  "us": "Blockade tally frozen at 62/3/2 · Traffic at 17% of normal",
+  "effects": "Third hull strike in 48h · Omani corridor: 16 of 18 recorded hits",
+  "iran": "'Iranian, is Iranian, and will remain Iranian' · No ceasefire to extend",
+  "tldr": "UKMTO verified another projectile strike on a bulk carrier — the third ADNOC-linked hit in 48 hours — as seven-day traffic ran at roughly 17% of pre-war normal. Araghchi ruled out any extension framing: the June memorandum ended the war, it was never a ceasefire. Sixteenth consecutive night without confirmed strikes inside Iran.",
+  "events": [
+    {
+      "time": "07:06",
+      "actor": "Iran (attributed)",
+      "title": "Verified projectile strike on a bulk carrier's hull",
+      "summary": "UKMTO logged a verified account of an unknown projectile hitting a bulk carrier in the strait, crew safe — the third ADNOC-linked vessel struck inside a week (18 company ships hit since February). The southern Omani corridor accounts for 16 of 18 projectile strikes recorded since July 6, making the alternative route the waterway's most dangerous stretch.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Araghchi: 'We did not have a ceasefire to extend'",
+      "summary": "The June memorandum was an end to the war, which 'has now entered a new situation'; no decision taken on resuming talks with America — Qatari and Pakistani message relay 'does not amount to negotiations.' Gharibabadi on X: the waterway 'has been Iranian, is Iranian, and will remain Iranian,' opening only 'under Iran's command'; Trump should accept his 'strategic and heavy defeats.'",
+      "significance": 3,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "day",
+      "actor": "Diplomacy",
+      "title": "Ankara presses reopening; Abu Dhabi stays the course",
+      "summary": "Erdogan called reopening the strait a priority, 'in no one's interest' to keep closed, crediting Qatar's mediation. Anwar Gargash said repeated ADNOC targeting 'will not deter' UAE policy built on 'deterrence, diplomacy, and adherence to international law.'",
+      "significance": 2,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    }
+  ],
+  "dossier": "Damage log reached 56 vessels damaged in or near the strait since February 28, not yet counting the two ADNOC tankers hit August 13. Seven-day traffic to August 14: 151 ships, ~17% of pre-conflict average; Panama and Liberia flagged 12 transits each, no US-flagged vessel. Israel killed 11 people in strikes on Lebanon this day, per later GlobalSecurity accounting — Hezbollah's retaliation question stayed open for days.",
+  "sources": [
+    { "title": "MapPR — Strait of Hormuz Crisis 2026 timeline", "url": "https://www.mappr.co/strait-of-hormuz-crisis-2026/" },
+    { "title": "GlobalSecurity.org — Iran War daily ops report (Day 177)", "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm" }
+  ]
+}
