@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "npm run -s days:index && next dev",
+    "build": "npm run -s days:index && next build",
     "start": "next start",
     "lint": "eslint",
+    "days:index": "node scripts/generate-day-index.mjs",
     "phases:suggest": "node scripts/suggest-phases.mjs",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "preview": "npm run -s days:index && opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "npm run -s days:index && opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {

@@ -14,8 +14,6 @@ interface Params {
   date: string;
 }
 
-export const dynamicParams = false;
-
 export async function generateStaticParams(): Promise<Params[]> {
   const days = await getDays();
   return days.map((d) => ({ date: d.date }));

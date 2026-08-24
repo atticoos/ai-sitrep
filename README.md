@@ -16,7 +16,9 @@ app/day/[date]/             per-day report page (events, sources, dossier)
 scripts/suggest-phases.mjs  LLM draft of phases (optional)
 ```
 
-Everything renders statically at build time from `data/`. Bad data fails the build loudly with file + field.
+Everything renders from a single versioned snapshot (`SitrepSnapshot` in lib/types.ts): `{ schemaVersion, generatedAt, days, phases, meta }`. Today it is compiled into the bundle at build time — the deployed Worker has no filesystem, so nothing reads `data/` at request time. Bad data still fails the build loudly with file + field. The planned research workflow will write the same envelope to KV; its only integration point is `getSnapshot()` in lib/data.ts.
+
+Day pages prerender at build and also render on demand (unknown dates 404), so entries added without a rebuild will serve correctly once the workflow writes new snapshots.
 
 ## Adding a day
 

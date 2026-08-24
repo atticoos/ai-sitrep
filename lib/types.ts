@@ -54,6 +54,22 @@ export interface MetaFile {
   metrics: { label: string; value: string; suffix?: string }[];
 }
 
+/**
+ * The complete dataset contract between storage and rendering.
+ *
+ * Authored day files in data/days are compiled into this snapshot at build
+ * time today; the planned research workflow will produce the same envelope at
+ * runtime (e.g. written to KV as one key). Rendering only ever consumes this
+ * shape, so swapping the source never touches the app.
+ */
+export interface SitrepSnapshot {
+  schemaVersion: 1;
+  generatedAt: string; // ISO-8601
+  days: DayReport[]; // chronological
+  phases: Phase[];
+  meta: MetaFile;
+}
+
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
 function isStr(v: unknown): v is string {

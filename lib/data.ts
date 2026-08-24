@@ -1,5 +1,3 @@
-import { readdir, readFile } from "node:fs/promises";
-import path from "node:path";
 import {
   parseDayReport,
   parseMetaFile,
@@ -7,11 +5,41 @@ import {
   type DayReport,
   type MetaFile,
   type Phase,
-  type PhasesFile,
+  type SitrepSnapshot,
 } from "./types";
+import { RAW_DAYS } from "@/data/days/index";
+import phasesJson from "@/data/phases.json";
+import metaJson from "@/data/meta.json";
 
-const DATA_DIR = path.join(process.cwd(), "data");
-const DAYS_DIR = path.join(DATA_DIR, "days");
+// Data is bundled at build time (see scripts/generate-day-index.mjs): the
+// deployed Worker has no project filesystem, so nothing may read from disk
+// at request time. Bad JSON still fails the build loudly via the parsers.
+//
+// Everything renders from a single SitrepSnapshot. When the research workflow
+// lands, its only integration point is producing this same envelope (e.g.
+// written to KV) and swapping the source in getSnapshot() — no app changes.
+
+// ---------- snapshot ----------
+
+interface Cache {
+  snapshot?: SitrepSnapshot;
+}
+const cache: Cache = {};
+
+export async function getSnapshot(): Promise<SitrepSnapshot> {
+  if (cache.snapshot) return cache.snapshot;
+  const seen = new Set<string>();
+  const days = RAW_DAYS.map(({ file, data }) => parseDayReport(data, file));
+  for (const r of days) {
+    if (seen.has(r.date)) throw new Error(`Duplicate day report for date ${r.date}`);
+    seen.add(r.date);
+  }
+  days.sort((a, b) => a.date.localeCompare(b.date));
+  const phases = parsePhasesFile(phasesJson, "data/phases.json").phases;
+  const meta = parseMetaFile(metaJson, "data/meta.json");
+  cache.snapshot = { schemaVersion: 1, generatedAt: new Date().toISOString(), days, phases, meta };
+  return cache.snapshot;
+}
 
 // ---------- date helpers (pure UTC string math) ----------
 
@@ -66,67 +94,16 @@ export function gapLabel(from: string, to: string): { days: string; month: strin
 
 // ---------- loading ----------
 
-interface Cache {
-  days?: DayReport[];
-  phases?: PhasesFile;
-  meta?: MetaFile;
-}
-const cache: Cache = {};
-
 export async function getDays(): Promise<DayReport[]> {
-  if (cache.days) return cache.days;
-  let files: string[] = [];
-  try {
-    files = await readdir(DAYS_DIR);
-  } catch {
-    cache.days = [];
-    return cache.days;
-  }
-  const reports = await Promise.all(
-    files
-      .filter((f) => f.endsWith(".json"))
-      .map(async (f) => {
-        const raw = JSON.parse(await readFile(path.join(DAYS_DIR, f), "utf8"));
-        return parseDayReport(raw, f);
-      }),
-  );
-  const seen = new Set<string>();
-  for (const r of reports) {
-    if (seen.has(r.date)) throw new Error(`Duplicate day report for date ${r.date}`);
-    seen.add(r.date);
-  }
-  cache.days = reports.sort((a, b) => a.date.localeCompare(b.date));
-  return cache.days;
+  return (await getSnapshot()).days;
 }
 
-export async function getPhases(): Promise<PhasesFile> {
-  if (cache.phases) return cache.phases;
-  try {
-    const raw = JSON.parse(await readFile(path.join(DATA_DIR, "phases.json"), "utf8"));
-    cache.phases = parsePhasesFile(raw, "data/phases.json");
-  } catch (err) {
-    if ((err as NodeJS.ErrnoException).code === "ENOENT") {
-      cache.phases = { phases: [] };
-    } else {
-      throw err;
-    }
-  }
-  return cache.phases;
+export async function getPhases(): Promise<Phase[]> {
+  return (await getSnapshot()).phases;
 }
 
 export async function getMeta(): Promise<MetaFile> {
-  if (cache.meta) return cache.meta;
-  try {
-    const raw = JSON.parse(await readFile(path.join(DATA_DIR, "meta.json"), "utf8"));
-    cache.meta = parseMetaFile(raw, "data/meta.json");
-  } catch (err) {
-    if ((err as NodeJS.ErrnoException).code === "ENOENT") {
-      cache.meta = { metrics: [] };
-    } else {
-      throw err;
-    }
-  }
-  return cache.meta;
+  return (await getSnapshot()).meta;
 }
 
 export async function getDay(date: string): Promise<DayReport | undefined> {
@@ -142,9 +119,9 @@ export interface Sitrep {
 }
 
 export async function getSitrep(): Promise<Sitrep> {
-  const [days, phasesFile] = await Promise.all([getDays(), getPhases()]);
-  const phases = [...phasesFile.phases].sort((a, b) => a.start.localeCompare(b.start));
-  return { days, phases, latest: days.length > 0 ? days[days.length - 1] : null };
+  const [days, phases] = await Promise.all([getDays(), getPhases()]);
+  const sorted = [...phases].sort((a, b) => a.start.localeCompare(b.start));
+  return { days, phases: sorted, latest: days.length > 0 ? days[days.length - 1] : null };
 }
 
 export function phaseForDate(phases: Phase[], date: string): Phase | undefined {

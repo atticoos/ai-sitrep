@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T12:00:00Z",
-  "notes": "Phases 01-04 follow spec/SAMPLE_ACTIVITY.md. Phases 05-06 drafted from open-source August reporting (GlobalSecurity ops log, MapPR Hormuz timeline, CENTCOM releases). Boundaries are hand-set; uncovered spans render as intermissions.",
+  "updated": "2026-08-24T21:00:00Z",
+  "notes": "Phases 01-04 follow spec/SAMPLE_ACTIVITY.md. Phases 05-06 drafted from open-source August reporting (GlobalSecurity ops log, MapPR Hormuz timeline, CENTCOM releases). Phase 07 covers the sanctions launch (Bessent presser 24 Aug). Boundaries are hand-set; uncovered spans render as intermissions.",
   "phases": [
     {
       "id": "maritime-retaliation",
@@ -55,6 +55,15 @@
       "end": "2026-08-22",
       "accent": "violet",
       "summary": "Disabling fire · Indefinite blockade doctrine · Sanctions 'one-two punch'"
+    },
+    {
+      "id": "operation-economic-outcast",
+      "number": "07",
+      "title": "Operation Economic Outcast",
+      "start": "2026-08-23",
+      "end": "2026-08-24",
+      "accent": "violet",
+      "summary": "'Economic D-Day' lands · Five lifelines on notice · Dollar expulsion threatened, execution deferred"
     }
   ]
 }

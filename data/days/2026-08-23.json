@@ -1,0 +1,127 @@
+{
+  "date": "2026-08-23",
+  "theme": "'Act of war'",
+  "tempo": "low",
+  "us": "Bessent op-ed: 'economic D-Day at dawn'",
+  "effects": "Rial breaks 2M per USD · PGSA blacklists 'noncompliant' vessels · Tally rises to 70 redirected",
+  "iran": "Rezai: backing sanctions is 'an act of war' · Munir heads to Tehran",
+  "tldr": "On the eve of the announcement, Bessent pre-staged the campaign as 'the single greatest financial offensive ever marshalled against an adversary,' while Tehran converted Saturday's 'enemy' formula into an 'act of war' threat and published its first blacklist of noncompliant transiting vessels. The rial broke two million to the dollar as Pakistan's army chief headed for Tehran.",
+  "events": [
+    {
+      "time": "op-ed",
+      "actor": "US",
+      "title": "Bessent in the FT: 'an economic D-Day is coming for Iran'",
+      "summary": "'At dawn begins an economic D-Day — the single greatest financial offensive ever marshalled against an adversary.' He warned that any country partnering with Iran would share its financial isolation, writing that Trump had 'decimated Iran's economy to a point where the rial has never been weaker.' Little operational detail ahead of Monday's press conference.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": [
+        "https://www.cnn.com/2026/08/23/world/live-news/iran-war-trump",
+        "https://www.nbcnews.com/business/economy/bessent-iran-sanctions-d-day-rcna594103",
+        "https://www.pbs.org/newshour/world/watch-live-bessent-expected-to-announce-new-round-of-iran-sanctions"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Rezai escalates from 'enemy' to 'act of war'",
+      "summary": "On X in English: if the economic war continues, 'not a single drop of oil will be exported, neither through the Strait of Hormuz nor from anywhere in the Persian Gulf,' and any country's participation or support for US measures will be regarded 'as an act of war.' In an IRIB interview aired late Saturday he promised to 'retaliate in a seismic manner' and named the Gulf's bypass pipelines as targets.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": [
+        "https://www.aljazeera.com/news/liveblog/2026/8/23/iran-war-live-tehran-warns-neighbours-against-joining-us-economic-war",
+        "https://www.pbs.org/newshour/world/irans-president-says-u-s-memorandum-is-best-path-out-of-stalled-war-and-other-middle-east-news"
+      ]
+    },
+    {
+      "time": "markets",
+      "actor": "Effects",
+      "title": "Rial collapses past two million to the dollar",
+      "summary": "A record open-market low as the country braced for Monday's announcement, deepening public anger over soaring food and medicine prices. It compounds central bank governor Hemmati's admission that oil export revenue has 'fallen to zero.'",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://gulfnews.com/world/us-sanctions-pressure-iran-as-hormuz-tensions-persist-1.500649350",
+        "https://www.pbs.org/newshour/world/watch-live-bessent-expected-to-announce-new-round-of-iran-sanctions",
+        "https://www.theguardian.com/world/2026/aug/23/iran-new-security-chief-trump-economic-war-enemies-mohsen-rezaei"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "PGSA publishes first 'noncompliant vessels' list",
+      "summary": "The Persian Gulf Strait Authority — itself US-sanctioned — listed dozens of ships it says violated its transit arrangements, threatening fines, detention or confiscation on future passages, and warning that vessels cooperating with listed ships would be added. The first enforcement instrument under the transit regime claimed at the memorandum's expiry; untested.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": [
+        "https://www.aljazeera.com/news/liveblog/2026/8/23/iran-war-live-tehran-warns-neighbours-against-joining-us-economic-war",
+        "https://www.pbs.org/newshour/world/irans-president-says-u-s-memorandum-is-best-path-out-of-stalled-war-and-other-middle-east-news",
+        "https://gulfnews.com/world/us-sanctions-pressure-iran-as-hormuz-tensions-persist-1.500649350"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Diplomacy",
+      "title": "Pakistan mediation: Munir delegation set for Tehran",
+      "summary": "After a Sunday phone call with Araghchi on 'ways to strengthen peace, stability and security,' army chief Field Marshal Asim Munir was set to lead an official delegation to Tehran on Monday. Two regional officials framed the visit as an effort to pull both governments back to the negotiating table.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.reuters.com/world/asia-pacific/iran-says-new-sanctions-threatened-by-desperate-us-will-fail-2026-08-23/",
+        "https://www.thenationalnews.com/news/gulf/2026/08/23/iran-condemns-looming-us-sanctions-as-hormuz-standoff-deepens/",
+        "https://www.pbs.org/newshour/world/irans-president-says-u-s-memorandum-is-best-path-out-of-stalled-war-and-other-middle-east-news"
+      ]
+    },
+    {
+      "time": "data",
+      "actor": "US",
+      "title": "Blockade tally increments to 70 redirected",
+      "summary": "CENTCOM accounting rose from 68 to 70 commercial ships redirected, with three disabled — the first increment since the command's 21 August release. UKMTO separately reported no confirmed attacks in 48 hours, single-digit transits in both directions, and persistent harassment: UAV overflights, surveillance of merchant shipping, VHF hailing.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.pbs.org/newshour/world/irans-president-says-u-s-memorandum-is-best-path-out-of-stalled-war-and-other-middle-east-news",
+        "https://www.aljazeera.com/news/liveblog/2026/8/23/iran-war-live-tehran-warns-neighbours-against-joining-us-economic-war"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Pezeshkian defends the MOU, admits 'many problems'",
+      "summary": "In a state-published speech the president called the June memorandum the best way out of a situation of 'neither war nor peace': 'There is not a single provision in this agreement that amounts to capitulation.' He acknowledged citizens face 'many problems' while Ghalibaf pitched neighbors on national-currency trade and a regional security order bypassing Washington.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.pbs.org/newshour/world/irans-president-says-u-s-memorandum-is-best-path-out-of-stalled-war-and-other-middle-east-news",
+        "https://gulfnews.com/world/us-sanctions-pressure-iran-as-hormuz-tensions-persist-1.500649350",
+        "https://www.theguardian.com/world/2026/aug/23/iran-new-security-chief-trump-economic-war-enemies-mohsen-rezaei"
+      ]
+    }
+  ],
+  "dossier": "Night count: 24th consecutive without confirmed strikes inside Iran. CNN reported some oil companies have developed new tactics enabling tankers to pass undetected through the strait. Araghchi's fuller argument: the shift from military operations 'to bring up the same old plans shows that they are desperate'; Washington must speak 'respectfully' for any solution 'based on justice and honor.' Analyst Ali Akbar Dareini told Al Jazeera Iran concluded 'restraint invites more aggression' and has moved from defensive to offensive posture; former Pentagon official David Des Roches sketched likely secondary-sanction targets including Chinese teapot refiners and even municipal officials in refinery towns. Ghalibaf said Tehran has received 'numerous messages' from neighbors about an independent regional security order.",
+  "sources": [
+    {
+      "title": "Reuters — Iran says new sanctions threatened by 'desperate' US will fail",
+      "url": "https://www.reuters.com/world/asia-pacific/iran-says-new-sanctions-threatened-by-desperate-us-will-fail-2026-08-23/"
+    },
+    {
+      "title": "Al Jazeera — Iran war live: Tehran warns neighbours against joining US economic war",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/23/iran-war-live-tehran-warns-neighbours-against-joining-us-economic-war"
+    },
+    {
+      "title": "PBS News — Iran's president says U.S. memorandum is best path out of stalled war",
+      "url": "https://www.pbs.org/newshour/world/irans-president-says-u-s-memorandum-is-best-path-out-of-stalled-war-and-other-middle-east-news"
+    },
+    {
+      "title": "The Guardian — Iran's foreign minister calls threat of new US sanctions 'desperate'",
+      "url": "https://www.theguardian.com/world/2026/aug/23/iran-new-security-chief-trump-economic-war-enemies-mohsen-rezaei"
+    },
+    {
+      "title": "CNN — August 23 live updates: Tehran vows to 'neutralize' economic war",
+      "url": "https://www.cnn.com/2026/08/23/world/live-news/iran-war-trump"
+    },
+    {
+      "title": "Gulf News — US sanctions pressure Iran as Hormuz tensions persist",
+      "url": "https://gulfnews.com/world/us-sanctions-pressure-iran-as-hormuz-tensions-persist-1.500649350"
+    }
+  ]
+}
