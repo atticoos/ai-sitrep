@@ -1,0 +1,49 @@
+name: Preview
+
+on:
+  pull_request:
+
+concurrency:
+  group: preview-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  preview:
+    name: Cloudflare preview
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.head.repo.fork == false
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Upload preview version
+        id: upload
+        run: |
+          set -o pipefail
+          npx opennextjs-cloudflare build
+          npx opennextjs-cloudflare upload \
+            --message "PR #${{ github.event.pull_request.number }} @ ${GITHUB_SHA::7}" \
+            | tee "$RUNNER_TEMP/upload.txt"
+          url=$(grep -Eo 'https://[a-zA-Z0-9._-]+\.workers\.dev' "$RUNNER_TEMP/upload.txt" | head -n1)
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - name: Comment preview URL on PR
+        if: steps.upload.outputs.url != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          URL: ${{ steps.upload.outputs.url }}
+        run: |
+          gh pr comment "${{ github.event.pull_request.number }}" \
+            --repo "$GITHUB_REPOSITORY" \
+            --body "🔍 Preview: ${URL} (commit ${{ github.event.pull_request.head.sha }})"
