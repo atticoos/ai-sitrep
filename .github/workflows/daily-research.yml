@@ -9,7 +9,9 @@
 #
 # Durability model: git is the state store. The research job commits each corpus
 # item as the agent files it, then the finished day report; a separate publish
-# job owns the PR, so a publish failure never invalidates research. Re-running a
+# job owns the PR, so a publish failure never invalidates research. The brief's
+# stages run as individual workflow steps (gather / synthesize / state) for
+# per-stage timing and failure visibility in the Actions UI. Re-running a
 # date resumes instead of overwriting: committed corpus items are kept and only
 # what is missing is regenerated. `publish_only` skips research entirely and
 # just opens/updates the PR from the existing branch.
@@ -59,6 +61,13 @@ jobs:
     if: ${{ inputs.publish_only != true }}
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    env:
+      OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      OPENCODE_ENABLE_EXA: "1"
+      RESEARCH_MODEL: ${{ inputs.model }}
+      RESEARCH_GIT: "1"
     steps:
       - uses: actions/checkout@v4
 
@@ -89,15 +98,17 @@ jobs:
             echo "Starting fresh branch ${BRANCH}."
           fi
 
-      - name: Research day
-        env:
-          OPENCODE_ENABLE_EXA: "1"
-          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          RESEARCH_MODEL: ${{ inputs.model }}
-          RESEARCH_GIT: "1"
-        run: bash scripts/research-day.sh "${{ needs.setup.outputs.date }}"
+      - name: Stage A — context + gather
+        timeout-minutes: 40
+        run: bash scripts/research-day.sh "${{ needs.setup.outputs.date }}" A
+
+      - name: Stage B — synthesize + validate
+        timeout-minutes: 8
+        run: bash scripts/research-day.sh "${{ needs.setup.outputs.date }}" B
+
+      - name: Stage C — state + summary
+        timeout-minutes: 8
+        run: bash scripts/research-day.sh "${{ needs.setup.outputs.date }}" C
 
       - name: Push research branch
         env:

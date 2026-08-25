@@ -2,22 +2,35 @@
 # Research one day of the US-Iran campaign and file a day report.
 #
 # Usage:
-#   scripts/research-day.sh 2026-08-25          # local run, writes files only
+#   scripts/research-day.sh 2026-08-25         # all stages, local run, writes files only
+#   scripts/research-day.sh 2026-08-25 A       # a single stage: A (gather), B (synthesize), C (state)
 #   RESEARCH_MODEL=openrouter/stealth/ox-alpha scripts/research-day.sh 2026-08-25
-#   RESEARCH_GIT=1 scripts/research-day.sh …    # CI mode: commit artifacts as produced
+#   RESEARCH_GIT=1 scripts/research-day.sh …   # CI mode: commit artifacts as produced
 #
 # Requires: opencode (https://opencode.ai), node >= 22.
 # Branch/PR handling lives in .github/workflows/daily-research.yml — this script
 # only writes files under data/. The brief's stages run as separate agent
 # sessions that hand off through files on disk:
-#   A: Stage 1+2 (context, gather)     — one corpus file per source, committed per item in CI
+#   A: Stage 1+2 (context, gather)
 #   B: Stage 3+4 (synthesize, validate)
 #   C: Stage 5+6 (state update, summary)
 set -euo pipefail
 
+usage() {
+  echo "usage: scripts/research-day.sh YYYY-MM-DD [A|B|C]" >&2
+}
+
 DATE="${1:-}"
+STAGE="${2:-all}"
+case "$STAGE" in
+  A | B | C | all) ;;
+  *)
+    usage
+    exit 1
+    ;;
+esac
 if [[ ! "$DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
-  echo "usage: scripts/research-day.sh YYYY-MM-DD" >&2
+  usage
   exit 1
 fi
 
@@ -64,30 +77,47 @@ file, record it with one commit — do not batch:
   git add data/research/${DATE}/NN-slug.md && git commit -m \"research(${DATE}): NN-slug\""
 fi
 
-echo "[research] ${DATE} via ${MODEL} — stage A: context + gather"
-run_stage "Read spec/RESEARCH_BRIEF.md and execute ONLY Stage 1 (Context) and \
+run_a() {
+  echo "[research] ${DATE} via ${MODEL} — stage A: context + gather"
+  run_stage "Read spec/RESEARCH_BRIEF.md and execute ONLY Stage 1 (Context) and \
 Stage 2 (Gather) for DATE=${DATE}.${COMMIT_NOTE}
 Stop after Stage 2 — do not synthesize. Every finding a later stage needs must
 be written to disk under data/research/${DATE}/; conversation memory does not
 carry into the next session."
+}
 
-echo "[research] stage B: synthesize + validate"
-run_stage "Read spec/RESEARCH_BRIEF.md and execute ONLY Stage 3 (Synthesize) and \
+run_b() {
+  echo "[research] ${DATE} via ${MODEL} — stage B: synthesize + validate"
+  run_stage "Read spec/RESEARCH_BRIEF.md and execute ONLY Stage 3 (Synthesize) and \
 Stage 4 (Validate) for DATE=${DATE}. The gathered corpus is in data/research/${DATE}/.
 Stop after Stage 4."
 
-DAY_FILE="data/days/${DATE}.json"
-if [[ ! -f "$DAY_FILE" ]]; then
-  echo "error: agent finished without writing ${DAY_FILE}" >&2
-  echo "       partial corpus (if any) is in ${CORPUS}/" >&2
-  exit 1
-fi
-node scripts/validate-day.mjs "$DATE"
-commit "day report" "$DAY_FILE" "$CORPUS"
+  DAY_FILE="data/days/${DATE}.json"
+  if [[ ! -f "$DAY_FILE" ]]; then
+    echo "error: agent finished without writing ${DAY_FILE}" >&2
+    echo "       partial corpus (if any) is in ${CORPUS}/" >&2
+    exit 1
+  fi
+  node scripts/validate-day.mjs "$DATE"
+  commit "day report" "$DAY_FILE" "$CORPUS"
+}
 
-echo "[research] stage C: state + summary"
-run_stage "Read spec/RESEARCH_BRIEF.md and execute ONLY Stage 5 (Update state) and \
+run_c() {
+  echo "[research] ${DATE} via ${MODEL} — stage C: state + summary"
+  run_stage "Read spec/RESEARCH_BRIEF.md and execute ONLY Stage 5 (Update state) and \
 Stage 6 (Run summary) for DATE=${DATE}. Stop after Stage 6."
-commit "state + summary" data/state.json "$CORPUS/SUMMARY.md"
+  commit "state + summary" data/state.json "$CORPUS/SUMMARY.md"
+}
 
-echo "[research] filed ${DAY_FILE}. Review locally; CI opens the PR."
+case "$STAGE" in
+  A) run_a ;;
+  B) run_b ;;
+  C) run_c ;;
+  all)
+    run_a
+    run_b
+    run_c
+    ;;
+esac
+
+echo "[research] ${DATE}: stage(s) ${STAGE} complete. Review locally; CI opens the PR."
