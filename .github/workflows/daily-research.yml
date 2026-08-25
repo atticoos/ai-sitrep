@@ -24,6 +24,13 @@
 # "us-iran-research". Transcript upload failures never fail research or block
 # the PR. Resumed runs restore the day's already-uploaded transcripts first so
 # the manifest keeps covering every stage.
+#
+# Retesting without redoing work — dispatch with:
+#   stages: "B,C"   skip gather (corpus already on the research branch)
+#   stages: ""      no agent time at all: restore + upload transcripts, open PR
+# Skipped stages keep whatever transcripts were previously uploaded; the
+# pipeline scripts are always re-applied onto the resumed branch so capture
+# works even when that branch was cut from an older revision.
 
 name: Daily research
 
@@ -44,6 +51,14 @@ on:
         required: false
         default: false
         type: boolean
+      stages:
+        description: >-
+          Stages to run, subset of A,B,C (e.g. "B,C" to skip an already-gathered
+          stage; "" runs none — restore + transcript upload + PR only). Skipped
+          stages keep their previously uploaded transcripts and committed corpus.
+        required: false
+        default: "A,B,C"
+        type: string
 
 permissions:
   contents: write
@@ -91,6 +106,18 @@ jobs:
       - name: Install opencode
         run: curl -fsSL https://opencode.ai/install | bash
 
+      # "Prepare research branch" checks out the research branch, which still
+      # carries whatever pipeline scripts it was cut from. Keep the dispatched
+      # versions so resumed runs always use the current capture/upload logic.
+      - name: Stash pipeline scripts
+        run: |
+          mkdir -p "$RUNNER_TEMP/pipeline-scripts"
+          cp scripts/research-day.sh \
+             scripts/build-research-manifest.mjs \
+             scripts/upload-research-r2.sh \
+             scripts/restore-research-r2.sh \
+             "$RUNNER_TEMP/pipeline-scripts/"
+
       - name: Prepare research branch
         env:
           DATE: ${{ needs.setup.outputs.date }}
@@ -107,6 +134,9 @@ jobs:
             echo "Starting fresh branch ${BRANCH}."
           fi
 
+      - name: Restore pipeline scripts onto research branch
+        run: cp "$RUNNER_TEMP/pipeline-scripts/"* scripts/
+
       - name: Restore prior transcripts (resume support)
         continue-on-error: true
         env:
@@ -116,26 +146,31 @@ jobs:
         run: bash scripts/restore-research-r2.sh "$DATE"
 
       - name: Stage A — context + gather
+        if: ${{ contains(inputs.stages, 'A') }}
         timeout-minutes: 40
         run: bash scripts/research-day.sh "${{ needs.setup.outputs.date }}" A
 
       # Checkpoint after every stage: committed progress survives a later
       # stage's timeout, and the next dispatch resumes from the branch.
       - name: Checkpoint branch (gather)
+        if: ${{ contains(inputs.stages, 'A') }}
         env:
           DATE: ${{ needs.setup.outputs.date }}
         run: git push --force origin "research/day-${DATE}"
 
       - name: Stage B — synthesize + validate
+        if: ${{ contains(inputs.stages, 'B') }}
         timeout-minutes: 15
         run: bash scripts/research-day.sh "${{ needs.setup.outputs.date }}" B
 
       - name: Checkpoint branch (day report)
+        if: ${{ contains(inputs.stages, 'B') }}
         env:
           DATE: ${{ needs.setup.outputs.date }}
         run: git push --force origin "research/day-${DATE}"
 
       - name: Stage C — state + summary
+        if: ${{ contains(inputs.stages, 'C') }}
         timeout-minutes: 10
         run: bash scripts/research-day.sh "${{ needs.setup.outputs.date }}" C
 
