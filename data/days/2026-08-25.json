@@ -1,0 +1,195 @@
+{
+  "date": "2026-08-25",
+  "theme": "'Enemies should wait for an attack'",
+  "tempo": "medium",
+  "us": "Bessent presses 'economic asphyxiation' · Trump: mine 'zero tolerance' · Hegseth keeps strikes on the table",
+  "effects": "Brent −3% to ~$89 · Tally 71/3/2, 40+ aid hulls through · No countries named, no Chinese banks",
+  "iran": "Madanizadeh: enemies 'should wait for an attack' · Seeks MOU restoration · Gas lines in Tehran",
+  "tldr": "Day one of 'Operation Economic Outcast' drew defiance on both flanks: Economy Minister Madanizadeh said Iran's defense 'is no longer so defensive — the enemies should wait for an attack,' and Beijing formally rejected the 'illegal unilateral sanctions' ahead of next month's Xi–Trump talks. Markets read the rollout as bluster — no countries named, no timelines, no Chinese banks designated — and Brent fell ~3% toward $89. CENTCOM's blockade accounting rose to 71 vessels redirected alongside 40+ humanitarian hulls passed, and a Greek tanker sat adrift near Ash Shishah after an unattributed projectile hit.",
+  "events": [
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Madanizadeh: 'our defense is no longer so defensive — the enemies should wait for an attack'",
+      "summary": "On state television the economy minister said Tehran was fully prepared with 'a two-year plan to manage these events': 'We also have our own tools and know how to play the game.' He added that neither China nor Russia had 'accepted' the US measures. IRGC spokesman Brig. Gen. Hossein Mohebbi separately vowed 'heavy blows' to US vital interests and energy chokepoints if Iranian infrastructure is attacked (Press TV via Reuters).",
+      "significance": 4,
+      "confidence": "high",
+      "sources": [
+        "https://www.reuters.com/world/china/iran-vows-retaliate-after-us-widens-sanctions-2026-08-25/",
+        "https://www.bbc.com/news/articles/clyl8965j5go",
+        "https://www.livemint.com/news/us-news/us-iran-war-latest-news-live-updates-ukmto-projectile-strait-of-hormuz-donald-trump-economic-sanctions-tariffs-bessent-11787615238248.html"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Diplomacy",
+      "title": "China rejects 'illegal unilateral sanctions', warns cooperation with Iran must not be disrupted",
+      "summary": "Foreign ministry spokesman Lin Jian: economic warfare and maximum pressure 'will only further intensify tensions and conflicts, create spillover risks'; Beijing will 'take all necessary measures to firmly safeguard its own rights and interests.' The statement lands ahead of planned Trump–Xi talks next month, with China's rare-earth export leverage seen as the constraint on any move against Chinese banks. Capital Economics pegs ~90% of Iran's oil as going to China and expects a 'damp squib' short-term.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": [
+        "https://www.bbc.com/news/articles/clyl8965j5go",
+        "https://www.cnn.com/2026/08/25/world/live-news/iran-war-trump-sanctions",
+        "https://www.cnbc.com/2026/08/25/oil-prices-iran-trump-hormuz.html"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Day-one follow-through falls short: no countries named, no timelines, no Chinese banks",
+      "summary": "The ~60 designations contained none of the Chinese financial institutions suspected of facilitating Iran's oil trade (Reuters); Bessent declined to name targeted countries or set penalty dates. Deutsche Bank analysts: 'no concrete new steps other than sanctioning 60 Iran-linked entities and individuals'; BBH called the package 'more of a warning shot than a decisive blow.'",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.reuters.com/world/china/iran-vows-retaliate-after-us-widens-sanctions-2026-08-25/",
+        "https://www.cnn.com/2026/08/25/world/live-news/iran-war-trump-sanctions",
+        "https://tribune.com.pk/story/2625814/factbox-what-to-know-about-us-operation-economic-outcast-sanctions-against-iran"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Effects",
+      "title": "Oil falls ~3% on de-escalation read; dollar gains fade",
+      "summary": "Brent slid ~3% toward $89 and WTI toward the low $80s as traders judged the economic pivot lowers the risk of a kinetic restart; Bessent had said maximum economic pressure 'means that likely there will not be a large-scale kinetic restart.' The dollar index gave back an overnight climb to sit near three-month lows. Separately, the State Department is preparing to return evacuated diplomats to the region 'as early as this week' (NYT via CNBC) — a further no-war-restart signal.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.cnbc.com/2026/08/25/oil-prices-iran-trump-hormuz.html",
+        "https://www.cnn.com/2026/08/25/world/live-news/iran-war-trump-sanctions",
+        "https://www.aol.com/articles/dollar-struggles-traction-markets-weigh-013056000.html"
+      ]
+    },
+    {
+      "time": "data",
+      "actor": "US",
+      "title": "CENTCOM tally rises to 71 redirected; 40+ humanitarian vessels passed",
+      "summary": "Accounting through Aug 24: 71 commercial ships redirected (up from carried 70), three disabled, two boarded, and more than 40 humanitarian-aid vessels allowed through the blockade — via Khaama Press and Crypto Briefing, both attributing CENTCOM; centcom.mil itself unreachable. Preliminary data put commodity transits through the strait at their lowest since May 7: a single crossing on Monday.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": [
+        "https://www.khaama.com/us-says-40-humanitarian-aid-ships-allowed-through-iran-blockade/",
+        "https://cryptobriefing.com/us-central-command-diverts-71-vessels-amid-iran-maritime-tensions/"
+      ]
+    },
+    {
+      "time": "overnight",
+      "actor": "Iran (attributed)",
+      "title": "Greek tanker left adrift near Ash Shishah after projectile hit",
+      "summary": "The vessel struck ~9nm northeast of Ash Shishah late Monday (UKMTO warning 120-26) is Greek-flagged and immobilized by engine-room damage; crew reported safe, environmental impact unknown. No attribution exists: TWZ calls Iranian involvement 'extremely likely' while noting UKMTO assigned no blame and Iran has neither claimed nor denied it.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": [
+        "https://www.aa.com.tr/en/middle-east/oil-tanker-struck-by-unknown-projectile-off-oman-ukmto/4036352",
+        "https://www.twz.com/news-features/ship-struck-in-strait-of-hormuz-hours-after-trumps-economic-d-day-campaign-on-iran-unveiled",
+        "https://www.tradewindsnews.com/casualties/greek-tanker-adrift-in-strait-of-hormuz-after-projectile-hits-engine-room/2-1-2033457"
+      ]
+    },
+    {
+      "time": "morning",
+      "actor": "US",
+      "title": "Trump declares mine 'zero tolerance'; Hegseth keeps kinetic strikes on the table",
+      "summary": "Trump (Truth Social): the Navy has removed or detonated all mines from the strait's international waters and 'any ship or boat placing new mines will be immediately and systematically destroyed,' with Space Force watching 'every square inch'; a second post alleged a 'humanitarian crisis of epic proportions,' claiming unpaid soldiers and killed protesters without evidence. Hegseth: 'By no means are we foreclosing using kinetic strikes anywhere in the Strait of Hormuz or around Iran.'",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.cnn.com/2026/08/25/world/live-news/iran-war-trump-sanctions",
+        "https://www.cnbc.com/2026/08/25/oil-prices-iran-trump-hormuz.html",
+        "https://www.jpost.com/middle-east/iran-news/2026-08-25/live-updates-906479"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Diplomacy",
+      "title": "Pakistan mediation round two ends claiming 'significant progress'",
+      "summary": "Munir and Interior Minister Naqvi's day-long Tehran visit took in Pezeshkian, Ghalibaf, Rezaei, Araghchi and Momeni; ISPR cited discussions on preventing escalation, reopening Hormuz and 'expedited termination' of the conflict, and Naqvi framed the 'steps needed by both sides for restoration of the Islamabad MoU.' Tasnim (unidentified source, via CNN) reported Munir carried no US threat and relayed Iran's conditions — among them a US return to the June memorandum including its Article 5 Hormuz arrangements.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.aa.com.tr/en/world/pakistan-says-significant-progress-made-after-army-chief-holds-talks-in-tehran-on-us-iran-memorandum/4036541",
+        "https://tribune.com.pk/story/2625760/naqvi-says-significant-progress-made-in-talks-with-iranian-president-to-end-conflict",
+        "https://www.cnn.com/2026/08/25/world/live-news/iran-war-trump-sanctions"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "State Department names first third-country targets: four Indian firms, three individuals",
+      "summary": "Under Outcast: customs broker Portease Partners LLP plus two partners; Sadashiva Overseas (~$69M of Iranian-origin petroleum imported Feb 2024–Jun 2025); PP Softtech (~$25M) plus its director; and Prakrutees Infra Impex (~$25M, May 2023–Feb 2026), all for Iranian petrochemical trade per the State Department. First named enforcement against third-country entities since Monday's launch; still no major trading partner touched.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": [
+        "https://www.moneycontrol.com/news/india/us-sanctions-4-india-based-firms-over-iran-links-under-operation-economic-outcast-14014770.html"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Treasury sanctions five Iranians over MOIS-directed infrastructure hacking",
+      "summary": "Four allegedly ran intrusions since late 2023 against US energy companies, defense contractors, health-care institutions and government offices, directed by the intelligence ministry; four of the five overlap with last week's expanded Mabna Institute indictments. Context: CISA and the FBI recently helped water utilities in at least 12 states recover from attacks officials suspect are Iran-linked but have not attributed.",
+      "significance": 2,
+      "confidence": "high",
+      "sources": [
+        "https://www.nextgov.com/cybersecurity/2026/08/treasury-sanctions-iranian-hackers-tied-critical-infrastructure-breaches/415619/"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Diplomacy",
+      "title": "Oman's foreign minister in Tehran as Hormuz arrangement talks continue",
+      "summary": "Badr Albusaidi met Araghchi on Tuesday amid ongoing littoral-state consultations; Anadolu flags a floated joint-shipping-route proposal and Tehran conveying Hormuz conditions to Washington via Islamabad. A Financial Times headline pointed toward the two 'edging towards' a Strait deal (body paywalled, headline via RSS metadata only).",
+      "significance": 2,
+      "confidence": "high",
+      "sources": [
+        "https://www.aa.com.tr/en/us-israel-iran-war/iranian-omani-foreign-ministers-discuss-bilateral-ties-regional-developments-in-tehran/4036952",
+        "https://www.cnn.com/2026/08/25/world/live-news/iran-war-trump-sanctions"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Gas-station lines in Tehran; real base wage halved to $83/month",
+      "summary": "Rokna and Tabnak reported long lines and temporary closures at Tehran stations; state distributor NIOPDC blamed panic-buying and delivery delays, saying the issue should be resolved within days, while acknowledging war damage to storage and distribution infrastructure (CNN unable to verify independently). ILNA put workers' real base wage at $83/month at the rial's record 2 million/USD — down from $232 a decade ago.",
+      "significance": 2,
+      "confidence": "medium",
+      "sources": [
+        "https://www.cnn.com/2026/08/25/world/live-news/iran-war-trump-sanctions",
+        "https://www.cnbctv18.com/market/commodities/oil-prices-fall-us-sanctions-iran-strait-of-hormuz-scott-bessent-tanker-attack-red-sea-brent-wti-19976133.htm"
+      ]
+    }
+  ],
+  "dossier": "Night count: 27th consecutive night without confirmed strikes inside Iran (carried 26; nothing found through corpus close ~17:00Z — report filed mid-day UTC, evening developments unobserved). Blockade ledger replaced with CENTCOM accounting through Aug 24: 71 redirected / 3 disabled / 2 boarded, plus >40 humanitarian aid vessels allowed through — resolves the carried 71-vs-70 verify thread in favor of 71; sourced via Khaama Press and Crypto Briefing (both attribute CENTCOM; centcom.mil returned 403 via curl AND webfetch). Bessent Q&A extras: 'zero-leakage' policy; actions will 'tighten the noose'; 'Why would I want to blow up the global financial system?'; 'We do not have infinite patience here.'; reconfirmed a major financial institution sanctioned 'by end of week' (Fri Aug 28), institution unnamed. Kpler weekly via TWZ: Hormuz crossings 121 (+2.5% w/w) but laden transits −27%; sanctioned crossings 9→16; 46.3% of crossings on Iran's unilateral routing scheme; Bab el-Mandeb 269 (+3.1%). SPR down 3.7M bbl to 289.7M — lowest since Nov 1982 (Reuters via TWZ); Barchart: '41 days of crude inventory left.' TotalEnergies CEO: ~$20M cost per supertanker transit through Hormuz (Mint). Houthi ballistic-missile strike on Saudi tanker Amzan off Yanbu happened Aug 24 hours BEFORE Bessent's presser — absent from yesterday's file; Egyptian Navy responded; vessel dark since Aug 8 (TWZ/Ambrey). Not filed above to avoid reading as today's news; flagged for the reviewer. Netanyahu told Channel 14's correspondent Iran tried to assassinate one of his sons — single-source phone-in, unverified (JPost). Sen. Chris Murphy: ''D-Day' is desperate window dressing… Iran is winning the war… Tragically, Iran won'; claims Tehran retains 30 of 33 missile sites along the strait and the US has 'run out' (X via Indian Express). UAE presidential adviser Anwar Gargash: conflict moved 'to a new phase' of 'escalating economic pressure'; way out 'is not to target Gulf Arab states' (CNN). Baghaei: 'Any escalation of this situation will undoubtedly bring about consequences… Our hands are not tied' (Mint/TWZ). Pezeshkian to Munir: US must 'correct its tone… relying on coercion and bullying will only complicate the processes' (Reuters). Deutsche Bank: grey flows continue through the strait; some analysts theorize meaningful crude moving dark, propping up the market (CNN). Watch tomorrow: FI designation due by Fri Aug 28; Oman arrangement signing; diplomat returns completing; tanker identification/salvage; any country following UAE in cutting trade ties.",
+  "sources": [
+    {
+      "title": "Reuters — Iran vows to retaliate after US widens sanctions",
+      "url": "https://www.reuters.com/world/china/iran-vows-retaliate-after-us-widens-sanctions-2026-08-25/"
+    },
+    {
+      "title": "BBC News — China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "url": "https://www.bbc.com/news/articles/clyl8965j5go"
+    },
+    {
+      "title": "CNBC — Oil drops 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war",
+      "url": "https://www.cnbc.com/2026/08/25/oil-prices-iran-trump-hormuz.html"
+    },
+    {
+      "title": "CNN — August 25 live updates: China criticizes new US sanctions as Iran vows to retaliate",
+      "url": "https://www.cnn.com/2026/08/25/world/live-news/iran-war-trump-sanctions"
+    },
+    {
+      "title": "Anadolu Agency — Oil tanker struck by unknown projectile off Oman: UKMTO",
+      "url": "https://www.aa.com.tr/en/middle-east/oil-tanker-struck-by-unknown-projectile-off-oman-ukmto/4036352"
+    },
+    {
+      "title": "Anadolu Agency — Pakistan says 'significant progress' made after army chief holds talks in Tehran",
+      "url": "https://www.aa.com.tr/en/world/pakistan-says-significant-progress-made-after-army-chief-holds-talks-in-tehran-on-us-iran-memorandum/4036541"
+    },
+    {
+      "title": "Khaama Press — US says 40 humanitarian aid ships allowed through Iran blockade",
+      "url": "https://www.khaama.com/us-says-40-humanitarian-aid-ships-allowed-through-iran-blockade/"
+    },
+    {
+      "title": "Moneycontrol — US sanctions 4 India-based firms over Iran links under 'Operation Economic Outcast'",
+      "url": "https://www.moneycontrol.com/news/india/us-sanctions-4-india-based-firms-over-iran-links-under-operation-economic-outcast-14014770.html"
+    }
+  ]
+}
