@@ -101,6 +101,24 @@ Keys stay local — the script never runs in the deployed app.
 
 `data/meta.json` holds the four masthead stats. Update them as the campaign moves.
 
+## Research automation
+
+The daily research pass is automated (prototype): a dispatched GitHub Action runs the agent
+headless against `spec/RESEARCH_BRIEF.md`, files `data/days/YYYY-MM-DD.json` plus an updated
+continuity ledger (`data/state.json`) and a source corpus (`data/research/YYYY-MM-DD/`), then
+opens a PR for review.
+
+- **CI:** Actions → "Daily research" → Run workflow with a date (defaults to yesterday UTC)
+  and model (defaults to `openrouter/stealth/ox-alpha`). Provide whichever API key the chosen
+  provider needs as a repo secret: `OPENROUTER_API_KEY` or `ANTHROPIC_API_KEY`.
+  Re-running a date overwrites its branch/PR cleanly.
+- **Local:** `npm run research -- 2026-08-25` (writes files only; no git operations). Uses
+  whatever provider auth your local opencode already has; override with `RESEARCH_MODEL`.
+- **Validate any day:** `npm run validate:day -- 2026-08-24` — schema gate + style lint from
+  [spec/DAY_STYLE.md](spec/DAY_STYLE.md).
+
+Merge the PR and deploy happens via the normal flow.
+
 ## Develop & deploy
 
 ```sh

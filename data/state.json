@@ -1,0 +1,42 @@
+{
+  "updated": "2026-08-24T21:00:00Z",
+  "notes": "Continuity ledger for the daily research workflow (spec/RESEARCH_BRIEF.md). The agent reads this before researching and updates it after filing the day report. Hand-correctable at any time — this file wins over prose in dossiers.",
+  "asOf": "2026-08-24",
+  "counters": {
+    "nightsWithoutConfirmedStrikesInIran": 25,
+    "cumulativeTargetsStruck": "300+",
+    "cumulativeTargetsNote": "Last quantified by CENTCOM Jul 11; treat as floor, only raise with a new official cumulative figure."
+  },
+  "blockadeLedger": {
+    "note": "CENTCOM maritime interdiction accounting, carried in dossiers since the pause.",
+    "redirected": 70,
+    "disabled": 3,
+    "boarded": 2
+  },
+  "openThreads": [
+    {
+      "text": "Treasury promised a major financial-institution designation 'by end of week' — watch Fri Aug 28.",
+      "since": "2026-08-24"
+    },
+    {
+      "text": "Upcoming Xi–Trump meeting complicates secondary-sanctions action against Chinese banks.",
+      "since": "2026-08-24"
+    },
+    {
+      "text": "Pakistan mediation delegation visited Tehran — first high-level contact since June MOU window lapsed; watch for follow-up.",
+      "since": "2026-08-24"
+    },
+    {
+      "text": "Bessent predicts a 'broad array' of countries follows UAE in cutting trade ties — watch for named countries.",
+      "since": "2026-08-24"
+    },
+    {
+      "text": "Iran threatened to halt all oil exports in response to the sanctions campaign.",
+      "since": "2026-08-24"
+    },
+    {
+      "text": "OFAC urged shipping to refuse Iran's Hormuz transit demands — watch for compliance fights or vessel incidents.",
+      "since": "2026-08-24"
+    }
+  ]
+}

@@ -9,6 +9,8 @@
     "lint": "eslint",
     "days:index": "node scripts/generate-day-index.mjs",
     "phases:suggest": "node scripts/suggest-phases.mjs",
+    "research": "scripts/research-day.sh",
+    "validate:day": "node scripts/validate-day.mjs",
     "preview": "npm run -s days:index && opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "npm run -s days:index && opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
