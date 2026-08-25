@@ -11,8 +11,7 @@
   "r2_buckets": [
     {
       "binding": "US_IRAN_RESEARCH",
-      "bucket_name": "us-iran-research",
-      "remote": true
+      "bucket_name": "us-iran-research"
     }
   ],
   "observability": {
