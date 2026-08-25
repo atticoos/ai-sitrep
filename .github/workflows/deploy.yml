@@ -23,7 +23,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run build
+      - name: Build Worker
+        run: npx opennextjs-cloudflare build
       - name: Deploy Worker
         run: npx opennextjs-cloudflare deploy
         env:
