@@ -1,14 +1,23 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "us-iran-activity",
-  "main": ".open-next/worker.js",
-  "compatibility_date": "2026-08-01",
-  "compatibility_flags": ["nodejs_compat"],
-  "assets": {
-    "directory": ".open-next/assets",
-    "binding": "ASSETS"
-  },
-  "observability": {
-    "enabled": true
-  }
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "us-iran-activity",
+	"main": ".open-next/worker.js",
+	"compatibility_date": "2026-08-01",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"assets": {
+		"directory": ".open-next/assets",
+		"binding": "ASSETS"
+	},
+	"r2_buckets": [
+		{
+			"binding": "US_IRAN_RESEARCH",
+			"bucket_name": "us-iran-research",
+			"remote": true
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
 }
