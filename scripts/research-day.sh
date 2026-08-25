@@ -31,7 +31,7 @@ MODEL="${RESEARCH_MODEL:-openrouter/stealth/ox-alpha}"
 mkdir -p "data/research/${DATE}"
 
 echo "[research] ${DATE} via ${MODEL} (this can take several minutes)"
-opencode run -m "$MODEL" \
+opencode run --print-logs --log-level WARN -m "$MODEL" \
   "Read spec/RESEARCH_BRIEF.md and execute it in full for DATE=${DATE}. Work autonomously through all stages to completion."
 
 DAY_FILE="data/days/${DATE}.json"

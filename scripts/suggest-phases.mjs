@@ -71,7 +71,7 @@ Group the reports into semantic PHASES: stretches with one coherent operational 
 - title: 2-5 words, lowercase sentence style.
 - accent: one of ${ACCENTS.join(", ")} — pick to match character (kinetic=red/orange, pause/diplomatic=blue/green, pressure/siege=violet, opening/maritime=amber).
 - summary: one line, three short fragments separated by ' · ' (e.g. "Strike halt · Corridor diplomacy · Blockade tightens daily").
-- start/end are YYYY-MM-DD inclusive.
+- start/end are YYYY-MM-DD inclusive. OMIT "end" on the final phase if the campaign is still ongoing — an ongoing phase extends to today; every earlier phase needs a concrete end. At most one phase may omit "end".
 
 ${existing}
 
@@ -141,12 +141,16 @@ if (!Array.isArray(out.phases) || out.phases.length === 0) die("no phases in mod
 
 // Light validation; the app's build-time parser is the strict gate.
 for (const [i, ph] of out.phases.entries()) {
-  for (const f of ["id", "number", "title", "start", "end", "accent", "summary"]) {
+  for (const f of ["id", "number", "title", "start", "accent", "summary"]) {
     if (!(f in ph)) die(`phase[${i}] missing "${f}"`);
   }
   if (!ACCENTS.includes(ph.accent)) die(`phase[${i}] accent "${ph.accent}" not in ${ACCENTS.join(", ")}`);
 }
 out.phases.sort((a, b) => String(a.start).localeCompare(String(b.start)));
+const openCount = out.phases.filter((ph) => !("end" in ph)).length;
+if (openCount > 1) die("at most one phase may omit \"end\" (ongoing)");
+if (openCount === 1 && !("end" in out.phases[out.phases.length - 1]))
+  die("the ongoing phase (no end) must be the chronologically last phase");
 out.phases.forEach((ph, i) => {
   ph.number = String(i + 1).padStart(2, "0");
 });

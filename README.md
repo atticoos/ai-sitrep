@@ -71,13 +71,12 @@ Calendar gaps of 2+ days between reports render automatically as **OPERATIONAL G
 {
   "phases": [
     {
-      "id": "economic-siege",
-      "number": "06",
-      "title": "Economic siege",
-      "start": "2026-08-11",
-      "end": "2026-08-22",
+      "id": "operation-economic-outcast",
+      "number": "07",
+      "title": "Operation Economic Outcast",
+      "start": "2026-08-23",
       "accent": "violet",
-      "summary": "Disabling fire · Indefinite blockade doctrine · Sanctions 'one-two punch'"
+      "summary": "'Economic D-Day' lands · Five lifelines on notice"
     }
   ]
 }
@@ -85,6 +84,10 @@ Calendar gaps of 2+ days between reports render automatically as **OPERATIONAL G
 
 - `number` is the display ordinal; phases render newest-first on the page.
 - `accent`: `amber` `red` `blue` `orange` `green` `violet` (kinetic=red/orange, pause/talks=blue/green, siege=violet).
+- `end` is optional: omit it on the **current** phase and it stays open-ended — every new day
+  report automatically joins it, and the masthead renders `AUG 23—NOW`. When a real transition
+  happens, set its `end` retroactively and start a new open-ended phase. Exactly one open-ended
+  phase allowed; it must be the chronologically last. Closed phases require `end`.
 - Phases need not be contiguous; ranges may overlap gaps freely but must not overlap each other.
 
 ### Drafting phases with the LLM script

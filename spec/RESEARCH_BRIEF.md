@@ -34,9 +34,12 @@ currency effects.
 
 Method:
 
-- Seed with news aggregators that fetch cleanly (e.g. Google News RSS:
-  `https://news.google.com/rss/search?q=iran+when:1d&hl=en-US&gl=US&ceid=US:en` plus targeted
-  queries per open thread), then use web search when available.
+- Seed with news feeds that fetch cleanly, then chase open threads with targeted queries:
+  `https://www.bing.com/news/search?q=<url-encoded-query>&format=RSS` — Bing News RSS exposes
+  direct publisher URLs. Do NOT use Google News RSS; its links are JS redirects, not citable
+  URLs.
+- curl always sends a browser User-Agent (`-A "Mozilla/5.0 …"`); if an outlet still blocks,
+  retry the same URL through the webfetch tool before giving up on it.
 - Fetch and read full articles from the results — AP, Reuters, Al Jazeera, CNN live pages,
   NBC, Al-Monitor, official releases (CENTCOM, Treasury/OFAC, state media for Iranian claims).
   Headlines alone are not enough for significance ≥ 4 events.
@@ -117,6 +120,14 @@ Write `data/research/<DATE>/SUMMARY.md` for the human reviewer. Structure:
 
 ## Hard boundaries
 
+- Always use repository-relative paths (`data/research/<DATE>/scratch/foo.xml`). Never
+  construct absolute paths — a mistyped absolute path lands outside the workspace and gets
+  rejected by sandbox permissions.
+- All intermediate/scratch files stay inside `data/research/<DATE>/scratch/` (gitignored).
+  Never read or write outside the repository — no `/tmp`, no `$HOME`.
+- Failures are not fatal. If any command fails — sandbox permissions, a blocked fetch, a
+  socket error, a bad path — diagnose briefly, pick an alternative, and continue the run.
+  Only stop if `DATE` itself is invalid.
 - Do not commit, push, create branches, or open PRs — the workflow owns git.
 - Do not modify anything outside `data/days/<DATE>.json`, `data/state.json`,
   `data/research/<DATE>/`.

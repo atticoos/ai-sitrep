@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-24T21:00:00Z",
+  "updated": "2026-08-25T03:52:00Z",
   "notes": "Continuity ledger for the daily research workflow (spec/RESEARCH_BRIEF.md). The agent reads this before researching and updates it after filing the day report. Hand-correctable at any time — this file wins over prose in dossiers.",
-  "asOf": "2026-08-24",
+  "asOf": "2026-08-25",
   "counters": {
-    "nightsWithoutConfirmedStrikesInIran": 25,
+    "nightsWithoutConfirmedStrikesInIran": 26,
     "cumulativeTargetsStruck": "300+",
     "cumulativeTargetsNote": "Last quantified by CENTCOM Jul 11; treat as floor, only raise with a new official cumulative figure."
   },
@@ -23,10 +23,6 @@
       "since": "2026-08-24"
     },
     {
-      "text": "Pakistan mediation delegation visited Tehran — first high-level contact since June MOU window lapsed; watch for follow-up.",
-      "since": "2026-08-24"
-    },
-    {
       "text": "Bessent predicts a 'broad array' of countries follows UAE in cutting trade ties — watch for named countries.",
       "since": "2026-08-24"
     },
@@ -35,8 +31,16 @@
       "since": "2026-08-24"
     },
     {
-      "text": "OFAC urged shipping to refuse Iran's Hormuz transit demands — watch for compliance fights or vessel incidents.",
-      "since": "2026-08-24"
+      "text": "Identify the tanker struck near Ash Shishah (UKMTO 120-26) and confirm attribution of the projectile hit; watch UKMTO follow-ups, tow/salvage status, and whether Iran claims or denies it.",
+      "since": "2026-08-25"
+    },
+    {
+      "text": "Verify CENTCOM blockade tally: Crypto Briefing reports 71 vessels diverted vs carried 70 — confirm against the next CENTCOM release.",
+      "since": "2026-08-25"
+    },
+    {
+      "text": "Pakistan mediation round one (Munir's Tehran visit) closed without visible outcome — watch for a second round or an announced next step.",
+      "since": "2026-08-25"
     }
   ]
 }

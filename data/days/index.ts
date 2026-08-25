@@ -48,6 +48,7 @@ import day043 from "./2026-08-21.json";
 import day044 from "./2026-08-22.json";
 import day045 from "./2026-08-23.json";
 import day046 from "./2026-08-24.json";
+import day047 from "./2026-08-25.json";
 
 export interface RawDayEntry {
   file: string;
@@ -103,4 +104,5 @@ export const RAW_DAYS: RawDayEntry[] = [
   { file: "2026-08-22.json", data: day044 },
   { file: "2026-08-23.json", data: day045 },
   { file: "2026-08-24.json", data: day046 },
+  { file: "2026-08-25.json", data: day047 },
 ];
