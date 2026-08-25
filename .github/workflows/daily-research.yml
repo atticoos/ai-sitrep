@@ -7,8 +7,12 @@
 #   OPENROUTER_API_KEY  — OpenRouter models (openrouter/<model-id>, default)
 #   ANTHROPIC_API_KEY   — direct Anthropic (claude-* model ids)
 #
-# The agent only writes files; this workflow owns git: branch, commit, PR.
-# Re-running a date overwrites its branch and PR content cleanly.
+# Durability model: git is the state store. The research job commits each corpus
+# item as the agent files it, then the finished day report; a separate publish
+# job owns the PR, so a publish failure never invalidates research. Re-running a
+# date resumes instead of overwriting: committed corpus items are kept and only
+# what is missing is regenerated. `publish_only` skips research entirely and
+# just opens/updates the PR from the existing branch.
 
 name: Daily research
 
@@ -24,6 +28,11 @@ on:
         required: false
         default: "openrouter/stealth/ox-alpha"
         type: string
+      publish_only:
+        description: "Skip research; open/update the PR from the existing branch."
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -34,7 +43,20 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      date: ${{ steps.date.outputs.date }}
+    steps:
+      - id: date
+        run: |
+          DATE="${{ inputs.date }}"
+          if [ -z "$DATE" ]; then DATE="$(date -u -d yesterday +%F)"; fi
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+
   research:
+    needs: setup
+    if: ${{ inputs.publish_only != true }}
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -51,12 +73,21 @@ jobs:
       - name: Install opencode
         run: curl -fsSL https://opencode.ai/install | bash
 
-      - name: Resolve date
-        id: date
+      - name: Prepare research branch
+        env:
+          DATE: ${{ needs.setup.outputs.date }}
         run: |
-          DATE="${{ inputs.date }}"
-          if [ -z "$DATE" ]; then DATE="$(date -u -d yesterday +%F)"; fi
-          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          BRANCH="research/day-${DATE}"
+          git config user.name "sitrep-research[bot]"
+          git config user.email "sitrep-research[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$BRANCH"
+            git checkout -B "$BRANCH" FETCH_HEAD
+            echo "Resuming ${BRANCH}: existing corpus items are kept."
+          else
+            git checkout -B "$BRANCH"
+            echo "Starting fresh branch ${BRANCH}."
+          fi
 
       - name: Research day
         env:
@@ -64,21 +95,38 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           RESEARCH_MODEL: ${{ inputs.model }}
-        run: bash scripts/research-day.sh "${{ steps.date.outputs.date }}"
+          RESEARCH_GIT: "1"
+        run: bash scripts/research-day.sh "${{ needs.setup.outputs.date }}"
+
+      - name: Push research branch
+        env:
+          DATE: ${{ needs.setup.outputs.date }}
+        run: git push --force origin "research/day-${DATE}"
+
+      - name: Upload corpus on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-corpus-${{ needs.setup.outputs.date }}
+          path: data/research/
+          if-no-files-found: ignore
+
+  publish:
+    needs: [setup, research]
+    if: ${{ !cancelled() && (inputs.publish_only == true || needs.research.result == 'success') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/day-${{ needs.setup.outputs.date }}
 
       - name: Open or update pull request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DATE: ${{ steps.date.outputs.date }}
+          DATE: ${{ needs.setup.outputs.date }}
         run: |
           BRANCH="research/day-${DATE}"
-          git config user.name "sitrep-research[bot]"
-          git config user.email "sitrep-research[bot]@users.noreply.github.com"
-          git checkout -B "$BRANCH"
-          git add data/days/"${DATE}".json data/state.json data/research/"${DATE}"
-          git commit -m "Day report: ${DATE}" || echo "nothing new to commit"
-          git push --force origin "$BRANCH"
-
           BODY_FILE="data/research/${DATE}/SUMMARY.md"
           [ -f "$BODY_FILE" ] || printf '# Research summary — %s\n\n_(agent did not produce a summary)_\n' "$DATE" > "$BODY_FILE"
 
@@ -92,11 +140,3 @@ jobs:
               --title "Day report: ${DATE}" \
               --body-file "$BODY_FILE"
           fi
-
-      - name: Upload corpus on failure
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: research-corpus-${{ steps.date.outputs.date }}
-          path: data/research/
-          if-no-files-found: ignore

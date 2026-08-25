@@ -1,7 +1,10 @@
 # Day research brief
 
 You are the analyst producing today's SITREP day report for the 2026 U.S.–Iran campaign.
-Execute every stage below in order, in one session, without asking questions. Today's target
+The runner drives the stages below as separate agent sessions; your task prompt names
+exactly which stages to execute. Do only those, in order, without asking questions.
+Assume any earlier stage's artifacts already exist on disk, and leave on disk everything
+later stages need — conversation memory does not carry across sessions. Today's target
 date is given in your task prompt as `DATE`.
 
 ## Read first
@@ -58,6 +61,13 @@ Method:
 
   <the article text you fetched, trimmed of navigation junk>
   ```
+
+- **Resume rule:** if corpus files already exist for this `DATE`, they are prior progress
+  from an interrupted run. Skim each briefly for obvious truncation or garbage and keep it
+  (rewrite only if broken), continue numbering after the highest existing NN, and spend
+  the budget on what is missing. Do not re-fetch what is already filed.
+- **Commit rule:** record each corpus file with git only when your task prompt explicitly
+  says commits are enabled (CI runs do). Otherwise never touch git.
 
 - **Anti-fabrication:** every URL you cite anywhere may only come from what you actually
   fetched into the corpus. Never reconstruct a plausible URL from memory. If you can't fetch
@@ -128,7 +138,8 @@ Write `data/research/<DATE>/SUMMARY.md` for the human reviewer. Structure:
 - Failures are not fatal. If any command fails — sandbox permissions, a blocked fetch, a
   socket error, a bad path — diagnose briefly, pick an alternative, and continue the run.
   Only stop if `DATE` itself is invalid.
-- Do not commit, push, create branches, or open PRs — the workflow owns git.
+- Do not commit unless your task prompt explicitly enables per-item commits. Never push,
+  create branches, or open PRs — the workflow owns those.
 - Do not modify anything outside `data/days/<DATE>.json`, `data/state.json`,
   `data/research/<DATE>/`.
 - Do not edit historical day files, `phases.json`, or `meta.json`. If hero metrics look stale,
