@@ -13,6 +13,8 @@
     "validate:day": "node scripts/validate-day.mjs",
     "preview": "npm run -s days:index && opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "npm run -s days:index && opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "npm run -s days:index && opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "worker:build": "npm run -s days:index && opennextjs-cloudflare build",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
