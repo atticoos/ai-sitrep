@@ -19,7 +19,8 @@ DATE="${1:-}"
   exit 1
 }
 case "${2:-}" in
-  "" | --local) LOCAL_FLAG="${2:-}" ;;
+  "" | --remote) SCOPE_FLAG="--remote" ;;
+  --local) SCOPE_FLAG="--local" ;;
   *)
     usage
     exit 1
@@ -36,7 +37,7 @@ for name in manifest.json session-A.json session-B.json session-C.json; do
   if npx --no-install wrangler r2 object get \
     "${BUCKET}/research/${DATE}/${name}" \
     --file "${SESSIONS}/${name}" \
-    -y $LOCAL_FLAG >/dev/null 2>&1; then
+    -y $SCOPE_FLAG >/dev/null 2>&1; then
     echo "[restore] research/${DATE}/${name}"
     restored=$((restored + 1))
   fi

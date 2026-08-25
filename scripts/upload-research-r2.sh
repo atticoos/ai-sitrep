@@ -22,7 +22,8 @@ DATE="${1:-}"
   exit 1
 }
 case "${2:-}" in
-  "" | --local) LOCAL_FLAG="${2:-}" ;;
+  "" | --remote) SCOPE_FLAG="--remote" ;;
+  --local) SCOPE_FLAG="--local" ;;
   *)
     usage
     exit 1
@@ -46,7 +47,7 @@ for file in "${SESSIONS}/manifest.json" "${SESSIONS}"/session-*.json; do
     "${BUCKET}/research/${DATE}/${name}" \
     --file "$file" \
     --content-type application/json \
-    -y $LOCAL_FLAG
+    -y $SCOPE_FLAG
   uploaded=$((uploaded + 1))
 done
 
