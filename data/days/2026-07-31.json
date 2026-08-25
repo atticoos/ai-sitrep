@@ -4,6 +4,21 @@
   "tempo": "medium",
   "us": "No new strike package announced",
   "effects": "Force posture maintained",
-  "iran": "Claims 2 ships struck · 4 turned back · Drones launched toward Kuwait and Bahrain",
-  "tldr": "Iran claimed two ships struck and four turned back, and launched drones toward Kuwait and Bahrain. Maritime pressure returned as the dominant mode."
+  "iran": "Claims 2 ships struck · 4 turned back · Drones hit al-Jaber base, Kuwait",
+  "tldr": "Iran claimed two ships struck and four turned back in the strait, and its army said loitering drones hit US facilities at Ahmad al-Jaber Air Base in Kuwait — the same morning Kuwait intercepted hostile drones entering from dawn, with debris damage and no casualties. Maritime pressure returned as the dominant mode.",
+  "dossier": "Brent settled at $90.12 (+1%+) with WTI at $84.67, both up more than 20% for July. US officials told reporters fresh strikes on Iranian energy sites could come as soon as the weekend.",
+  "sources": [
+    {
+      "title": "CBS News — Live updates: Iran claims strikes on 2 ships and drone attack on Kuwait base",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/"
+    },
+    {
+      "title": "CNBC — Hormuz crude flows recover; Brent settles $90.12",
+      "url": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html"
+    },
+    {
+      "title": "Anadolu — Iran's army claims drone attack on US facilities at Kuwait air base",
+      "url": "https://www.aa.com.tr/en/middle-east/irans-army-claims-drone-attack-on-us-facilities-at-kuwait-air-base/4014480"
+    }
+  ]
 }

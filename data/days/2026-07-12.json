@@ -6,5 +6,15 @@
   "us": "Fighters · Naval vessels · One-way aerial and sea drones",
   "effects": "Dozens of targets · Air defenses · Coastal radar · Missile & drone capabilities · Small boats",
   "iran": "Maritime threats and proxy pressure continue",
-  "tldr": "First confirmed use of one-way attack sea drones in the campaign."
+  "tldr": "First confirmed use of one-way attack sea drones in the campaign.",
+  "sources": [
+    {
+      "title": "Task & Purpose — US uses drone boats for first time in latest Iran strikes",
+      "url": "https://taskandpurpose.com/news/military-sea-drones-iran-2026"
+    },
+    {
+      "title": "Navy Times — Sea drones strike Iranian port in combat first for US Navy",
+      "url": "https://www.navytimes.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy"
+    }
+  ]
 }

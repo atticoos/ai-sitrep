@@ -6,5 +6,19 @@
   "us": "Precision strike package",
   "effects": "Command centers · Missile launch sites · Maritime capabilities · Air defenses",
   "iran": "Hormuz traffic falls to 4 commodity vessels per day",
-  "tldr": "Commercial traffic through Hormuz collapsed under combined strike-and-blockade pressure; CENTCOM strikes continued against coastal surveillance and command hubs."
+  "tldr": "Commercial traffic through Hormuz collapsed under combined strike-and-blockade pressure; CENTCOM strikes continued against coastal surveillance and command hubs.",
+  "sources": [
+    {
+      "title": "Al Jazeera — Iran says diplomatic efforts ongoing via mediators amid fighting",
+      "url": "https://www.aljazeera.com/news/2026/7/20/iran-says-diplomatic-efforts-ongoing-via-mediators-amid-fighting-with-us"
+    },
+    {
+      "title": "Iran International — Mediators propose 10-day pause to revive Iran-US MoU",
+      "url": "https://www.iranintl.com/en/202607200166"
+    },
+    {
+      "title": "MapPR — Strait of Hormuz Crisis 2026 timeline",
+      "url": "https://www.mappr.co/strait-of-hormuz-crisis-2026/"
+    }
+  ]
 }

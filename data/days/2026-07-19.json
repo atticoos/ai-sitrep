@@ -6,5 +6,23 @@
   "us": "Precision strike package",
   "effects": "Command centers · Air defenses · Maritime assets · Launch sites · Communications",
   "iran": "Regional pressure continues",
-  "tldr": "Retaliatory package targeted command centers and launch sites following the Jordan fatalities."
+  "tldr": "Retaliatory package targeted command centers and launch sites following the Jordan fatalities.",
+  "sources": [
+    {
+      "title": "Al Jazeera — Iran attacks US Gulf allies, causing fire at Kuwait power plant",
+      "url": "https://www.aljazeera.com/news/2026/7/19/kuwaiti-power-plant-ablaze-as-iran-hits-us-gulf-allies"
+    },
+    {
+      "title": "Al Jazeera — US launches new Iran strikes after two soldiers killed: What's the latest?",
+      "url": "https://www.aljazeera.com/news/2026/7/19/us-launches-new-iran-strikes-after-two-soldiers-killed-whats-the-latest"
+    },
+    {
+      "title": "CNN — July 19 live: US begins ninth night of strikes",
+      "url": "https://www.cnn.com/2026/07/19/world/live-news/iran-war-trump"
+    },
+    {
+      "title": "News18 (WSJ wire) — US Strikes Iran's Under-Construction Darkhovin Nuclear Plant",
+      "url": "https://www.news18.com/world/us-strikes-irans-under-construction-darkhovin-nuclear-plant-iaea-sees-no-radiological-risk-ws-l-10221771.html"
+    }
+  ]
 }

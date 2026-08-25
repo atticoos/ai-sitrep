@@ -5,6 +5,20 @@
   "tempo": "medium",
   "us": "Precision strike package",
   "effects": "5-hour operation · Bushehr · Chabahar · Jask · Konarak · Abu Musa · Bandar Abbas · Coastal and maritime targets",
-  "iran": "Limited direct response",
-  "tldr": "A five-hour precision package struck six sites along Iran's entire southern littoral."
+  "iran": "Cruise missiles hit 2 Emirati tankers in Omani waters",
+  "tldr": "A five-hour precision package struck six sites along Iran's entire southern littoral. Late in the day, UAE authorities said Iranian cruise missiles had struck two Emirati-linked supertankers in Omani waters, killing one crew member and wounding eight.",
+  "sources": [
+    {
+      "title": "CENTCOM — U.S. Forces Complete New Strikes on Iranian Military Targets",
+      "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4544409/us-forces-complete-new-strikes-on-iranian-military-targets/"
+    },
+    {
+      "title": "CNN — July 13 live: US resumes strikes while Iran says it struck two tankers",
+      "url": "https://www.cnn.com/2026/07/13/world/live-news/iran-war-trump"
+    },
+    {
+      "title": "Irish Times — US ends latest round of air strikes on Iran as Hormuz dispute continues",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/07/13/us-ends-latest-round-of-air-strikes-on-iran-as-dispute-on-hormuz-status-continues"
+    }
+  ]
 }

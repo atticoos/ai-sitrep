@@ -5,6 +5,20 @@
   "tempo": "high",
   "us": "Fighters · Drones · Naval vessels",
   "effects": "7-hour operation · Dozens of targets · Missile & drone sites · Naval assets · Coastal defenses · Blockade resumes",
-  "iran": "Cruise missiles reportedly strike 2 Emirati tankers",
-  "tldr": "Seven-hour operation while the US naval blockade formally resumed at 4pm ET. Iranian cruise missiles reportedly hit two Emirati-flagged tankers (reported attribution)."
+  "iran": "Threat, via Houthis, to close Bab el-Mandeb if power grid hit",
+  "tldr": "Seven-hour operation while the US naval blockade formally resumed at 4pm ET. Iran relayed a threat that any US strike on its power grid would be answered by closing the Red Sea's Bab el-Mandeb.",
+  "sources": [
+    {
+      "title": "CNN — July 14 live: US naval blockade of Iranian ports goes into effect",
+      "url": "https://www.cnn.com/2026/07/14/world/live-news/iran-war-trump"
+    },
+    {
+      "title": "AP — Live updates: US reinstates blockade of Iranian ports",
+      "url": "https://apnews.com/live/iran-war-trump-hormuz-updates-07-14-2026"
+    },
+    {
+      "title": "UANI — Iran Shipping Update – July 14, 2026",
+      "url": "https://www.unitedagainstnucleariran.com/index.php/analysis/iran-shipping-update-july-14-2026"
+    }
+  ]
 }

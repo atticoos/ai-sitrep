@@ -3,7 +3,21 @@
   "theme": "Regional spillover",
   "tempo": "low",
   "us": "No additional overnight strike package",
-  "effects": "Blockade and regional operations continue",
-  "iran": "Drone strike at Damietta port · Attribution unconfirmed",
-  "tldr": "A drone strike hit Damietta port in Egypt; attribution unconfirmed but consistent with Iran-aligned actors."
+  "effects": "Kuwait: Iranian strike kills worker at Chinese firm · Jordan intercepts missiles again",
+  "iran": "Egypt confirms Damietta LNG carriers hit (evening prior) · Iran denies",
+  "tldr": "Egypt confirmed drones had struck the LNG carriers Energos Winter and GasLog Salem at Damietta port overnight, with fires extinguished and Iran denying involvement. Kuwait reported an Iranian morning strike killed a worker at a Chinese company's building; Jordan intercepted Iranian missiles for a second straight day while the IRGC's claim of destroying three F-35s in Jordan remained unverified.",
+  "sources": [
+    {
+      "title": "AP — US and Iran trade missile barrages as hopes dim for quick resolution",
+      "url": "https://apnews.com/article/iran-war-us-hormuz-strait-july-30-2026-8dc77ed6a65f389ea4af84635d2473bd"
+    },
+    {
+      "title": "The National — Kuwait reports death from Iranian strike as Jordan intercepts five missiles",
+      "url": "https://www.thenationalnews.com/news/mena/2026/07/30/kuwait-reports-death-from-iranian-strike-as-jordan-intercepts-five-missiles/"
+    },
+    {
+      "title": "Windward — Iranian retaliation reaches Damietta as a third front opens",
+      "url": "https://windward.ai/blog/iranian-retaliation-reaches-damietta-as-a-third-front-opens/"
+    }
+  ]
 }

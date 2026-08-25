@@ -6,5 +6,19 @@
   "us": "Fighters · Drones · Warships",
   "effects": "Dozens of targets · Coastal surveillance · Air defenses · Logistics · Maritime capabilities",
   "iran": "Defensive posture",
-  "tldr": "Combined air-sea package; Iran held a defensive posture."
+  "tldr": "Combined air-sea package; Iran held a defensive posture.",
+  "sources": [
+    {
+      "title": "Reuters — Fewer vessels travel through Hormuz after US resumes blockade",
+      "url": "https://www.reuters.com/world/middle-east/fewer-vessels-travel-through-hormuz-us-iran-continue-strikes-2026-07-16/"
+    },
+    {
+      "title": "CNBC — Oil tankers face 'worst case scenario' in Hormuz",
+      "url": "https://www.cnbc.com/2026/07/17/iran-war-oil-tanker-strait-hormuz-traffic-attacks-trump.html"
+    },
+    {
+      "title": "Gulf News — US strike reportedly destroys key bridge near Bandar Abbas",
+      "url": "https://gulfnews.com/world/mena/us-strike-reportedly-destroys-key-bridge-near-bandar-abbas-blasts-heard-neariranshahr-airport-as-conflict-with-iran-escalates-1.500610660"
+    }
+  ]
 }

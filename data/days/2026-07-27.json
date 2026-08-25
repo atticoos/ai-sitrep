@@ -5,5 +5,15 @@
   "us": "Readiness operations",
   "effects": "No major strike package",
   "iran": "No major kinetic activity",
-  "tldr": "Readiness operations only. The lull would not survive the week."
+  "tldr": "Readiness operations only. The lull would not survive the week.",
+  "sources": [
+    {
+      "title": "WSJ — Iran and Oman Seek Agreement on Hormuz in Bid to Jumpstart Peace Talks",
+      "url": "https://www.wsj.com/world/middle-east/iran-and-oman-seek-agreement-on-the-hormuz-in-bid-to-jumpstart-peace-talks-d4c442ac"
+    },
+    {
+      "title": "DW — Iran rules out US talks as Hormuz Strait remains closed",
+      "url": "https://www.dw.com/en/iran-rules-out-us-talks-as-hormuz-strait-remains-closed/live-78127467"
+    }
+  ]
 }

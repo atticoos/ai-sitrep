@@ -6,5 +6,19 @@
   "us": "Fighters · Drones · Warships",
   "effects": "Underground storage · Logistics · Maritime targets · Command & control",
   "iran": "Regional attacks · Strike on U.S. forces in Jordan",
-  "tldr": "US strikes hit underground storage and C2 as Iran escalated regionally, including a strike on US forces in Jordan that set up the deadliest exchange of the period."
+  "tldr": "US strikes hit underground storage and C2 as Iran escalated regionally, including a strike on US forces in Jordan that set up the deadliest exchange of the period.",
+  "sources": [
+    {
+      "title": "Reuters — Strait of Hormuz transits drop as US and Iran escalate attacks across Gulf",
+      "url": "https://www.reuters.com/world/middle-east/strait-hormuz-transits-drop-us-iran-escalate-attacks-across-gulf-2026-07-17/"
+    },
+    {
+      "title": "Bloomberg — Iran Attacks Kuwait Desalination and Power Plants as Hostilities Worsen",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-17/iran-attacks-kuwait-desalination-and-power-plants-as-hostilities-worsen"
+    },
+    {
+      "title": "The War Zone — Two U.S. troops killed in Iranian barrage on base in Jordan",
+      "url": "https://www.twz.com/news-features/two-u-s-troops-killed-in-iranian-barrage-on-base-in-jordan"
+    }
+  ]
 }

@@ -5,6 +5,25 @@
   "tempo": "high",
   "us": "Precision strike package",
   "effects": "Coastal surveillance · Air defenses · Maritime assets · Missile & drone depots · IRGC facilities",
-  "iran": "2 U.S. personnel killed · 1 missing after Jordan attack",
-  "tldr": "The Pentagon confirmed two US personnel killed and one missing after the Jordan attack — first US fatalities of this period."
+  "iran": "Suspends MoU commitments · 2 US killed, 1 missing after Jordan attack",
+  "tldr": "The Pentagon confirmed two US personnel killed and one missing after the Jordan attack — first US fatalities of this period. Iran announced it was suspending its own commitments under the June memorandum, and the Bonji desalination plant was destroyed amid strikes cutting bridges near Bandar Abbas.",
+  "dossier": "A US service member died in northern Iraq during disposal of an unexploded Iranian drone ordnance — dated July 18 by GlobalSecurity, Sunday July 19 (Sgt. Swinton, Erbil) by other accounts; treated here as the July 18–19 window.",
+  "sources": [
+    {
+      "title": "CNN — July 18 live: Iran suspending ceasefire commitments with US",
+      "url": "https://www.cnn.com/2026/07/18/world/live-news/iran-war-trump"
+    },
+    {
+      "title": "Iran International — Iran says it has suspended commitments under memorandum with US",
+      "url": "https://www.iranintl.com/en/202607189183"
+    },
+    {
+      "title": "AP via Boston Globe — US military launches new strikes to punish Iran for deaths of troops",
+      "url": "https://www.bostonglobe.com/2026/07/18/world/us-iran-escalate-strikes-across-mideast/"
+    },
+    {
+      "title": "GlobalSecurity.org — Iran War daily ops report",
+      "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
+    }
+  ]
 }
