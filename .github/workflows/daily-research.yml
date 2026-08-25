@@ -27,7 +27,8 @@
 #
 # Retesting without redoing work — dispatch with:
 #   stages: "B,C"   skip gather (corpus already on the research branch)
-#   stages: ""      no agent time at all: restore + upload transcripts, open PR
+#   stages: "none"  no agent time at all: restore + upload transcripts, open PR
+#                   (an empty value falls back to the default of all stages)
 # Skipped stages keep whatever transcripts were previously uploaded; the
 # pipeline scripts are always re-applied onto the resumed branch so capture
 # works even when that branch was cut from an older revision.
@@ -54,8 +55,9 @@ on:
       stages:
         description: >-
           Stages to run, subset of A,B,C (e.g. "B,C" to skip an already-gathered
-          stage; "" runs none — restore + transcript upload + PR only). Skipped
-          stages keep their previously uploaded transcripts and committed corpus.
+          stage). Use "none" to skip all agent work (restore + transcript upload
+          + PR only) — empty falls back to the default. Skipped stages keep
+          their previously uploaded transcripts and committed corpus.
         required: false
         default: "A,B,C"
         type: string
