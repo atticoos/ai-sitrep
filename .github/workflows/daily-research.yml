@@ -91,6 +91,7 @@ jobs:
 
       - name: Research day
         env:
+          OPENCODE_ENABLE_EXA: "1"
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
