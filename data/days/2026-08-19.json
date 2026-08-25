@@ -1,0 +1,52 @@
+{
+  "date": "2026-08-19",
+  "theme": "'Most crushing economic operation'",
+  "tempo": "medium",
+  "us": "Trump declares economic warfare campaign · Pulls envoys off the channel",
+  "effects": "Three Chinese VLCCs turn back · Kpler: Hormuz at ~40% of 2025 flows",
+  "iran": "FT: Tehran weighed strikes on Bulgaria, Cyprus, cables",
+  "tldr": "Trump announced the 'most crushing economic operation ever taken against any country' — the Economic D-Day that would define the month — naming oil smuggling, swap lines, exchange houses and ship registries, with 'tremendous economic consequences' for any country offering Iran a lifeline. He ordered envoys to stop talking to Tehran. Nineteenth consecutive night without confirmed strikes inside Iran.",
+  "events": [
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Trump unveils the economic siege doctrine",
+      "summary": "The 'most crushing economic operation ever taken against any country': oil smuggling networks, swap lines, cash transfers, exchange houses, ship registries and front companies. Any country giving Iran 'any type of lifeline' faces 'tremendous economic consequences.' A US official said envoys were told on August 19 to stop conversations until Iran is ready to deal; Trump repeated 'possession' and 'complete control' of the strait.",
+      "significance": 5,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/", "https://www.reuters.com/world/middle-east/us-says-it-will-impose-toughest-sanctions-history-iran-2026-08-20/"]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "FT: Iran has assessed strikes on NATO territory",
+      "summary": "The Financial Times reported Iranian forces have assessed striking US and British assets at Bezmer Air Base in Bulgaria and in Cyprus, and examined targeting subsea fibre-optic cables in the strait. NATO said it will keep taking the steps needed to defend its members.",
+      "significance": 4,
+      "confidence": "medium",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/", "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"]
+    },
+    {
+      "time": "~day",
+      "actor": "Effects",
+      "title": "Chinese supertankers turn back; Iran's oil lifeline audited",
+      "summary": "The Hong Kong-flagged VLCCs Sea V, Hestia and Erecter U-turned in or beside the strait rather than finish transits; Mehr reported an IRGC Navy warning turned a Chinese-crewed supertanker away from the southern corridor. Of 112 oil and gas vessels tracked through August 1–19, 89 ran dark. Kpler's audit of the expired window: ~6.1M b/d cleared over 60 days against 2.3M during blockade — Hormuz near 40% of its 2025 flows.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "~day",
+      "actor": "Houthis",
+      "title": "Second tanker hijack off Yemen in days",
+      "summary": "Six armed men boarded the sanctioned product tanker Sibu 1 about 136 nautical miles east of Al Mukalla and steered it toward Somalia — three days after eight attackers seized the cargo ship Lutuf off Puntland. The IMO put the war's toll at least 17 mariners killed in 65 attacks on commercial vessels.",
+      "significance": 2,
+      "confidence": "medium",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    }
+  ],
+  "dossier": "Oil ran a fifth straight session higher — Brent topped $92 on August 19 moving toward $93, more than 4% up on the week, with US distillate stocks at their lowest in over a month. The UAE had suspended all trade and financial transactions with Iran the day before (August 18), effective immediately. Bessent would preview the detail as 'the toughest sanctions in history' the next morning.",
+  "sources": [
+    { "title": "MapPR — Strait of Hormuz Crisis 2026 timeline", "url": "https://www.mappr.co/strait-of-hormuz-crisis-2026/" },
+    { "title": "Reuters — Iran threatens military response to US sanctions", "url": "https://www.reuters.com/world/middle-east/us-says-it-will-impose-toughest-sanctions-history-iran-2026-08-20/" }
+  ]
+}

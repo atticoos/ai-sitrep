@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-10",
+  "theme": "High command replaced",
+  "tempo": "low",
+  "us": "Trump: only the Navy controls the strait · Demands USS Cole reparations",
+  "effects": "Weekend transits sag to six · SPR lowest since 1983 · No Kharg loadings since July 31",
+  "iran": "Mojtaba Khamenei signs decrees naming six commanders",
+  "tldr": "The war's command generation changed: Supreme Leader Mojtaba Khamenei named Ahmad Vahidi IRGC chief commander, Ali Abdollahi armed forces chief of staff and Ali Azmaei to the IRGC Navy. Trump answered by claiming the Navy alone controlled the strait and demanding Iranian reparations down to the USS Cole. Eleventh consecutive night without confirmed strikes inside Iran.",
+  "events": [
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Supreme Leader overhauls the high command",
+      "summary": "Decrees published on August 10 named six commanders: Ahmad Vahidi as chief commander of the IRGC, Ali Abdollahi as armed forces chief of staff, Ali Azmaei at the IRGC Navy. The reshuffle installed the leadership whose declaratory line ('maximum deterrence', all-domain readiness) would define Tehran's answers through the sanctions month.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/", "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Trump claims sole control; counters with a reparations demand",
+      "summary": "'The only one that has control of the Strait of Hormuz right now is the United States Navy' — the blockade a 'steel wall' and 'infallible,' the waterway swept of mines. On Truth Social he demanded Iran compensate for Americans 'killed and gravely wounded,' invoking the 17 sailors of the USS Cole (2000), and told negotiators to carry the claim into any talks. His cited casualty figures remained contested.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Oman track enters its final stages",
+      "summary": "Araghchi said talks with Muscat on transit and management of the waterway were approaching final stages — reopening still tied to separate conditions and compensation. Baghaei added the route map was agreed with technical issues open. Reporting also surfaced of a detected Iranian plot against Trump's aircraft leaving Ankara on July 8, foiled by a decoy Air Force One.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    }
+  ],
+  "dossier": "Market texture: Brent settled August 10 up about 5% at $87.72, WTI +5.1%, clawing back the prior week's 7% slide; ULSD futures jumped 7.4%, their largest gain since July 13. Jazan's restart slipped from August 15 to August 30; US distillate stocks were the lowest for the time of year in 30 years; the SPR fell to 298.7 million barrels, lowest since 1983. No tanker has loaded at Kharg Island — about 90% of crude exports — since July 31.",
+  "sources": [
+    { "title": "MapPR — Strait of Hormuz Crisis 2026 timeline", "url": "https://www.mappr.co/strait-of-hormuz-crisis-2026/" },
+    { "title": "GlobalSecurity.org — Iran War daily ops report", "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm" }
+  ]
+}

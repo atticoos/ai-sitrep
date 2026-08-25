@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-12",
+  "theme": "'Total control'",
+  "tempo": "low",
+  "us": "Trump at Andrews: strait under 'total control' · Force still possible",
+  "effects": "Tally 59/3/2 · Transit near a three-month low · IEA doubles Q3 deficit call",
+  "iran": "Rezaei restates reopening terms · Qatar urges reopening",
+  "tldr": "At Joint Base Andrews Trump declared American forces in 'total control' of the strait, said he did not trust Tehran's representatives and left renewed military action on the table. Rezaei — newly installed at the security council — restated Iran's conditions. Thirteenth consecutive night without confirmed strikes inside Iran.",
+  "events": [
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Trump: 'total control', distrust, and a kept military option",
+      "summary": "Speaking at Joint Base Andrews, the president said the situation with Iran was 'going fine,' that US forces hold 'total control' of the strait, that he does not trust Tehran's representatives, and that renewed military action remained possible.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "data",
+      "actor": "Effects",
+      "title": "Transit nears a three-month low; flow claims diverge sharply",
+      "summary": "The five-day transit average stood near 13 vessels — close to the lowest since May 12 and about 90% below pre-war. Energy Secretary Wright claimed ~9 million barrels/day by sea plus pipelines (~15M total); Commodity Context counted ~7M by sea, Kpler ~5M, JPMorgan ~4M. The IEA doubled its third-quarter shortfall call to 1.8 million barrels/day; observed global stocks fell 69 million barrels in July.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Rezaei restates the price; Doha wants the strait open",
+      "summary": "The new SNSC secretary said the waterway stays shut until Washington ends the war and blockade, releases frozen assets and accepts a ceasefire across the region including Gaza and Lebanon. Qatar's foreign ministry said it wants the waterway reopened 'as soon as possible.'",
+      "significance": 3,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    }
+  ],
+  "sources": [
+    { "title": "MapPR — Strait of Hormuz Crisis 2026 timeline", "url": "https://www.mappr.co/strait-of-hormuz-crisis-2026/" }
+  ]
+}

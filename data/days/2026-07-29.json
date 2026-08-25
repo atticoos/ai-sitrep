@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-29",
+  "theme": "Major retaliation",
+  "tempo": "high",
+  "us": "Major CENTCOM strike package",
+  "effects": "~2-hour operation · Dozens of IRGC targets · Command · Missile & drone facilities · Coastal defenses · Maritime assets",
+  "iran": "Recovering from Jul 28 exchange",
+  "tldr": "A roughly two-hour CENTCOM operation struck dozens of IRGC targets in retaliation for the missile salvo.",
+  "sources": [
+    {
+      "title": "CNN — Live updates: US and Iranian forces resume attacks in Middle East",
+      "url": "https://www.cnn.com/2026/07/29/world/live-news/iran-trump-news"
+    },
+    {
+      "title": "US Treasury — Treasury Disrupts Iranian Regime's Strait of Hormuz Extortion Network",
+      "url": "https://home.treasury.gov/news/press-releases/sb0581"
+    },
+    {
+      "title": "CNBC — Oil settles: Brent +7.9% to $90.74 after missile exchange",
+      "url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html"
+    }
+  ]
+}

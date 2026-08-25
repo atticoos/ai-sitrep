@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-22",
+  "theme": "Sanctions eve declarations",
+  "tempo": "low",
+  "us": "Trump calls Hormuz 'American territory'",
+  "effects": "Tally unchanged 68/3/2 · Seven vessels counted along the strait · Iraqi tankers exempted",
+  "iran": "Rezai: sanctioning states 'considered an enemy' · Zero-oil threat",
+  "tldr": "Two days before Treasury's promised announcement, both sides aimed their sharpest language at third countries: Trump claimed the strait as American territory while Tehran declared any state joining the sanctions 'is considered an enemy' and threatened to stop every barrel leaving the Gulf. Kpler counted just seven commodity vessels along the waterway as the strike pause reached a 23rd consecutive night.",
+  "events": [
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Trump: 'the Strait of Hormuz as an American territory right now'",
+      "summary": "The furthest extension yet of the 'total control' claim made at Joint Base Andrews the day before. No US official offered a legal basis; no CENTCOM statement used the term. He repeated that Iran 'would love to make a deal, but they're not ready to make the right deal.'",
+      "significance": 4,
+      "confidence": "high",
+      "sources": [
+        "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
+        "https://www.reuters.com/world/middle-east/us-iran-keep-up-hostile-rhetoric-ahead-new-sanctions-2026-08-22/"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "SNSC secretary: participants in the economic war 'are considered an enemy'",
+      "summary": "Mohsen Rezai on state TV: 'We declare to all countries — do not join the economic war waged by the United States.' He warned that if neighbors join the crackdown, 'not a single drop of oil will leave the Gulf or the Strait of Hormuz,' vowed to 'neutralize the economic war,' and said other export routes could be attacked. The sharpest Iranian formulation yet directed at third states.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": [
+        "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
+        "https://www.cnn.com/2026/08/22/world/live-news/iran-war-trump",
+        "https://www.thenationalnews.com/news/gulf/2026/08/23/iran-condemns-looming-us-sanctions-as-hormuz-standoff-deepens/"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Foreign Ministry: sanctions are 'an assertion of extraterritorial sovereignty'",
+      "summary": "Spokesman Esmaeil Baghaei on X: the measures assert sovereignty 'over every independent Member State of the United Nations,' and the end result would be 'the complete erosion of sovereignty as the foundational basis of the UN-based inter-State system' — 'a recipe for an abysmal return to full-scale classic colonialism.' Iranian media framed them as a declaration of war on all nations.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/8/22/iran-says-new-us-sanctions-violate-sovereignty-of-other-states",
+        "https://www.cnbc.com/2026/08/22/iran-criticizes-us-sanctions-extraterritorial-sovereignty.html"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Basij commander Taeb: Trump's rhetoric 'stems from desperation'",
+      "summary": "Hossein Taeb — appointed by Mojtaba Khamenei in the early-August reshuffle — told Fars the US had 'lost its initiative' and the strait would not reopen unless 'our conditions are fulfilled.' His first substantive intervention aligns the paramilitary command with Ghalibaf's four conditions rather than Pezeshkian's call to end the war.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
+        "https://www.cnn.com/2026/08/22/world/live-news/iran-war-trump"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Iraqi tankers granted transit permission",
+      "summary": "IRNA reported special permission for several Iraqi oil tankers to pass through the strait, one of Baghdad's main requests during Ghalibaf's Iraq visit; Iraqi President Nizar Amidi confirmed. The only exercise so far of the transit authority Iran claimed at the memorandum's expiry — a concession rather than a penalty.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.reuters.com/world/middle-east/us-iran-keep-up-hostile-rhetoric-ahead-new-sanctions-2026-08-22/",
+        "https://www.rte.ie/news/world/2026/0822/1588833-middle-east/"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Diplomacy",
+      "title": "Macron and MBS convene Franco-Saudi council around the bypass question",
+      "summary": "Inaugural meeting of the Franco-Saudi Strategic Partnership Council in Paris; agreements on technology, transport, energy and health, with diversification of energy and logistics routes — pipelines, regional rail, maritime alternatives — among the principal subjects. First European head-of-state engagement of the bypass question, without American participation.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
+      ]
+    },
+    {
+      "time": "data",
+      "actor": "Effects",
+      "title": "Transit at a trickle; blockade accounting frozen",
+      "summary": "Kpler recorded seven commodity vessels along the strait on Thursday — four entering, three exiting, half the prior day — with no crude carriers or LNG tankers; a single gas carrier transited outbound on the Iranian route. CNN's UKMTO analysis put the week at roughly 20 percent of pre-war average (+27% week-on-week). CENTCOM's tally held at 68 redirected / 3 disabled / 2 boarded; the reported nightly tanker convoys remain neither confirmed nor denied.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": [
+        "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
+        "https://www.cnn.com/2026/08/22/world/live-news/iran-war-trump"
+      ]
+    }
+  ],
+  "dossier": "Secondary items from the window: acting defence minister Brig. Gen. Seyyed Majid Ibn al-Reza marked Defence Industry Day claiming production lines never stopped, new systems were fielded, and Iran inflicted a 'strategic defeat'; no system identified, nothing verifiable. Oil ministry agency reported the struck South Pars refinery ~70% repaired, completion due by March 2027. Pezeshkian (21st) called the June MOU a victory and urged ending the war 'in a position of power and dignity'; VP Vance called economic pressure America's 'most effective tool'; Energy Secretary Chris Wright credited the military with moving a 7-day average of 8M bpd through the strait vs >20M pre-war. Brent settled near $93.40 Friday, second straight weekly rise of ~6%; US gasoline averaged $4.11/gal. Abdorrahman Boroumand Center placed executions at 901+ since January, 28 in August. Tasnim reported Tehran asking Qatar to transfer detained pilots ashore; Doha denies holding any alive. UAE missile attribution of 18 August remained uncorroborated by CENTCOM for a sixth day.",
+  "sources": [
+    {
+      "title": "Reuters — U.S., Iran keep up hostile rhetoric ahead of new sanctions",
+      "url": "https://www.reuters.com/world/middle-east/us-iran-keep-up-hostile-rhetoric-ahead-new-sanctions-2026-08-22/"
+    },
+    {
+      "title": "Al Jazeera — Iran says new US sanctions violate sovereignty of other states",
+      "url": "https://www.aljazeera.com/news/2026/8/22/iran-says-new-us-sanctions-violate-sovereignty-of-other-states"
+    },
+    {
+      "title": "CNBC — Ahead of tough new U.S. sanctions, Iran maintains harsh rhetoric",
+      "url": "https://www.cnbc.com/2026/08/22/iran-criticizes-us-sanctions-extraterritorial-sovereignty.html"
+    },
+    {
+      "title": "CNN — August 22 live updates: Iran war",
+      "url": "https://www.cnn.com/2026/08/22/world/live-news/iran-war-trump"
+    },
+    {
+      "title": "GlobalSecurity.org — Iran War daily ops report (Day 177)",
+      "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
+    }
+  ]
+}

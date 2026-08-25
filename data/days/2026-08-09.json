@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-09",
+  "theme": "'Low-keying it'",
+  "tempo": "low",
+  "us": "Trump: 'semi-negotiating' chess game · Caine off-ramp report",
+  "effects": "Tally 55/2/2 · Jazan refinery ablaze again · Transits down to six",
+  "iran": "Araghchi: intermediaries are not negotiations",
+  "tldr": "Trump described a deliberate economic squeeze — 'low-keying it,' only 'semi-negotiating' — as CNN reported the Joint Chiefs chairman privately telling advisers the US needed an off-ramp. Tehran insisted intermediary messages were not talks and demanded compensation first. Tenth consecutive night without confirmed strikes inside Iran.",
+  "events": [
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Trump frames the standoff as an economic chess game",
+      "summary": "To Axios: the US is 'low-keying it' with Iran, 'semi-negotiating.' His argument was Iran's balance sheet — 'huge inflation and the fact they have no money,' troops struggling to be paid, oil just above $75. Separately, CNN reported Joint Chiefs chairman General Dan Caine had privately told other advisers the remaining escalation options could backfire and the US needed a way out.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Araghchi: messages through intermediaries are not negotiations",
+      "summary": "'The process should not be called negotiations' — talks cannot resume until Washington compensates for breaching the June memorandum. Pezeshkian voiced hope the Oman talks would deliver.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "~early",
+      "actor": "Houthis",
+      "title": "Drone sets Jazan refinery alight again; al-Makha deaths mount",
+      "summary": "Yahya Saree claimed a direct drone hit on Saudi Aramco's Jazan refinery — shut since July 27; fire extinguished, no injuries. Houthi missile attacks on Yemen's al-Makha port on August 9 killed at least 11 (eight soldiers, three civilians) and wounded 32.",
+      "significance": 2,
+      "confidence": "medium",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    }
+  ],
+  "sources": [
+    { "title": "MapPR — Strait of Hormuz Crisis 2026 timeline", "url": "https://www.mappr.co/strait-of-hormuz-crisis-2026/" }
+  ]
+}

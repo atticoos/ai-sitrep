@@ -15,16 +15,19 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
   title: "2026 U.S.–Iran Campaign Timeline",
-  description: "A concise operational timeline of the July 2026 U.S.–Iran campaign.",
+  description:
+    "A concise operational timeline of the July–August 2026 U.S.–Iran campaign, grouped into semantic phases.",
   openGraph: {
     title: "U.S.–Iran Campaign · Operational Timeline",
-    description: "Four phases. Twenty-five days. A concise operational record of the July 2026 campaign.",
+    description:
+      "Six phases. Thirty-five reported days. A concise operational record of the July–August 2026 campaign.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "U.S.–Iran Campaign · Operational Timeline",
-    description: "Four phases. Twenty-five days. A concise operational record of the July 2026 campaign.",
+    description:
+      "Six phases. Thirty-five reported days. A concise operational record of the July–August 2026 campaign.",
   },
 };
 

@@ -1,0 +1,51 @@
+{
+  "date": "2026-08-14",
+  "theme": "'Territory of the United States'",
+  "tempo": "low",
+  "us": "Trump rally pledge to declare the strait US territory · GW strike group inbound",
+  "effects": "Third ADNOC hit in 48 hours · Tally 62/3/2 · Gasoline $4.07",
+  "iran": "Gharibabadi: 'not by a tweet, nor by an aircraft carrier'",
+  "tldr": "At a New York rally Trump promised that 'pretty soon I'll be declaring the Hormuz Strait a territory of the United States,' calling the blockade 'a wall of steel.' Tehran answered within hours. A third ADNOC vessel was hit in two days as the George Washington strike group sailed to relieve the Abraham Lincoln. Fifteenth consecutive night without confirmed strikes inside Iran.",
+  "events": [
+    {
+      "time": "rally",
+      "actor": "US",
+      "title": "Trump pledges to declare the strait American territory",
+      "summary": "In Nassau County: 'after we finish defeating Iran, which is being very badly defeated, pretty soon I'll be declaring the Hormuz Strait a territory of the United States.' The blockade was 'unstoppable' and 'a wall of steel.' Asked whether nine months of carrier ops was too long: 'not nearly long enough.'",
+      "significance": 4,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "~evening",
+      "actor": "Iran (attributed)",
+      "title": "Third ADNOC vessel hit in 48 hours",
+      "summary": "ADNOC reported another of its ships attacked in the strait on the evening of August 14, no injuries — a day after drones struck the tankers Navig8 Messi and Tarif, which the UAE blamed on Iran as 'unprovoked attacks.' UKMTO separately logged a drone hit on an outbound tanker with minor damage.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "George Washington strike group heads for the theater",
+      "summary": "A US official said the carrier, which left Japan in May, is heading to relieve the USS Abraham Lincoln — 260+ days at sea, ~200 in the combat zone, 10,000 aircraft flights, 1.5 million pounds of ordnance expended.",
+      "significance": 2,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Tehran dismisses the territory threat within hours",
+      "summary": "Deputy FM Kazem Gharibabadi: the strait 'cannot be taken over by a tweet, nor by an aircraft carrier, nor by issuing a decree, nor by an election speech' — Iran 'neither afraid of threats nor intimidated by a show of force.' The IRGC naval commander claimed 'complete and decisive control over movements' in the strait. Baghaei kept the Oman TSS understanding separate from any reopening.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": ["https://www.mappr.co/strait-of-hormuz-crisis-2026/"]
+    }
+  ],
+  "dossier": "Vance framed priorities on Fox News: keeping 'oil and gas cheap for Americans' is 'goal number one,' ahead of preventing an Iranian nuclear weapon. Oil closed the week higher — Brent settled August 14 at $88.52 (+1.7%), both benchmarks up more than 5% on the week after Washington signaled the blockade could run indefinitely; US regular gasoline averaged $4.07 against $3.16 a year earlier.",
+  "sources": [
+    { "title": "MapPR — Strait of Hormuz Crisis 2026 timeline", "url": "https://www.mappr.co/strait-of-hormuz-crisis-2026/" }
+  ]
+}

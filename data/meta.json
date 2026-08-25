@@ -1,0 +1,8 @@
+{
+  "metrics": [
+    { "label": "CONFIRMED TARGETS", "value": "300", "suffix": "+" },
+    { "label": "CONSECUTIVE NIGHTS", "value": "13" },
+    { "label": "VESSELS REDIRECTED", "value": "70", "suffix": "+" },
+    { "label": "CAMPAIGN PHASES", "value": "07" }
+  ]
+}
