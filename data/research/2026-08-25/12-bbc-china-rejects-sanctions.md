@@ -1,0 +1,76 @@
+---
+url: https://www.bbc.com/news/articles/clyl8965j5go
+outlet: BBC News
+title: China hits out at 'illegal' new US sanctions on Iran and trading partners
+accessed: 2026-08-25T16:14:32Z
+---
+
+China hits out at 'illegal' new US sanctions on Iran and trading partners
+
+China hits out at 'illegal' new US sanctions on Iran and trading partners
+
+Watch: What are these sanctions and who will be affected?
+
+China has vowed to protect its interests after the US announced plans to widen economic sanctions against Iran and its trading partners, which include Beijing.
+
+Foreign ministry spokesman Lin Jian said China was firmly opposed to what it called "illegal unilateral sanctions" and would take "all necessary measures" to safeguard its rights.
+
+This came after US Treasury Secretary Scott Bessent announced the new measures on Monday, warning any nation financially partnering with Iran would be isolated.
+
+China is the biggest buyer of Iranian oil, although the trade has declined under the US blockade of Iran's ports.
+
+Lin said: "Cooperation between China and Iran has always been conducted within the framework of international law and should not be interfered with or disrupted."
+
+Bessent described the plans for sanctions as "the single greatest financial offensive ever" against Iran, warning banks and businesses would share in Iran's isolation if they refused to cut ties with the country.
+
+He declined to focus on specific nations, but said US President Donald Trump would be phoning world leaders "with specific requests to cease their interactions with the regime".
+
+However, responding to a question about Chinese banks, Bessent said he wanted to make clear "no one was above the reach of US sanctions".
+
+Treasury Secretary Scott Bessent says US will "tighten the noose" around Iranian revenue sources
+
+The announcement comes ahead of planned talks between Trump and Chinese President Xi Jinping next month.
+
+Washington is likely to be wary of potential retaliation from Beijing, which processes the majority of the world's rare earths and other critical minerals, crucial in the manufacture of many high-tech products.
+
+tightened export controls on rare earths
+
+as part of previous trade negotiations with the US.
+
+China's response followed Iranian Economy Minister Ali Madanizadeh saying Tehran was "fully prepared" for the wider sanctions, which he said would lead to "another defeat" for the US.
+
+"The government is and was ready and has a two-year plan to manage these events," he told state television.
+
+"We also have our own tools and know how to play the game," he said, adding Tehran had been "waiting for these plans for a long time".
+
+Iran says it is 'fully prepared' to counter widened US economic sanctions
+
+The US has dubbed its latest sanctions "Operation Economic Outcast" and described them as an "economic D-Day" against Iran.
+
+It comes almost six months after the start of the Iran war.
+
+The conflict has since led to hikes in oil prices worldwide, with Tehran effectively blocking exports through the Strait of Hormuz - a waterway vital to the global economy. The US has also slowed traffic via its own naval blockade.
+
+Recent attempts to end the conflict via diplomacy have failed, and a 60-day ceasefire formally expired last week with no sign of a settlement.
+
+With the announcement of new sanctions, the US treasury secretary claimed America was "no longer managing the Iranian threat, we are ending it".
+
+Iran is already under heavy sanctions from the US, but Bessent said these go further.
+
+He said the Treasury had mapped financial channels, facilitators and networks used by Iran to evade sanctions to trade oil, imposing sanctions on almost 60 entities, individuals and vessels.
+
+But analysts had cast doubt on the latest measures even before China's response.
+
+David Oxley, chief climate and commodities economist at Capital Economics, told the BBC the direct impact on Iran's energy revenues would be "somewhat of a damp squib".
+
+"We suspect that the new package will have only a limited direct impact on Iranian energy flows in the short term," he added.
+
+This is partly due to the fact roughly 90% of Iran's oil goes to China, he said, "which has not recognised US sanctions in the past and is unlikely to be cowed this time either".
+
+Ali Vaez, deputy director of the Middle East and North Africa Program at the International Crisis Group, said: "Generally, the Chinese are against unilateral sanctions. They would comply with multilateral or international sanctions, but unilateral sanctions just imposed by the US - they have always seen that as illegitimate."
+
+And although Iran's neighbours like Pakistan, Turkey and Iraq want to maintain good relationships with the US, they "can't really afford to cut off ties with Iran", Vaez told BBC Radio 4's Today programme.
+
+He said putting economic pressure on Tehran "doesn't work" because the Iranian regime is willing to "absorb any pain" and pass it onto the people.
+
+Other trade partners that could be affected by the US announcement include India and Russia, who have not yet responded.
