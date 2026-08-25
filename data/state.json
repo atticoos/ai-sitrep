@@ -1,0 +1,46 @@
+{
+  "updated": "2026-08-25T03:52:00Z",
+  "notes": "Continuity ledger for the daily research workflow (spec/RESEARCH_BRIEF.md). The agent reads this before researching and updates it after filing the day report. Hand-correctable at any time — this file wins over prose in dossiers.",
+  "asOf": "2026-08-25",
+  "counters": {
+    "nightsWithoutConfirmedStrikesInIran": 26,
+    "cumulativeTargetsStruck": "300+",
+    "cumulativeTargetsNote": "Last quantified by CENTCOM Jul 11; treat as floor, only raise with a new official cumulative figure."
+  },
+  "blockadeLedger": {
+    "note": "CENTCOM maritime interdiction accounting, carried in dossiers since the pause.",
+    "redirected": 70,
+    "disabled": 3,
+    "boarded": 2
+  },
+  "openThreads": [
+    {
+      "text": "Treasury promised a major financial-institution designation 'by end of week' — watch Fri Aug 28.",
+      "since": "2026-08-24"
+    },
+    {
+      "text": "Upcoming Xi–Trump meeting complicates secondary-sanctions action against Chinese banks.",
+      "since": "2026-08-24"
+    },
+    {
+      "text": "Bessent predicts a 'broad array' of countries follows UAE in cutting trade ties — watch for named countries.",
+      "since": "2026-08-24"
+    },
+    {
+      "text": "Iran threatened to halt all oil exports in response to the sanctions campaign.",
+      "since": "2026-08-24"
+    },
+    {
+      "text": "Identify the tanker struck near Ash Shishah (UKMTO 120-26) and confirm attribution of the projectile hit; watch UKMTO follow-ups, tow/salvage status, and whether Iran claims or denies it.",
+      "since": "2026-08-25"
+    },
+    {
+      "text": "Verify CENTCOM blockade tally: Crypto Briefing reports 71 vessels diverted vs carried 70 — confirm against the next CENTCOM release.",
+      "since": "2026-08-25"
+    },
+    {
+      "text": "Pakistan mediation round one (Munir's Tehran visit) closed without visible outcome — watch for a second round or an announced next step.",
+      "since": "2026-08-25"
+    }
+  ]
+}

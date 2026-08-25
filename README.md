@@ -71,13 +71,12 @@ Calendar gaps of 2+ days between reports render automatically as **OPERATIONAL G
 {
   "phases": [
     {
-      "id": "economic-siege",
-      "number": "06",
-      "title": "Economic siege",
-      "start": "2026-08-11",
-      "end": "2026-08-22",
+      "id": "operation-economic-outcast",
+      "number": "07",
+      "title": "Operation Economic Outcast",
+      "start": "2026-08-23",
       "accent": "violet",
-      "summary": "Disabling fire · Indefinite blockade doctrine · Sanctions 'one-two punch'"
+      "summary": "'Economic D-Day' lands · Five lifelines on notice"
     }
   ]
 }
@@ -85,6 +84,10 @@ Calendar gaps of 2+ days between reports render automatically as **OPERATIONAL G
 
 - `number` is the display ordinal; phases render newest-first on the page.
 - `accent`: `amber` `red` `blue` `orange` `green` `violet` (kinetic=red/orange, pause/talks=blue/green, siege=violet).
+- `end` is optional: omit it on the **current** phase and it stays open-ended — every new day
+  report automatically joins it, and the masthead renders `AUG 23—NOW`. When a real transition
+  happens, set its `end` retroactively and start a new open-ended phase. Exactly one open-ended
+  phase allowed; it must be the chronologically last. Closed phases require `end`.
 - Phases need not be contiguous; ranges may overlap gaps freely but must not overlap each other.
 
 ### Drafting phases with the LLM script
@@ -100,6 +103,24 @@ Keys stay local — the script never runs in the deployed app.
 ## Hero metrics
 
 `data/meta.json` holds the four masthead stats. Update them as the campaign moves.
+
+## Research automation
+
+The daily research pass is automated (prototype): a dispatched GitHub Action runs the agent
+headless against `spec/RESEARCH_BRIEF.md`, files `data/days/YYYY-MM-DD.json` plus an updated
+continuity ledger (`data/state.json`) and a source corpus (`data/research/YYYY-MM-DD/`), then
+opens a PR for review.
+
+- **CI:** Actions → "Daily research" → Run workflow with a date (defaults to yesterday UTC)
+  and model (defaults to `openrouter/stealth/ox-alpha`). Provide whichever API key the chosen
+  provider needs as a repo secret: `OPENROUTER_API_KEY` or `ANTHROPIC_API_KEY`.
+  Re-running a date overwrites its branch/PR cleanly.
+- **Local:** `npm run research -- 2026-08-25` (writes files only; no git operations). Uses
+  whatever provider auth your local opencode already has; override with `RESEARCH_MODEL`.
+- **Validate any day:** `npm run validate:day -- 2026-08-24` — schema gate + style lint from
+  [spec/DAY_STYLE.md](spec/DAY_STYLE.md).
+
+Merge the PR and deploy happens via the normal flow.
 
 ## Develop & deploy
 

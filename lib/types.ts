@@ -39,7 +39,7 @@ export interface Phase {
   number: string; // zero-padded display ordinal, e.g. "05"
   title: string;
   start: string; // YYYY-MM-DD inclusive
-  end: string; // YYYY-MM-DD inclusive
+  end?: string; // YYYY-MM-DD inclusive; omit for the ongoing current phase
   accent: Accent;
   summary: string;
 }
@@ -171,8 +171,9 @@ export function parsePhasesFile(raw: unknown, file: string): PhasesFile {
     if (!(ACCENTS as readonly string[]).includes(accent))
       fail(file, `phases[${i}].accent "${accent}" not in ${ACCENTS.join(", ")}`);
     const start = checkDate(file, ph.start, `phases[${i}].start`);
-    const end = checkDate(file, ph.end, `phases[${i}].end`);
-    if (end < start) fail(file, `phases[${i}] end (${end}) is before start (${start})`);
+    const end = ph.end === undefined ? undefined : checkDate(file, ph.end, `phases[${i}].end`);
+    if (end !== undefined && end < start)
+      fail(file, `phases[${i}] end (${end}) is before start (${start})`);
     if (!isStr(ph.summary)) fail(file, `phases[${i}].summary must be a string`);
     return {
       id: ph.id,
@@ -184,6 +185,15 @@ export function parsePhasesFile(raw: unknown, file: string): PhasesFile {
       summary: ph.summary,
     };
   });
+  // At most one open-ended phase, and it must be the chronologically last.
+  const open = phases.filter((p) => p.end === undefined);
+  if (open.length > 1)
+    fail(file, `only one phase may omit "end" (ongoing), found ${open.length}: ${open.map((p) => p.id).join(", ")}`);
+  if (open.length === 1) {
+    const latestStart = phases.reduce((max, p) => (p.start > max ? p.start : max), "");
+    if (open[0].start < latestStart)
+      fail(file, `the ongoing phase "${open[0].id}" must be the chronologically last phase`);
+  }
   return {
     updated: isStr(o.updated) ? o.updated : undefined,
     notes: isStr(o.notes) ? o.notes : undefined,

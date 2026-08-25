@@ -73,8 +73,9 @@ function short(date: string): string {
   return `${dayNumber(date)} ${monthLabel(date)}`;
 }
 
-/** Phase range label in masthead style: "AUG 01—10" / "JUL 28—AUG 03". */
-export function rangeLabel(start: string, end: string): string {
+/** Phase range label in masthead style: "AUG 01—10" / "JUL 28—AUG 03"; ongoing phases render "AUG 23—NOW". */
+export function rangeLabel(start: string, end?: string): string {
+  if (end === undefined) return `${monthLabel(start)} ${dayNumber(start)}—NOW`;
   if (monthLabel(start) === monthLabel(end)) {
     return `${monthLabel(start)} ${dayNumber(start)}—${dayNumber(end)}`;
   }
@@ -125,7 +126,7 @@ export async function getSitrep(): Promise<Sitrep> {
 }
 
 export function phaseForDate(phases: Phase[], date: string): Phase | undefined {
-  return phases.find((p) => p.start <= date && date <= p.end);
+  return phases.find((p) => p.start <= date && (p.end === undefined || date <= p.end));
 }
 
 export interface Intermission {
