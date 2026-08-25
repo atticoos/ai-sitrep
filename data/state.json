@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T03:52:00Z",
-  "notes": "Continuity ledger for the daily research workflow (spec/RESEARCH_BRIEF.md). The agent reads this before researching and updates it after filing the day report. Hand-correctable at any time — this file wins over prose in dossiers.",
+  "updated": "2026-08-25T07:05:00Z",
+  "notes": "Continuity ledger for the daily research workflow (spec/RESEARCH_BRIEF.md). The agent reads this before researching and updates it after filing the day report. Hand-correctable at any time — this file wins over prose in dossiers. NOTE: the 2026-08-24 re-run (after a later 2026-08-25 run had already advanced this ledger) intentionally did NOT rewind asOf/counters/threads; its findings were folded into data/days/2026-08-24.json instead.",
   "asOf": "2026-08-25",
   "counters": {
     "nightsWithoutConfirmedStrikesInIran": 26,
