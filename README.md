@@ -122,6 +122,47 @@ opens a PR for review.
 
 Merge the PR and deploy happens via the normal flow.
 
+## Proof of work (research transcripts)
+
+Every research run also captures each stage's **full agent transcript** — prompts,
+thinking blocks, tool calls and outputs — as browsable "proof of work":
+
+- Capture happens in `scripts/research-day.sh` (NDJSON events + `opencode export`
+  per stage) under `data/research/<DATE>/scratch/sessions/`, which is gitignored —
+  transcripts never enter the repo.
+- The workflow uploads them to the **R2 bucket** (`us-iran-research`, bound as
+  `US_IRAN_RESEARCH` — see `wrangler.jsonc`) via `scripts/upload-research-r2.sh`;
+  resumed runs restore
+  what's already there first (`scripts/restore-research-r2.sh`) so the day's
+  manifest always covers all stages. Upload failures never fail the research job.
+- The app serves them at **`/research`** (index) and **`/research/<DATE>`**
+  (interactive viewer with expandable thinking + tool calls), reading straight
+  from the R2 binding at request time; `/day/<DATE>` pages link to it.
+
+### One-time setup
+
+```sh
+npx wrangler r2 bucket create us-iran-research
+npm run cf-typegen          # regenerates cloudflare-env.d.ts with the US_IRAN_RESEARCH binding
+```
+
+Add repo secrets (Actions → Settings → Secrets): `CLOUDFLARE_ACCOUNT_ID` and
+`CLOUDFLARE_API_TOKEN` with an R2-edit token scoped to the bucket.
+
+### Local development
+
+`next dev` binds to a local miniflare store (`.wrangler/state`). Seed it with any
+transcripts you have on disk:
+
+```sh
+node scripts/build-research-manifest.mjs 2026-08-25   # if you ran research locally
+npm run research:upload -- 2026-08-25 --local         # push into local R2
+```
+
+Backfill an older session by exporting it manually:
+`opencode export <sessionID> > data/research/<DATE>/scratch/sessions/session-A.json`,
+then build the manifest and upload.
+
 ## Develop & deploy
 
 ```sh
@@ -131,4 +172,5 @@ npm run preview    # build + preview on Cloudflare Workers locally
 npm run deploy     # deploy to Cloudflare Workers via OpenNext
 ```
 
-No runtime environment variables needed.
+Day reports render from build-time data; only the proof-of-work pages read from
+R2 at request time. No runtime environment variables needed.
