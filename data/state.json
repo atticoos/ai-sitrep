@@ -1,15 +1,15 @@
 {
-  "updated": "2026-08-25T03:52:00Z",
+  "updated": "2026-08-25T17:04:00Z",
   "notes": "Continuity ledger for the daily research workflow (spec/RESEARCH_BRIEF.md). The agent reads this before researching and updates it after filing the day report. Hand-correctable at any time — this file wins over prose in dossiers.",
   "asOf": "2026-08-25",
   "counters": {
-    "nightsWithoutConfirmedStrikesInIran": 26,
+    "nightsWithoutConfirmedStrikesInIran": 27,
     "cumulativeTargetsStruck": "300+",
     "cumulativeTargetsNote": "Last quantified by CENTCOM Jul 11; treat as floor, only raise with a new official cumulative figure."
   },
   "blockadeLedger": {
-    "note": "CENTCOM maritime interdiction accounting, carried in dossiers since the pause.",
-    "redirected": 70,
+    "note": "CENTCOM maritime interdiction accounting through Aug 24 — via Khaama Press and Crypto Briefing (both attribute CENTCOM; centcom.mil unreachable), plus >40 humanitarian aid vessels allowed through.",
+    "redirected": 71,
     "disabled": 3,
     "boarded": 2
   },
@@ -35,11 +35,19 @@
       "since": "2026-08-25"
     },
     {
-      "text": "Verify CENTCOM blockade tally: Crypto Briefing reports 71 vessels diverted vs carried 70 — confirm against the next CENTCOM release.",
+      "text": "Pakistan mediation round two (Munir/Naqvi Tehran visit) closed claiming 'significant progress' with no announced next step — watch for a concrete outcome or a further round; Iran's stated condition is a US return to the Islamabad MOU incl. Article 5 Hormuz arrangements.",
       "since": "2026-08-25"
     },
     {
-      "text": "Pakistan mediation round one (Munir's Tehran visit) closed without visible outcome — watch for a second round or an announced next step.",
+      "text": "Trump declared 'zero tolerance' for mines in Hormuz international waters (all cleared/detonated; any boat laying new mines 'immediately and systematically destroyed') — watch for any mine incident triggering kinetic response.",
+      "since": "2026-08-25"
+    },
+    {
+      "text": "State Dept returning evacuated diplomats to the Middle East 'as early as this week' (NYT via CNBC) — read as no-kinetic-restart signal; watch completion.",
+      "since": "2026-08-25"
+    },
+    {
+      "text": "Iran–Oman edging toward a Strait of Hormuz arrangement (FT headline; Albusaidi–Araghchi met in Tehran) — watch for a signed joint shipping route.",
       "since": "2026-08-25"
     }
   ]
