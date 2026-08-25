@@ -26,4 +26,4 @@ jobs:
       - run: npm ci
       - run: npm run lint
       # Full OpenNext build so worker-bundling failures fail pre-merge, not at deploy.
-      - run: npx opennextjs-cloudflare build
+      - run: npm run -s worker:build
