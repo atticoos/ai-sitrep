@@ -1,8 +1,9 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import Markdown from "react-markdown";
-import remarkGfm from "remark-gfm";
+
+const MarkdownRenderer = dynamic(() => import("./markdown"), { ssr: false });
 
 // Renders one exported opencode session (the JSON produced by
 // `opencode export <sessionID>`): the prompt cards, assistant prose,
@@ -121,7 +122,7 @@ function AssistantParts({ parts }: { parts: SessionPart[] }) {
           if (!trimmed) return null;
           return (
             <div className="pow-md pow-text" key={i}>
-              <Markdown remarkPlugins={[remarkGfm]}>{trimmed}</Markdown>
+              <MarkdownRenderer text={trimmed} />
             </div>
           );
         }
