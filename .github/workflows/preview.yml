@@ -24,14 +24,11 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run build
       - name: Upload preview version
         id: upload
         run: |
           set -o pipefail
-          npx opennextjs-cloudflare build
-          npx opennextjs-cloudflare upload \
-            --message "PR #${{ github.event.pull_request.number }} @ ${GITHUB_SHA::7}" \
+          npm run -s upload -- --message "PR #${{ github.event.pull_request.number }} @ ${GITHUB_SHA::7}" \
             | tee "$RUNNER_TEMP/upload.txt"
           url=$(grep -Eo 'https://[a-zA-Z0-9._-]+\.workers\.dev' "$RUNNER_TEMP/upload.txt" | head -n1)
           echo "url=$url" >> "$GITHUB_OUTPUT"

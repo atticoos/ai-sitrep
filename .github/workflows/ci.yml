@@ -25,4 +25,5 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run lint
-      - run: npm run build
+      # Full OpenNext build so worker-bundling failures fail pre-merge, not at deploy.
+      - run: npm run -s worker:build
