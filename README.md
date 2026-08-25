@@ -122,6 +122,24 @@ opens a PR for review.
 
 Merge the PR and deploy happens via the normal flow.
 
+## Cloudflare resource tagging
+
+Every production deploy re-applies project tags to the Worker via
+`scripts/cf-tag-worker.mjs` (run automatically at the end of `npm run deploy`,
+or standalone as `npm run cf:tag` with `CLOUDFLARE_ACCOUNT_ID` +
+`CLOUDFLARE_API_TOKEN` set):
+
+| Tag | Purpose |
+|---|---|
+| `project:us-iran-activity` | Segregates this project's resources from everything else in the account |
+| `env:production` | Marks the production deployment |
+
+Filter by tag in the dashboard (**Workers & Pages** → filter) or via API to see
+only this project's resources. Tags merge with whatever already exists on the
+Worker (wrangler's own `cf:service=` / `cf:environment=` tags and any manual
+dashboard tags are preserved). To add more tags, edit `PROJECT_TAGS` in the
+script; wrangler.jsonc has no field for custom tags.
+
 ## Develop & deploy
 
 ```sh
