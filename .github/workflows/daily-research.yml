@@ -1,9 +1,11 @@
 # Daily research workflow — prototypes the design in spec/RESEARCH_BRIEF.md.
 #
 # Dispatch manually with a date (Actions tab → "Daily research" → Run workflow).
-# Model is selectable per dispatch; provide whichever API key the chosen
-# provider needs as a repository secret: OPENROUTER_API_KEY (default model,
-# openrouter/stealth/ox-alpha) or ANTHROPIC_API_KEY (claude-* models).
+# Model is selectable per dispatch (provider/model-id); provide whichever API
+# key the chosen provider needs as a repository secret:
+#   OPENCODE_API_KEY    — OpenCode Zen models (opencode/<model-id>)
+#   OPENROUTER_API_KEY  — OpenRouter models (openrouter/<model-id>, default)
+#   ANTHROPIC_API_KEY   — direct Anthropic (claude-* model ids)
 #
 # The agent only writes files; this workflow owns git: branch, commit, PR.
 # Re-running a date overwrites its branch and PR content cleanly.
@@ -18,7 +20,7 @@ on:
         required: false
         type: string
       model:
-        description: "Model for the agent run (provider/model-id)."
+        description: "Model for the agent run (provider/model-id, e.g. opencode/claude-sonnet-5)."
         required: false
         default: "openrouter/stealth/ox-alpha"
         type: string
@@ -58,6 +60,7 @@ jobs:
 
       - name: Research day
         env:
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           RESEARCH_MODEL: ${{ inputs.model }}
