@@ -15,6 +15,15 @@
 # date resumes instead of overwriting: committed corpus items are kept and only
 # what is missing is regenerated. `publish_only` skips research entirely and
 # just opens/updates the PR from the existing branch.
+#
+# Proof of work: each stage's full agent transcript (NDJSON events + exported
+# session JSON) is captured under data/research/<DATE>/scratch/sessions/
+# (gitignored) and uploaded to the US_IRAN_RESEARCH R2 bucket, which the web app
+# reads at /research/<DATE>. Requires CLOUDFLARE_ACCOUNT_ID +
+# CLOUDFLARE_API_TOKEN secrets with R2 edit permission on bucket
+# "us-iran-research". Transcript upload failures never fail research or block
+# the PR. Resumed runs restore the day's already-uploaded transcripts first so
+# the manifest keeps covering every stage.
 
 name: Daily research
 
@@ -98,6 +107,14 @@ jobs:
             echo "Starting fresh branch ${BRANCH}."
           fi
 
+      - name: Restore prior transcripts (resume support)
+        continue-on-error: true
+        env:
+          DATE: ${{ needs.setup.outputs.date }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: bash scripts/restore-research-r2.sh "$DATE"
+
       - name: Stage A — context + gather
         timeout-minutes: 40
         run: bash scripts/research-day.sh "${{ needs.setup.outputs.date }}" A
@@ -121,6 +138,15 @@ jobs:
       - name: Stage C — state + summary
         timeout-minutes: 10
         run: bash scripts/research-day.sh "${{ needs.setup.outputs.date }}" C
+
+      - name: Upload transcripts to R2 (proof of work)
+        if: ${{ always() }}
+        continue-on-error: true
+        env:
+          DATE: ${{ needs.setup.outputs.date }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: bash scripts/upload-research-r2.sh "$DATE"
 
       - name: Push research branch
         env:

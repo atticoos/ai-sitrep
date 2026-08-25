@@ -14,6 +14,11 @@
 #   A: Stage 1+2 (context, gather)
 #   B: Stage 3+4 (synthesize, validate)
 #   C: Stage 5+6 (state update, summary)
+#
+# Each stage's full transcript (NDJSON events + exported session JSON) is
+# captured under data/research/<DATE>/scratch/sessions/ for the proof-of-work
+# viewer; scripts/upload-research-r2.sh ships them to R2. Scratch is
+# gitignored — transcripts never enter git.
 set -euo pipefail
 
 usage() {
@@ -48,8 +53,9 @@ fi
 MODEL="${RESEARCH_MODEL:-openrouter/stealth/ox-alpha}"
 GIT_MODE="${RESEARCH_GIT:-0}"
 CORPUS="data/research/${DATE}"
+SESSIONS="${CORPUS}/scratch/sessions"
 
-mkdir -p "$CORPUS"
+mkdir -p "$CORPUS" "$SESSIONS"
 
 commit() {
   [[ "$GIT_MODE" == "1" ]] || return 0
@@ -65,8 +71,41 @@ commit() {
   git commit -m "research(${DATE}): ${msg}" || echo "[git] nothing new to commit"
 }
 
+# Extract the session id from an `opencode run --format json` NDJSON event
+# stream (every emitted line carries a top-level sessionID).
+extract_session_id() {
+  node -e 'const fs=require("fs");for(const line of fs.readFileSync(process.argv[1],"utf8").split("\n")){if(!line.trim())continue;try{const j=JSON.parse(line);if(j&&j.sessionID){console.log(j.sessionID);return}}catch{}}' "$1"
+}
+
+# Run one agent stage and capture its full transcript for the proof-of-work
+# viewer: raw NDJSON events are teed to disk, then the finished session is
+# exported via `opencode export`. Capture is best-effort — a transcript
+# failure must never fail the research run itself.
 run_stage() {
-  opencode run --print-logs --log-level WARN -m "$MODEL" "$1"
+  local stage="$1"
+  local message="$2"
+  local events="${SESSIONS}/events-${stage}.ndjson"
+
+  echo "[research] ${DATE} stage ${stage} — transcript → ${events}"
+  set +e
+  opencode run --print-logs --log-level WARN --format json \
+    --title "research(${DATE}) stage ${stage}" \
+    -m "$MODEL" "$message" | tee "$events"
+  local rc=${PIPESTATUS[0]}
+  set -e
+
+  local sid
+  sid="$(extract_session_id "$events")"
+  if [[ -z "$sid" ]]; then
+    echo "[research] warn: no session id found in stage ${stage} events"
+  elif ! opencode export "$sid" > "${SESSIONS}/session-${stage}.json" 2>/dev/null; then
+    echo "[research] warn: transcript export failed for stage ${stage} (session ${sid})"
+  fi
+
+  if [[ "$rc" -ne 0 ]]; then
+    echo "[research] error: stage ${stage} exited with code ${rc}" >&2
+    exit "$rc"
+  fi
 }
 
 COMMIT_NOTE=""
@@ -79,7 +118,7 @@ fi
 
 run_a() {
   echo "[research] ${DATE} via ${MODEL} — stage A: context + gather"
-  run_stage "Read spec/RESEARCH_BRIEF.md and execute ONLY Stage 1 (Context) and \
+  run_stage A "Read spec/RESEARCH_BRIEF.md and execute ONLY Stage 1 (Context) and \
 Stage 2 (Gather) for DATE=${DATE}.${COMMIT_NOTE}
 Stop after Stage 2 — do not synthesize. Every finding a later stage needs must
 be written to disk under data/research/${DATE}/; conversation memory does not
@@ -88,7 +127,7 @@ carry into the next session."
 
 run_b() {
   echo "[research] ${DATE} via ${MODEL} — stage B: synthesize + validate"
-  run_stage "Read spec/RESEARCH_BRIEF.md and execute ONLY Stage 3 (Synthesize) and \
+  run_stage B "Read spec/RESEARCH_BRIEF.md and execute ONLY Stage 3 (Synthesize) and \
 Stage 4 (Validate) for DATE=${DATE}. The gathered corpus is in data/research/${DATE}/.
 Stop after Stage 4."
 
@@ -104,7 +143,7 @@ Stop after Stage 4."
 
 run_c() {
   echo "[research] ${DATE} via ${MODEL} — stage C: state + summary"
-  run_stage "Read spec/RESEARCH_BRIEF.md and execute ONLY Stage 5 (Update state) and \
+  run_stage C "Read spec/RESEARCH_BRIEF.md and execute ONLY Stage 5 (Update state) and \
 Stage 6 (Run summary) for DATE=${DATE}. Stop after Stage 6."
   commit "state + summary" data/state.json "$CORPUS/SUMMARY.md"
 }
@@ -119,5 +158,8 @@ case "$STAGE" in
     run_c
     ;;
 esac
+
+node scripts/build-research-manifest.mjs "$DATE" ||
+  echo "[research] warn: transcript manifest build failed (viewer upload will be stale)"
 
 echo "[research] ${DATE}: stage(s) ${STAGE} complete. Review locally; CI opens the PR."
