@@ -115,7 +115,7 @@ jobs:
         run: git push --force origin "research/day-${DATE}"
 
       - name: Stage B — synthesize + validate
-        timeout-minutes: 15
+        timeout-minutes: 30
         run: bash scripts/research-day.sh "${{ needs.setup.outputs.date }}" B
 
       - name: Checkpoint branch (day report)
@@ -124,7 +124,7 @@ jobs:
         run: git push --force origin "research/day-${DATE}"
 
       - name: Stage C — state + summary
-        timeout-minutes: 10
+        timeout-minutes: 30
         run: bash scripts/research-day.sh "${{ needs.setup.outputs.date }}" C
 
       - name: Push research branch
