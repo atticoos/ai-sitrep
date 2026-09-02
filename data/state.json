@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T16:53:55Z",
+  "updated": "2026-09-02T18:00:19Z",
   "notes": "Continuity ledger for the daily research workflow (spec/RESEARCH_BRIEF.md). The agent reads this before researching and updates it after filing the day report. Hand-correctable at any time — this file wins over prose in dossiers.",
   "asOf": "2026-08-30",
   "counters": {
@@ -15,11 +15,11 @@
   },
   "openThreads": [
     {
-      "text": "Upcoming Xi–Trump meeting complicates secondary-sanctions action against Chinese banks. Updated Aug 27: Trump coy in the Oval Office — 'Who said I'm not? You don't know if I'm doing it' — but no major Chinese financial institution has been listed.",
+      "text": "Upcoming Xi–Trump meeting complicates secondary-sanctions action against Chinese banks. Updated Aug 27: Trump coy in the Oval Office — 'Who said I'm not? You don't know if I'm doing it' — but no major Chinese financial institution has been listed. Updated Aug 30: Bessent — 'all options are on the table' on sanctioning Beijing over continued purchases, calling reluctance to confront China 'a completely false narrative'; to Reuters, the blockade has already curbed most Chinese purchases and tanker stockpiles are dwindling — 'Problem solved.' Still no new Chinese-bank designation; Bloomberg: buyers with Tehran ties 'shrugged' and Bank Melli's Gulf branches remain open.",
       "since": "2026-08-24"
     },
     {
-      "text": "Bessent predicts a 'broad array' of countries follows UAE in cutting trade ties — watch for named countries.",
+      "text": "Bessent predicts a 'broad array' of countries follows UAE in cutting trade ties — watch for named countries. Updated Aug 30: pledge formalized — new secondary sanctions roll out weekly, banks first, with a possible full cutoff from the dollar system ('no leakage… You're either with us or you're with the Iranians'); still no countries named.",
       "since": "2026-08-24"
     },
     {
@@ -35,11 +35,11 @@
       "since": "2026-08-25"
     },
     {
-      "text": "Iran–Oman temporary Hormuz corridor formalization: phased framework (temporary joint navigational corridor + joint mine-clearing) discussed with Qatar's PM Aug 27; Rezaei says a 'designated central channel' opens only if the US first meets Iran's conditions; White House has not engaged (per unfiled headline-only reporting); transit-fee dispute and 30–60-day permanent-scheme negotiation still unresolved — watch for the corridor announcement, US reaction, IMO notification, and corridor usage data.",
+      "text": "Iran–Oman temporary Hormuz corridor formalization: phased framework (temporary joint navigational corridor + joint mine-clearing) discussed with Qatar's PM Aug 27; Rezaei says a 'designated central channel' opens only if the US first meets Iran's conditions; White House has not engaged (per unfiled headline-only reporting); transit-fee dispute and 30–60-day permanent-scheme negotiation still unresolved — watch for the corridor announcement, US reaction, IMO notification, and corridor usage data. Updated Aug 30 (Aug 29 catch-up): Iran says the understanding with Oman will NOT take effect until the US honors the Islamabad MoU; Gharibabadi: the strait 'remains closed' and transit happens only 'in coordination with Iran' (Iran International via Fox live blog — single-outlet).",
       "since": "2026-08-26"
     },
     {
-      "text": "Pezeshkian–Putin meeting at SCO Bishkek (Sept 1) incl. a reported $25B nuclear-plants MOU — watch for outcomes.",
+      "text": "Pezeshkian–Putin meeting at SCO Bishkek (Sept 1) incl. a reported $25B nuclear-plants MOU — watch for outcomes. Updated Aug 30: the summit opened with Xi, Putin and Pezeshkian gathering for the first time since the war began (Bloomberg SCO takeaways); outcomes are next-report material.",
       "since": "2026-08-26"
     },
     {
@@ -59,11 +59,11 @@
       "since": "2026-08-27"
     },
     {
-      "text": "FinCEN's Banque Misr UAE special measure is an NPRM (UAE-branch scope only; Egyptian parent untouched) — watch for finalization and for Egyptian/UAE central-bank and Banque Misr responses to the proposed correspondent-account cutoff.",
+      "text": "FinCEN's Banque Misr UAE special measure is an NPRM (UAE-branch scope only; Egyptian parent untouched) — watch for finalization and for Egyptian/UAE central-bank and Banque Misr responses to the proposed correspondent-account cutoff. Updated Aug 30: Banque Misr is reviewing the NPRM 'with the utmost seriousness' and will respond within the comment period; the UAE central bank ordered a 'special and urgent examination' with a forensic/in-depth lookback; Treasury: ~$1.8B processed for 103 potential shadow-banking companies Jan 2024–Jun 2026; OFAC separately designated Bank Melli Dubai manager Reza Mohammad.",
       "since": "2026-08-28"
     },
     {
-      "text": "US–Venezuela oil deal implementation: 17 fields, >65B barrels in associated reserves, 55% effective US output share, 100-year rights, ~$100B promised private investment — watch SPR replenishment purchases, the reported Venezuela OPEC exit, and legal/constitutional challenges (Democrats opposed).",
+      "text": "US–Venezuela oil deal implementation: 17 fields, >65B barrels in associated reserves, 55% effective US output share, 100-year rights, ~$100B promised private investment — watch SPR replenishment purchases, the reported Venezuela OPEC exit, and legal/constitutional challenges (Democrats opposed). Updated Aug 30: Trump (Truth Social): Venezuelan oil will 'fill up' the SPR, 'topping out' to begin 'very shortly' — the reserve stood at 289.7M bbl as of Aug 21 (EIA) vs ~395M at end-Jan 2025.",
       "since": "2026-08-28"
     },
     {
@@ -75,7 +75,7 @@
       "since": "2026-08-30"
     },
     {
-      "text": "UAE front (The Hill, Aug 31-dated — excluded from the Aug 30 report): Fars-reported IRGC claim that Al Minhad air base was struck 'hours after' Jordan, a UAE drone intercept over territorial waters, UAE FM 'dangerous escalation' — verify against UAE/US sources and file in the next day report.",
+      "text": "UAE front (The Hill, Aug 31-dated — excluded from the Aug 30 report): Fars-reported IRGC claim that Al Minhad air base was struck 'hours after' Jordan, a UAE drone intercept over territorial waters, UAE FM 'dangerous escalation' — verify against UAE/US sources and file in the next day report. Updated Aug 30: verified via AP — the UAE Defense Ministry flatly denies the Iranian army's Al Minhad claim ('false'); the drone intercept over its territorial waters is Aug 31-dated and stays with the next day report.",
       "since": "2026-08-30"
     }
   ]
