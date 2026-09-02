@@ -1,23 +1,19 @@
 {
-  "updated": "2026-09-02T13:10:45Z",
+  "updated": "2026-09-02T14:42:02Z",
   "notes": "Continuity ledger for the daily research workflow (spec/RESEARCH_BRIEF.md). The agent reads this before researching and updates it after filing the day report. Hand-correctable at any time — this file wins over prose in dossiers.",
-  "asOf": "2026-08-27",
+  "asOf": "2026-08-28",
   "counters": {
-    "nightsWithoutConfirmedStrikesInIran": 28,
+    "nightsWithoutConfirmedStrikesInIran": 29,
     "cumulativeTargetsStruck": "300+",
     "cumulativeTargetsNote": "Last quantified by CENTCOM Jul 11; treat as floor, only raise with a new official cumulative figure."
   },
   "blockadeLedger": {
     "note": "CENTCOM maritime interdiction accounting, carried in dossiers since the pause.",
-    "redirected": 70,
+    "redirected": 82,
     "disabled": 3,
     "boarded": 2
   },
   "openThreads": [
-    {
-      "text": "Treasury promised a major financial-institution designation 'by end of week' — still not landed as of Aug 27 night; Bessent now headed to G20 finance ministers in Asheville (Aug 31–Sep 1) with ~a dozen bilaterals planned; watch Fri Aug 28 and the G20 sessions.",
-      "since": "2026-08-24"
-    },
     {
       "text": "Upcoming Xi–Trump meeting complicates secondary-sanctions action against Chinese banks. Updated Aug 27: Trump coy in the Oval Office — 'Who said I'm not? You don't know if I'm doing it' — but no major Chinese financial institution has been listed.",
       "since": "2026-08-24"
@@ -32,10 +28,6 @@
     },
     {
       "text": "Tanker strikes in the strait: Monday's Ash Shishah vessel (UKMTO 120-26) was Liberian-flagged per Fox — name still unconfirmed. Week's second strike: a Kuwaiti-connected tanker hit Wednesday, UKMTO warning Thursday, fire extinguished, crew safe, may need tow (TradeWinds); Kuwait separately told the IMO a KPC supertanker was struck earlier in August. No attribution and no Iranian claim or denial on either; watch tow/salvage status and UKMTO follow-ups.",
-      "since": "2026-08-25"
-    },
-    {
-      "text": "Verify CENTCOM blockade tally: Crypto Briefing reports 71 vessels diverted vs carried 70 — confirm against the next CENTCOM release.",
       "since": "2026-08-25"
     },
     {
@@ -65,6 +57,18 @@
     {
       "text": "DOJ reviving maritime prize courts to condemn and sell vessels/cargo seized enforcing the blockade, proceeds to Treasury (Bloomberg via Fox Business; SD Tex US Attorney Reitz) — watch for the first condemnation filings and expected owner legal challenges.",
       "since": "2026-08-27"
+    },
+    {
+      "text": "FinCEN's Banque Misr UAE special measure is an NPRM (UAE-branch scope only; Egyptian parent untouched) — watch for finalization and for Egyptian/UAE central-bank and Banque Misr responses to the proposed correspondent-account cutoff.",
+      "since": "2026-08-28"
+    },
+    {
+      "text": "US–Venezuela oil deal implementation: 17 fields, >65B barrels in associated reserves, 55% effective US output share, 100-year rights, ~$100B promised private investment — watch SPR replenishment purchases, the reported Venezuela OPEC exit, and legal/constitutional challenges (Democrats opposed).",
+      "since": "2026-08-28"
+    },
+    {
+      "text": "US strike resumption: stage-2 feed headlines (JNS/NYT/Huffpost, dated Aug 30 — outside the Aug 28 window) show strikes on Iranian rocket launchers/island beginning Aug 30 and call it the end of a 'weeks-long lull' — pause held through Aug 28–29 (streak 29+); confirm against the next day report.",
+      "since": "2026-08-28"
     }
   ]
 }
