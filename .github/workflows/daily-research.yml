@@ -28,7 +28,7 @@ on:
       model:
         description: "Model for the agent run (provider/model-id, e.g. opencode/claude-sonnet-5)."
         required: false
-        default: "openrouter/stealth/ox-alpha"
+        default: "openrouter/z-ai/glm-5.3-flash"
         type: string
       publish_only:
         description: "Skip research; open/update the PR from the existing branch."
