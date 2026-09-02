@@ -68,7 +68,10 @@ export default async function DayPage({ params }: { params: Promise<Params> }) {
       <section className="report">
         <div className="report-crumbs">
           <Link href="/">← CAMPAIGN TIMELINE</Link>
-          <span>{phase ? `PHASE ${phase.number} · ${phase.title}` : "UNPHASED"}</span>
+          <span className="report-crumbs-right">
+            <span>{phase ? `PHASE ${phase.number} · ${phase.title}` : "UNPHASED"}</span>
+            <Link href={`/research/${date}`} className="pow-link">PROOF OF WORK ↗</Link>
+          </span>
         </div>
 
         <article className={`day-card single ${day.tempo}`}>
