@@ -1,0 +1,160 @@
+{
+  "date": "2026-08-30",
+  "night": "NIGHT 01",
+  "theme": "The lull breaks at Larak",
+  "tempo": "high",
+  "us": "CENTCOM strikes 2 Larak launchers: 'limited, precise action' · Trump: Kharg 'going to be blown to smithereens!' · Bessent: new sanctions weekly, banks first · George Washington CSG on station",
+  "effects": "Jordan intercepts 8 Iranian missiles · Brent $90.32, +2.5% · Ledger 83 redirected / 3 disabled / 2 boarded · TankerTrackers: 6.7M bpd past blockade line",
+  "iran": "IRGC missile + drone attack on 2 US bases in Jordan · NIOC: Kharg 'calm and appropriate' · Azizi: 'Retaliation is coming… JUST RUN!' · Khamenei: confront the 'real enemy'",
+  "tldr": "The month-long lull broke in both directions: US forces struck two IRGC rocket launchers on Larak Island — the first acknowledged American strike inside Iran since late July — after surveillance spotted crews preparing to fire mine-carrying rockets into the freshly demined strait, and Iran answered the same day with ballistic missiles and drones on two US air bases in Jordan, where Jordan intercepted 8 missiles and US officials reported no significant impacts despite IRGC 'heavy damage' claims. Trump escalated rhetorically to Kharg Island ('going to be blown to smithereens!'), oil jumped back above $90, and CENTCOM's blockade ledger ticked to 83 redirected / 3 disabled / 2 boarded — while a third tanker strike in a week, off Khasab, again drew no attribution.",
+  "events": [
+    {
+      "time": "afternoon",
+      "actor": "US",
+      "title": "US strikes two IRGC rocket launchers on Larak Island — first acknowledged strike inside Iran since late July",
+      "summary": "CENTCOM said US forces struck two Iranian rocket launchers on Larak Island, an Iranian-held island at the strait's eastern entrance, after IRGC forces were 'observed preparing to launch rockets with sea mines' into the Strait of Hormuz — a plan, per Fox's Trey Yingst, to redeploy mines into the strait days after CENTCOM declared its international lanes demined. CENTCOM called it 'limited, precise action against IRGC minelaying forces posing an imminent threat' and rejected Tehran's 'act of aggression' framing as false: 'Iran created the threat and the U.S. military eliminated it.' Iranian state media reported explosions near the island; the IRGC acknowledged 'the martyrdom and injury of several of our fighters and compatriots' with no precise toll — state media later named two dead (Hamid Avazzadeh, Ali Fayazi, per Crypto Briefing; single-outlet sourcing). Newsweek and AP date the last acknowledged US attack to July 29 (Task & Purpose says July 30): the first inside-Iran strike in roughly a month, ending the lull and beginning a new consecutive-strike campaign.",
+      "significance": 5,
+      "confidence": "high",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-news-trump-war-israel-hormuz-august-30",
+        "https://www.newsweek.com/us-forces-strike-iranian-military-as-sea-mines-headed-for-strait-of-hormuz-12385629",
+        "https://www.cnbc.com/2026/08/31/oil-prices-hormuz-iran-larak-island-centcom.html",
+        "https://abc45.com/news/nation-world/us-forces-strike-iranian-rocket-launchers-on-strait-of-hormuz-iran-vows-retaliation-sea-mines-international-us-central-command-military-action-war-revolutionary-guard-corps"
+      ]
+    },
+    {
+      "time": "overnight",
+      "actor": "Iran",
+      "title": "IRGC retaliates same day: combined ballistic-missile and drone attack on two US air bases in Jordan",
+      "summary": "The IRGC said it struck 'technical and maintenance infrastructure and the locations where enemy fighter jets are stationed' at two US air bases in Jordan — named by Iranian media as King Hussein and Al-Azraq — in response to 'the US-Israeli enemy's attack on Larak Island,' claiming 'heavy damage' that US officials flatly contradicted: a US source told Fox nearly all incoming missiles were intercepted with no significant impacts. Jordan's Armed Forces confirmed intercepting eight missiles that entered its airspace (Reuters, citing state TV), with local media reporting explosions near Aqaba. Iran's foreign ministry said the bases had been used to launch and support the Larak strike. The IRGC also claimed to have downed a US MQ-9 drone over the strait — unconfirmed by any second source. Timing note: Jordan's announcement is dated Monday local time; Fox and Jordan state TV place the attacks on Sunday UTC.",
+      "significance": 5,
+      "confidence": "high",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-news-trump-war-israel-hormuz-august-30",
+        "https://www.yahoo.com/news/world/articles/explosions-heard-jordan-iran-fires-010658954.html",
+        "https://thehill.com/policy/international/6060457-iran-retaliation-jordan-uae-us-strikes-resume/"
+      ]
+    },
+    {
+      "time": "evening",
+      "actor": "US",
+      "title": "Trump turns his threat on Kharg: 'going to be blown to smithereens!'",
+      "summary": "In a late-Sunday Truth Social post (UTC-straddling into Aug 31), Trump threatened Kharg Island — the terminal handling around 90% of Iran's crude exports, roughly 410 miles from Larak — with destruction; outlets differ on the exact wording (CNBC renders 'going to be blown to smithereens!', The Hill 'been blown to smithereens!!!'). National Iranian Oil Company CEO Hamid Bovard answered on social media that conditions on Kharg were 'calm and appropriate' and 'Trump's tweets are laughable' (Reuters). No strike on Kharg occurred; the threat extends the administration's maximum-pressure frame onto Iran's main oil export terminal.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": [
+        "https://www.cnbc.com/2026/08/31/oil-prices-hormuz-iran-larak-island-centcom.html",
+        "https://thehill.com/policy/international/6060457-iran-retaliation-jordan-uae-us-strikes-resume/"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Effects",
+      "title": "Brent back above $90 as the flare-up reprices supply risk",
+      "summary": "Brent climbed $2.22 (+2.52%) to $90.32 a barrel and WTI rose 2.41% to $85.41 in Sunday evening trading (Reuters, as of 2202 GMT), extending to +2.7%/$90.49 and +2.8%/$85.76 at Monday's close (CNBC) — the first sustained break above $90 since the strike pause began. PVM's Tamas Varga: 'supply risk will persist and oil inventories will continue to deplete'; Goldman flagged refining margins at new highs as regional refinery strikes stretch capacity. The move reverses the prior week's −5% drift and lands on the same day Trump threatened Kharg.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.cnbc.com/2026/08/31/oil-prices-hormuz-iran-larak-island-centcom.html",
+        "https://www.foxnews.com/live-news/iran-news-trump-war-israel-hormuz-august-30"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "CENTCOM blockade ledger: 83 redirected / 3 disabled / 2 boarded",
+      "summary": "CENTCOM's X post, edited 9:16 PM Aug 30: 'As of Aug. 30, CENTCOM forces have redirected 83 commercial vessels, disabled 3 and boarded 2 to ensure compliance with the blockade' — one redirected vessel added to Friday's 82/3/2, the first accounting since the blockade tally was refreshed Aug 28. Fox carried the post with an image of an MH-60S Sea Hawk landing aboard the destroyer USS Delbert D. Black in the Arabian Sea. The same post cycle reiterated that vessels to and from Iranian ports may proceed for humanitarian purposes only.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-news-trump-war-israel-hormuz-august-30"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Bessent pledges weekly sanctions 'starting with the banks' — and the world so far shrugs",
+      "summary": "Treasury Secretary Scott Bessent told Reuters the US will roll out new Iran sanctions weekly, beginning with banks helping Tehran reach the global financial system: 'You're going to see a lot more of these every week… we're telling the banks it's not okay to have Iranian money and to aid the regime' — with institutions potentially cut off entirely from the dollar system. The pledge landed ahead of the G20 finance meeting in Asheville, NC. Bloomberg's same-day takeaways measured the campaign's first week: countries with Tehran ties 'had so far shrugged off the threat,' China (buyer of ~90% of Iran's oil) answered with a defiant warning rather than retreat, and Iranian bank branches in Dubai — including a Bank Melli branch in Abu Dhabi — remained open for business. No new institution was designated Aug 30.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-news-trump-war-israel-hormuz-august-30",
+        "https://www.bloomberg.com/news/articles/2026-08-30/world-mostly-shrugs-off-bessent-s-d-day-iran-sanctions-threat"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran (attributed)",
+      "title": "Third tanker strike in a week confirmed: unknown projectile hits tanker 12nm north of Khasab",
+      "summary": "UKMTO WARNING 122-26, confirmed Sunday in a delayed report: a tanker transiting inbound was struck by an 'unknown projectile' at 8:53 PM UTC on Saturday Aug 29, 12 nautical miles north of Khasab, Oman — no casualties or environmental impact, investigation underway, and no attribution claimed by anyone. The incident date belongs to the missed Aug 29 reporting window; the week's ledger now reads Ash Shishah (Monday), a Kuwaiti-connected vessel (Wednesday) and Khasab (Saturday), still no names and no Iranian claim or denial on any. UKMTO added that IRGC harassment — drone overflights, targeted surveillance of merchant vessels, occasional radio transmissions — continues, with commercial traffic 'reduced, albeit with a slight increase compared with recent lows.'",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.yahoo.com/news/world/articles/tanker-attacked-strait-hormuz-off-184822724.html",
+        "https://www.foxnews.com/live-news/iran-news-trump-war-israel-hormuz-august-30"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Tehran's escalation ladder: 'Retaliation is coming… JUST RUN!'; Pezeshkian: 'we are not seeking war'",
+      "summary": "Parliament national-security commission chief Ebrahim Azizi (X, 9:02 PM Aug 30): 'Retesting our will, only makes the cost of your humiliating defeats even heavier… Test our will once more, and pay a heavier price. Retaliation is coming — JUST RUN!' IRGC spokesperson Hossein Mohebi called the Larak strike a 'strategic and fatal mistake' by Washington in its economic war, carrying 'militarily and economically' felt consequences. President Pezeshkian (per Fars, Monday-dated — UTC straddle) said Iran would 'not remain silent in the face of assault' while insisting 'we are not seeking war.' Supreme Leader Mojtaba Khamenei, in a rare written Islamic Unity Week statement, called on Gulf Arab states to identify and confront the 'real enemy' and unite 'under the flag of Islam.'",
+      "significance": 2,
+      "confidence": "high",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-news-trump-war-israel-hormuz-august-30",
+        "https://thehill.com/policy/international/6060457-iran-retaliation-jordan-uae-us-strikes-resume/"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "George Washington CSG on station; TankerTrackers counts 6.7M bpd crossing the blockade line",
+      "summary": "The carrier USS George Washington (CVN 73) has arrived in the Arabian Sea near the strait, replacing the USS Abraham Lincoln as CSG-5 flagship, accompanied by the cruiser USS Robert Smalls (CG 62) and destroyer USS Shoup (DDG 86); Rear Adm. Jeff Heames: the teams are 'ready, determined, and resourced for sustained operations.' TankerTrackers reported Sunday that crude exports crossing the US blockade line averaged 6.7 million barrels per day over the past seven full days, combining AIS with daily satellite imagery including AIS-offline tankers — a datapoint sitting between Kpler's low transit counts and traders' ~7–8M bpd estimates.",
+      "significance": 2,
+      "confidence": "high",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-news-trump-war-israel-hormuz-august-30"
+      ]
+    }
+  ],
+  "dossier": "STREAK RESET: confirmed US strikes inside Iran occurred Aug 30 (Larak Island launchers; CENTCOM on record, casualties confirmed by Iranian state media) — no-strikes streak RESET TO 0 in state.json; it had read 29 as of Aug 28 and would have hit its 30th on a quiet Aug 30. NIGHT 01 set: this is the start of a new consecutive-strike campaign (stage-2 next-day leads show further US strikes Sep 1, supporting the campaign reading). MIRROR PENDING: this run covers Stages 3–4 only; state.json (asOf 2026-08-28) not yet rewritten — Stage 5 must set asOf=2026-08-30, reset the counter to 0, bump the blockade ledger to 83/3/2, and prune the 'US strike resumption' open thread (RESOLVED: strikes began Aug 30). MISSED RUN FLAG: no 2026-08-29 day report exists on disk — flag prominently in SUMMARY.md when Stage 6 runs; do not silently render Aug 29 as an operational gap. Aug 29 catch-up found this run: Cooper's mine-clearance announcement (Aug 28 video, carried through Aug 29 — the rationale backdrop for Larak) and the Khasab tanker strike (UKMTO 122-26, 20:53 UTC Aug 29). Blockade ledger: 82→83 redirected (CENTCOM X 'as of Aug. 30', edited 9:16 PM Aug 30, via Fox; single official post — medium). Task & Purpose (Aug 28/29 catch-up) carried Cooper's interim 'turned around 75 ships' — superseded. Tanker thread update: Khasab is the week's third strike; no attribution, no names for any of the three; IRGC MQ-9 shootdown claim over the strait (JPost) is single-source and unconfirmed — logged here, not filed as an event. Casualty caveat: Avazzadeh/Fayazi names are Crypto Briefing (editorial team) citing state media; it also calls the strike a 'drone strike' — platform unconfirmed elsewhere (US officials say launchers struck). Timing caveats: Trump's Kharg Truth Social post is late Sunday ET → early Aug 31 UTC, wording differs CNBC vs Hill; Jordan's 8-intercept announcement dated Monday local (Fox/Jordan state TV date the attacks Sunday UTC); CENTCOM's 'act of aggression' rebuttal X post timestamped 12:57 AM Aug 31 but refers to Sunday's action; The Hill's UAE items (Al Minhad strike claim per Fars; UAE drone intercept over territorial waters; FM 'dangerous escalation') are Monday Aug 31 — excluded from Aug 30 events, hand to the next day report; Morung's 'Aug 19' Outcast-launch date conflicts with the corpus's Aug 24 launch — ignored. Blockade-effects context (i24/Reuters wrap, Sep 2-dated — dossier only, not an Aug 30 event): zero Iranian crude-to-China transits through Hormuz since the July 14 blockade restart (Kpler/Vortexa/TankerTrackers); August loads ~220–255k bpd vs ~740k July and ~2M March; Iranian crude in floating storage west of the line 41.7M bbl (Aug 26); total Iranian crude afloat 107M bbl, down from 135M; 27 sanctioned tankers idle off Sri Lanka, unable to return; IMF inflation ~70%. Other color: Trump 'Sunday Night in America' interview — nukes warning ('we would be next, or Europe'), blockade praise ('unbelievable'), 'a failing nation'; Israel's Energy Minister Cohen (Saturday): Israel will strike again if Iran rebuilds nuclear/missile programs even under a US deal; EIA diesel $5.65/gal (+~$2 y/y); World Gold Council central-bank survey. Thread status for Stage 5: Qatar mediation 'intensifying', no 'tangible result' (Morung Sep 1-dated); Pezeshkian–Putin Bishkek meeting happened Sep 1 (next day); NBC intel-damage report, Rezaei conditions list, DOJ prize courts, FinCEN Banque Misr finalization, US–Venezuela implementation: no Aug 30 movement found. Fetch notes: Bloomberg body paywalled (takeaways only, filed 09); CNN/NYT Aug 30 pages not fetched (paywall/404 risk); i24/Reuters piece is Sep 2-dated and used as context only.",
+  "sources": [
+    {
+      "title": "Fox News — US strikes Iranian missile launchers as Tehran retaliates, attacks American bases in Jordan (Aug 30 live)",
+      "url": "https://www.foxnews.com/live-news/iran-news-trump-war-israel-hormuz-august-30"
+    },
+    {
+      "title": "Newsweek — US Strikes Iranian Military as Sea Mines Approach Strait of Hormuz",
+      "url": "https://www.newsweek.com/us-forces-strike-iranian-military-as-sea-mines-headed-for-strait-of-hormuz-12385629"
+    },
+    {
+      "title": "The Jerusalem Post (via Yahoo News) — Iran fires missiles at US forces in Jordan, eight intercepted",
+      "url": "https://www.yahoo.com/news/world/articles/explosions-heard-jordan-iran-fires-010658954.html"
+    },
+    {
+      "title": "The Hill — Iran retaliates for US strike with attacks on Jordan, UAE",
+      "url": "https://thehill.com/policy/international/6060457-iran-retaliation-jordan-uae-us-strikes-resume/"
+    },
+    {
+      "title": "CNBC — Brent jumps above $90 after flare-up in U.S.-Iran hostilities",
+      "url": "https://www.cnbc.com/2026/08/31/oil-prices-hormuz-iran-larak-island-centcom.html"
+    },
+    {
+      "title": "Bloomberg — World Mostly Shrugs Off Bessent's Iran Sanctions Warnings",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-30/world-mostly-shrugs-off-bessent-s-d-day-iran-sanctions-threat"
+    },
+    {
+      "title": "dpa (via Yahoo News) — Tanker attacked in Strait of Hormuz off Omani coast",
+      "url": "https://www.yahoo.com/news/world/articles/tanker-attacked-strait-hormuz-off-184822724.html"
+    },
+    {
+      "title": "ABC45/TNND (Sinclair) — US forces strike Iranian rocket launchers on Strait of Hormuz; Iran vows retaliation",
+      "url": "https://abc45.com/news/nation-world/us-forces-strike-iranian-rocket-launchers-on-strait-of-hormuz-iran-vows-retaliation-sea-mines-international-us-central-command-military-action-war-revolutionary-guard-corps"
+    },
+    {
+      "title": "Crypto Briefing — Iran's state media identifies second casualty in US strike on Larak Island",
+      "url": "https://cryptobriefing.com/iran-larak-island-us-strike-casualties-identified/"
+    }
+  ]
+}
