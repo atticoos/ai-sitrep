@@ -1,21 +1,21 @@
 {
-  "updated": "2026-09-02T15:31:56Z",
+  "updated": "2026-09-02T18:38:00Z",
   "notes": "Continuity ledger for the daily research workflow (spec/RESEARCH_BRIEF.md). The agent reads this before researching and updates it after filing the day report. Hand-correctable at any time — this file wins over prose in dossiers.",
-  "asOf": "2026-08-29",
+  "asOf": "2026-08-30",
   "counters": {
-    "nightsWithoutConfirmedStrikesInIran": 30,
+    "nightsWithoutConfirmedStrikesInIran": 0,
     "cumulativeTargetsStruck": "300+",
-    "cumulativeTargetsNote": "Last quantified by CENTCOM Jul 11; treat as floor, only raise with a new official cumulative figure."
+    "cumulativeTargetsNote": "Last quantified by CENTCOM Jul 11; treat as floor, only raise with a new official cumulative figure. No-strikes streak of 30 ended Aug 30 with confirmed US strikes on Larak Island — counter reset to 0; rebuild from there unless further strikes extend a consecutive campaign (NIGHT counting)."
   },
   "blockadeLedger": {
-    "note": "CENTCOM maritime interdiction accounting, carried in dossiers since the pause.",
-    "redirected": 82,
+    "note": "CENTCOM maritime interdiction accounting, carried in dossiers since the pause. Aug 30 accounting via CENTCOM X post ('as of Aug. 30', 9:16 PM ET), corroborated verbatim by gCaptain. The Peninsula's 84 (Sep 1) remains post-window.",
+    "redirected": 83,
     "disabled": 3,
     "boarded": 2
   },
   "openThreads": [
     {
-      "text": "Upcoming Xi–Trump meeting complicates secondary-sanctions action against Chinese banks. Updated Aug 27: Trump coy in the Oval Office — 'Who said I'm not? You don't know if I'm doing it' — but no major Chinese financial institution has been listed.",
+      "text": "Upcoming Xi–Trump meeting complicates secondary-sanctions action against Chinese banks. Updated Aug 27: Trump coy in the Oval Office — 'Who said I'm not? You don't know if I'm doing it' — but no major Chinese financial institution has been listed. Updated Aug 30: Bessent pushed back on China-bank critics — the blockade has already curbed most of China's Iran oil purchases and Iranian oil in floating storage is dwindling ('Problem solved'); still no Chinese institution listed, and the new weekly bank-first sanctions cadence keeps the question live.",
       "since": "2026-08-24"
     },
     {
@@ -27,7 +27,7 @@
       "since": "2026-08-24"
     },
     {
-      "text": "Tanker strikes in the strait: week's third commercial-vessel strike — Saturday Aug 29 an unknown projectile hit a tanker 12nm north of al-Khasab, Oman (no injuries or environmental damage; UKMTO warning issued late Sunday — delayed reporting; no attribution, no Iranian claim or denial). Prior items: Monday's Ash Shishah vessel name still unconfirmed (UKMTO 120-26, Liberian-flagged per Fox); Kuwaiti-connected tanker's tow/salvage status unchanged; Kuwait separately told the IMO a KPC supertanker was struck earlier in August. UKMTO Aug 29: strait risk SEVERE, traffic 'significantly reduced,' operators favouring the Northern route, continuing IRGC harassment (drone overflights, targeted surveillance of merchant vessels, radio transmissions). Watch attribution, tow/salvage status, and UKMTO follow-ups.",
+      "text": "Tanker strikes in the strait: week's third commercial-vessel strike — Saturday Aug 29 an unknown projectile hit a tanker 12nm north of al-Khasab, Oman (no injuries or environmental damage; UKMTO warning issued late Sunday — delayed reporting; no attribution, no Iranian claim or denial). Prior items: Monday's Ash Shishah vessel name still unconfirmed (UKMTO 120-26, Liberian-flagged per Fox); Kuwaiti-connected tanker's tow/salvage status unchanged; Kuwait separately told the IMO a KPC supertanker was struck earlier in August. UKMTO Aug 29: strait risk SEVERE, traffic 'significantly reduced,' operators favouring the Northern route, continuing IRGC harassment (drone overflights, targeted surveillance of merchant vessels, radio transmissions). Watch attribution, tow/salvage status, and UKMTO follow-ups. Updated Aug 30: UKMTO WARNING 122-26 (issued Sunday, 4:22 PM) formalizes the Saturday strike — 'unknown projectile' while inbound 12nm north of Khasab, no casualties or environmental impact, investigation underway, third UKMTO-reported attack in a week; still no attribution and no tow/salvage update.",
       "since": "2026-08-25"
     },
     {
@@ -47,7 +47,7 @@
       "since": "2026-08-26"
     },
     {
-      "text": "Southern-route friction: no new enforcement incident Aug 27; Cooper reports mines cleared, international lanes open, 'momentum building' (~1,500 vessels assisted, ~750M barrels protected) while Kpler counted only 5 transits vs traders' ~7–8M bpd exiting (dark/shuttle trade gap); prior items — Iranian warship deterring HAANA from the southern 'Oman corridor', Saudi STS supertankers off Oman, Trump's 'immediately and systematically destroyed' warning to new mine-layers — remain watch items; track enforcement incidents and corridor usage.",
+      "text": "Southern-route friction: no new enforcement incident Aug 27; Cooper reports mines cleared, international lanes open, 'momentum building' (~1,500 vessels assisted, ~750M barrels protected) while Kpler counted only 5 transits vs traders' ~7–8M bpd exiting (dark/shuttle trade gap); prior items — Iranian warship deterring HAANA from the southern 'Oman corridor', Saudi STS supertankers off Oman, Trump's 'immediately and systematically destroyed' warning to new mine-layers — remain watch items; track enforcement incidents and corridor usage. Updated Aug 30: Kpler counted 5 visible transits/day over the weekend (Friday 14 incl. a dark VLCC laden with 2M bbl Qatari crude); TankerTrackers averaged ~6.7M bpd crude passing the blockade line over the past 7 days (single tracker, AIS + satellite); the Larak strike followed US intel that the IRGC was preparing to fire mine-carrying rockets into the strait, days after CENTCOM's mine clearance; INTERTANKO 'not sufficient' warning lands Sep 1.",
       "since": "2026-08-26"
     },
     {
@@ -63,12 +63,28 @@
       "since": "2026-08-28"
     },
     {
-      "text": "US–Venezuela oil deal implementation: 17 fields, >65B barrels in associated reserves, 55% effective US output share, 100-year rights, ~$100B promised private investment — watch SPR replenishment purchases, the reported Venezuela OPEC exit, and legal/constitutional challenges (Democrats opposed).",
+      "text": "US–Venezuela oil deal implementation: 17 fields, >65B barrels in associated reserves, 55% effective US output share, 100-year rights, ~$100B promised private investment — watch SPR replenishment purchases, the reported Venezuela OPEC exit, and legal/constitutional challenges (Democrats opposed). Updated Aug 30: Trump said SPR 'topping out' with oil secured under the deal 'will begin shortly' — 'Gift from Venezuela to the People of the United States'; reserve ~290M bbl as of Aug 21 (near 44-year low, fell ~3.1M bbl the prior week); delivery timing and pump relief unclear.",
       "since": "2026-08-28"
     },
     {
-      "text": "US strike resumption: pause held through Aug 28–29 (streak 30). Post-window reporting (Aug 30): US struck two IRGC rocket launchers on Larak Island — CENTCOM calls it 'limited,' first US military action since Jul 29; Iran retaliated, state TV showing ballistic-missile fire at US bases in Jordan (8 intercepted early Monday); IRGC Gen. Hossein Mohebi: 'fatal mistake… during the economic war.' Aug 30 run: reset the no-strikes streak to 0, set `night` if a consecutive-strike campaign is beginning, and file the strikes/retaliation as Aug 30 events (proof corpus: data/research/2026-08-29/06-ap-first-action-month.md, 07-nbc-first-strikes-since-july.md, 08-ap-markets-first-action.md).",
-      "since": "2026-08-29"
+      "text": "US–Iran exchange follow-up: post-window Monday quotes — Trump 'We're going to hit them hard… There will be a response'; a senior Iranian source called the overnight exchange a 'limited and contained confrontation'. Watch for US follow-up strikes inside Iran: if more come, NIGHT 02+ counts; if none, the no-strikes streak rebuilds from 0.",
+      "since": "2026-08-30"
+    },
+    {
+      "text": "Retaliation-wave scope: post-window Monday reporting (The Hill, IJR) says Iran's attacks widened beyond Jordan to the UAE — watch scope, casualties, and US/Jordan/UAE responses.",
+      "since": "2026-08-30"
+    },
+    {
+      "text": "IRGC supertanker-mines claim in the southern strait (Iranian state TV; US military denied) — timing unclear, likely overnight Sun→Mon; watch for vessel name, UKMTO confirmation, and US detail.",
+      "since": "2026-08-30"
+    },
+    {
+      "text": "Weekly secondary-sanctions cadence: Bessent — 'You're going to see a lot more of these every week', banks first, with possible escalation to cutting an institution off entirely from the dollar system ('There can be no leakage'); first package of the new rhythm expected week of Aug 31; G20 Asheville finance meeting Aug 31–Sep 1.",
+      "since": "2026-08-30"
+    },
+    {
+      "text": "Larak casualty figures — 3 killed per Tasnim, two IRGC Navy per Nournews — Iranian-side only; watch for independent tolls or official confirmation.",
+      "since": "2026-08-30"
     }
   ]
 }
