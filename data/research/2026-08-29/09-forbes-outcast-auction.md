@@ -1,0 +1,39 @@
+---
+url: https://www.forbes.com/sites/guneyyildiz/2026/08/30/iran-sanctions-operation-economic-outcast-auctions-dollar-access/
+outlet: Forbes (Güney Yıldız, contributor)
+title: Iran Sanctions: Operation Economic Outcast Auctions Dollar Access
+accessed: 2026-09-02T15:38:00Z
+published: Aug 30, 2026, 06:20pm EDT (post-window analysis of the Aug 28 Banque Misr action; Bing indexed a version Sat Aug 29 21:00 UTC — timestamp tension noted)
+---
+
+Summary: The U.S. Treasury has proposed severing Banque Misr's UAE operation from the dollar system, alleging it processed $1.8 billion for Iranian shadow networks. This action initiates "Operation Economic Outcast," a new sanctions campaign targeting Iran. The strategy focuses on replaceable financial nodes, offering a "remedy window" for countries to comply before broader secondary sanctions. Additionally, paying Iran's Strait of Hormuz tolls now carries sanctions risk. This move aims to compel third-country compliance by leveraging dollar system access. Iran has responded with legal and rhetorical appeals. Future targets will indicate if the U.S. continues with smaller entities or escalates to major players like Chinese banks.
+
+On Friday, the U.S. Treasury proposed a rule that would cut a foreign operation of Egypt's second-largest bank off from the U.S. dollar system. Between January 2024 and June 2026, Treasury estimates (home.treasury.gov/news/press-releases/sb0617), the targeted Banque Misr operation processed around $1.8 billion for 103 companies that it says are potentially part of Iranian shadow banking networks. The public comment period on the proposed rule runs 30 days from its publication in the Federal Register. That publication had not appeared by Sunday.
+
+This is the first bank-facing action of Operation Economic Outcast, the sanctions campaign Treasury Secretary Scott Bessent announced on 24 August with D-Day language and a promise to "sever every economic lifeline" sustaining Tehran. The target list explains the strategy better than the rhetoric does. China, which Bessent noted has historically bought around 90% of Iran's oil, has so far faced rhetoric and diplomacy; the president is making phone calls to world leaders with specific requests to sever dealings with Tehran. An Egyptian state bank received a proposed rule.
+
+Three design choices sit underneath the announcement. The remedy window: every country gets what Bessent called an opportunity to remedy bad behavior before secondary sanctions arrive, with what officials describe as a defined timeline per country. The ordered queue: the first designations run through the most replaceable nodes in the network — a branch manager in Dubai, a front company in Hong Kong, a correspondent account in a mid-tier financial center — rather than through the largest buyers of Iranian crude. The toll counter-price: new guidance makes even engagement with Iran's Strait of Hormuz toll collectors a sanctions risk, which puts a dollar price on the strait's new permission economy.
+
+## D-Day Rhetoric, Incremental Law
+
+The legal content of the operation is more conventional than its branding. OFAC suspended five general licenses covering personal remittances, academic exchanges, conferences and sports, with a wind-down period that ends 8 September. It designated nearly 60 entities, individuals and vessels, and it added five sectors of the Iranian economy — digital assets, technology, gold, aviation and shipping — to the list where secondary sanctions can apply. Davis Polk's client note describes the package as continuing bombardment rather than storming the beaches, built from existing authorities. Alan Eyre, a former U.S. diplomat who negotiated on Iran's nuclear file, told NPR the United States has already targeted "the low-hanging fruit, the mid-hanging fruit, the high-hanging fruit, the tree."
+
+By Tehran's own account there is little left to sever. Iran's central bank says oil exports have stopped. Official inflation is near 90%, the rial has passed 2 million to the dollar, and the IMF has this year put the contraction in a range of about 5 to 6 percent, per Anadolu's explainer and the Fund's later wartime update.
+
+The mechanics resemble an auction more than a blockade. What is being sold is continued access to the dollar system. The bids are visible acts of compliance, made in public, against a clock.
+
+Banque Misr is the demonstration lot, and the scoping is surgical: the proposed rule applies only to the bank's UAE operations, not to its business in Egypt or anywhere else. The bank has already called the notice a proposal, limited to that unit, and said it is still serving customers. Cairo and the host supervisor have said the branches are conducting business as usual (thenationalnews.com/news/uae/2026/08/30/banque-misr-branches-in-emirates-conducting-business-as-usual-uae-and-egypt-regulators-say/). That is a bid. They are answering in public, inside the window, before any final rule exists. Alongside the notice, OFAC designated the general manager of Bank Melli's Dubai branch and Kameng Trading Limited, a Hong Kong front that laundered funds for a sanctioned Iranian exchange house. When a reporter asked whether Chinese banks could face the measures, Bessent answered that "no one is above the reach of U.S. sanctions," and in the same week declined to set any timeline for secondary sanctions on China, asking why he would want to blow up the global financial system. A Trump-Xi meeting is listed for 24 September, which is a simpler calendar explanation for that delay than replaceability alone.
+
+## Hormuz Now Carries Two Price Tags
+
+On 24 August, OFAC updated its guidance on Iran's Hormuz toll regime: U.S. and non-U.S. persons risk penalties for paying designated Iranian entities for safe passage, or even for responding to their information requests, where no payment changes hands at all. The fee-and-permission regime that has replaced free transit in the strait now has an American counter-price. A shipowner who pays Tehran risks Washington; a shipowner who refuses risks Tehran.
+
+Chinese refiners, facing scarcer Iranian offers, have been switching toward Brazilian and Iraqi grades. Iraq's route north just became more valuable: Baghdad and Ankara signed a one-year interim arrangement on 1 August reserving up to 750,000 barrels per day through Kirkuk-Ceyhan, while Turkey's state oil company took a 15% stake in the BP-led Kirkuk consortium (per Bloomberg's reporting via gcaptain). Turkey's 25-year gas import contract with Iran expired at the end of July, with no successor long-term deal announced.
+
+## Tehran's Answer Is A Courtroom
+
+Iran's response so far has been legal and rhetorical. Foreign Minister Abbas Araghchi has written to the UN Secretary-General, the Security Council president and member states demanding condemnation of what he calls economic terrorism, and asked governments not to join the campaign (chinadaily.com.cn, Aug 28). Mohsen Rezaei, now a military adviser to the Supreme Leader, warned that in a new war "not even a single drop of oil will leave the region," a threat that has not become a sustained cutoff of Gulf loadings. President Trump, for his part, told Al Jazeera he is "not in a hurry" to negotiate.
+
+Charbel A. Antoun, writing in The Hill (thehill.com/opinion/international/6056167-trump-besent-iran-sanctions/), argues that an economic D-Day "needs an off-ramp, not just a noose."
+
+Watch the dockets. The Banque Misr comment clock starts when the proposed rule is published in the Federal Register, and then runs 30 days. The identity of the second institution to receive a notice will say whether the queue keeps running through replaceable nodes or reaches for something harder to substitute. And any designation touching a Chinese buyer would mark the moment the auction stops being quiet.
