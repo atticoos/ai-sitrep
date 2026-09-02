@@ -1,0 +1,139 @@
+{
+  "date": "2026-08-28",
+  "theme": "'Find out the hard way'",
+  "tempo": "medium",
+  "us": "Bessent: 'first step in holding it accountable' · FinCEN moves to cut Banque Misr UAE from US banking · Bank Melli Dubai manager, HK trader sanctioned · Trump: 'That sucker is open' · Venezuela 'biggest oil deal'",
+  "effects": "82 redirected / 3 disabled / 2 boarded · First tally since Aug 21 · Brent $89.31, week −5% · Kpler: 7 transits vs 15 avg · Gas $4.09/gal",
+  "iran": "IRGC Navy: 'decisive control', strait 'completely closed' · Rejects US 'open' claims as lies · Sanctions an 'inhumane and hostile act'",
+  "tldr": "Treasury delivered the promised 'end of week' financial-institution blow: FinCEN proposed cutting Banque Misr UAE out of the US banking system over ~$1.8B processed for alleged Iranian shadow-banking networks, while OFAC sanctioned Bank Melli's Dubai branch manager and a Hong Kong trading house — with no Chinese institution touched. CENTCOM's first blockade accounting since Aug 21 lifted the ledger to 82 redirected / 3 disabled / 2 boarded, and the day split over the strait itself: Trump's 'That sucker is open' against the IRGC Navy's 'decisive control' and 'completely closed.' Oil settled lower (Brent $89.31, −5%+ on the week) as the war passed its six-month mark and Trump announced a US–Venezuela oil deal pitched as the 'biggest in world history.'",
+  "events": [
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Treasury's first Outcast bank move: FinCEN targets Banque Misr UAE; Bank Melli Dubai manager sanctioned",
+      "summary": "Treasury's FinCEN issued a notice of proposed rulemaking to prohibit US financial institutions from maintaining correspondent accounts for Banque Misr UAE — proposed, not final, and scoped to the UAE branches, not the Egyptian parent. Treasury says the bank processed ~$1.8B between January 2024 and June 2026 for 103 companies potentially part of Iranian shadow-banking networks, including apparent front companies for Iran's Defense Ministry and the IRGC, some allegedly laundering for Supreme Leader Mojtaba Khamenei — all Treasury allegations. Bessent: 'Banque Misr UAE decided to find out the hard way, and today, we are taking the first step in holding it accountable for its continued, egregious support of the Iranian regime.' OFAC separately sanctioned Reza Mohammad Taeedi, general manager of Bank Melli's Dubai branch (Treasury: Bank Melli facilitated billions through IRGC-Qods Force-controlled accounts), and Hong Kong's Kameng Trading Limited for helping a sanctioned Iranian exchange house launder money. The package makes good on Bessent's Monday promise of a financial-institution action 'by the end of this week'; State's Pigott: 'Operation Economic Outcast continues in full force.' No Chinese financial institution was touched.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": [
+        "https://www.jns.org/news/u-s-news/us-sanctions-bank-melli-official-targets-uae-bank-over-iran-ties",
+        "https://www.moneycontrol.com/world/us-targets-banque-misrs-uae-operations-in-fresh-move-to-cut-irans-financial-lifelines-article-14017808.html",
+        "https://www.arabtimesonline.com/news/us-targets-egypts-banque-misr-in-uae-over-iran-support-moves-to-cut-bank-off-from-us-system/"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "CENTCOM tally jumps to 82 redirected / 3 disabled / 2 boarded — first accounting since Aug 21",
+      "summary": "CENTCOM's Friday X-post, carried by QNA via The Peninsula, put the maritime interdiction ledger at 82 commercial vessels redirected, three disabled and two boarded 'as of August 28' — a jump of 12 redirected from the Aug 21 release that showed 70/3/2. CENTCOM also said Thursday that vessels traveling to and from Iranian ports may proceed for humanitarian purposes only, and that none would enter or leave an Iranian port without US authorization. Interim figures circulating during the week (71, then 75 diverted) were not CENTCOM's official accounting; the carried 70/3/2 ledger is now replaced by 82/3/2.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": [
+        "https://thepeninsulaqatar.com/article/29/08/2026/centcom-82-vessels-redirected-three-disabled-to-enforce-us-blockade-on-iran",
+        "https://cryptobriefing.com/iran-oil-exports-near-zero-us-sanctions/"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Trump: 'That sucker is open'; Cooper details mine-clearance 'major milestone'",
+      "summary": "In a Thursday Axios phone interview carried Friday, Trump declared the strait effectively open and Iran's leverage spent: 'That sucker is open. The Iranian response is very mild. They don't want us to go back at them. That's the whole ball game' — and per reporting alongside the interview, he is not interested in returning to the pre-war deal's terms. CENTCOM's Cooper called cleared international shipping lanes a 'major milestone' — US forces removed 200+ mine-like objects from the main lane, only 11 confirmed as actual mines — while Bloomberg reported internal assessments suggest an estimated 80–150 mines were laid and may not all be cleared, which US officials reject as outdated figures. US officials estimate 20–30 tankers transit the southern channel nightly carrying ~9–10M bpd (~half pre-war levels), with a target of ≥50 ships a night by mid-September and restoration of 60–70% of pre-war exports.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.moneycontrol.com/world/that-sucker-is-open-trump-says-iran-has-lost-leverage-over-strait-of-hormuz-article-14017776.html",
+        "https://www.cnbc.com/2026/08/28/oil-on-track-for-weekly-loss-even-as-iran-tensions-simmer.html"
+      ]
+    },
+    {
+      "time": "evening",
+      "actor": "Iran",
+      "title": "IRGC Navy: 'decisive control' over Hormuz; strait 'completely closed' without Iran coordination",
+      "summary": "In a statement, the IRGC Navy said the strait is completely closed to all ships seeking passage without coordination with Iran and will stay closed until 'the mischief of the terrorist American army' ends and its obligations are implemented — rejecting US claims the waterway is open as 'lies intended to control oil prices and mask American failures,' and assuring Iranians of 'full and powerful control.' The statement directly contradicts the same day's Trump and Cooper claims. Timing note: Mehr's full-text page is stamped Aug 29, 07:14 Tehran time (03:44 UTC), but Al Jazeera's Friday Aug 28 UTC live page carried the statement, placing it on the Aug 28 UTC day.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": [
+        "https://en.mehrnews.com/news/247292/IRGC-has-full-control-over-Strait-of-Hormuz-Statement"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Trump hails US–Venezuela 'biggest oil deal in world history'",
+      "summary": "On Truth Social, Trump announced a US–Venezuela agreement covering 17 strategic oil fields — mainly in the Orinoco Belt and Lake Maracaibo — and reserves of more than 65 billion barrels: a new private company in which the US holds a 55% effective output share, 100-year development rights, ~$100B in promised private investment and a claimed $209B in Venezuelan tax revenue; negotiated by Rubio and Hegseth with interim President Delcy Rodriguez. Oil purchased under the deal would help replenish the Strategic Petroleum Reserve and cover military needs — pitched against the war's fuel-price backdrop (AAA: ~$4.09/gal Friday vs $3.21 a year earlier). Analysts question whether the arrangement complies with Venezuelan law, and Bloomberg reported Venezuela may leave OPEC.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.moneycontrol.com/world/trump-hails-biggest-oil-deal-with-venezuela-us-to-gain-control-over-65-billion-barrels-article-14018111.html",
+        "https://www.cnbc.com/2026/08/28/oil-on-track-for-weekly-loss-even-as-iran-tensions-simmer.html"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Effects",
+      "title": "Brent settles $89.31, −5%+ on the week; counted transits stay marginal as flows recover",
+      "summary": "Brent fell 39 cents to settle at $89.31 and WTI 13 cents to $83.40, ending the week lower (Brent down more than 5%, WTI ~4%) as DBS said risk premiums are declining on the US pivot to sanctions and the Oman–Iran corridor talks. Kpler's preliminary Friday data counted 7 commodity vessels transiting the strait Thursday (vs 17 a day earlier, 10-day average 15); Windward counted 6 tankers, 3 in dark mode; Bab el-Mandeb saw 17 commodity vessels (11 exiting, 6 entering). Yet traders told Bloomberg 6–8M bpd is exiting the strait, and Goldman estimated total Gulf exports at 15–16M bpd — 7–8M below pre-war but 5–6M above March's low, roughly two-thirds of pre-war flows.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.cnbc.com/2026/08/28/oil-on-track-for-weekly-loss-even-as-iran-tensions-simmer.html",
+        "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Slumps-Even-as-Gulf-Oil-Flows-Rise.html",
+        "https://www.moneycontrol.com/world/that-sucker-is-open-trump-says-iran-has-lost-leverage-over-strait-of-hormuz-article-14017776.html"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Effects",
+      "title": "Six months of war: scorecard tallies a stalemated map",
+      "summary": "Al Jazeera's six-month feature estimates 8,000–10,000 deaths and tens of thousands of injuries, notes Tehran still holds ~440kg of highly enriched uranium, that Mojtaba Khamenei has retained his father's leadership structure, that the US controls no Iranian territory (Kharg was never seized), and that the Houthi 'blockade for blockade' against Saudi Arabia persists at Bab el-Mandeb. NPR's same-day reporting describes economic exhaustion and an intensifying wave of state repression inside Iran. ANU's Alam Saleh: 'Killing leaders does not mean strategic achievements, even if it's a tactical success.'",
+      "significance": 2,
+      "confidence": "high",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/8/28/after-six-months-of-war-what-have-us-iran-gained-and-lost",
+        "https://www.npr.org/2026/08/28/nx-s1-5948128/life-in-iran-after-six-months-of-war"
+      ]
+    }
+  ],
+  "dossier": "Night count: 29th consecutive without confirmed strikes inside Iran. Corroborating: no confirmed-strike reporting anywhere in the corpus or feeds; stage-2 feed headlines (JNS/NYT/Huffpost, Aug 30 — outside this window) show US strikes resume Aug 30 and describe that exchange as ending a 'weeks-long lull,' implying the pause held through Aug 28–29. Blockade ledger REPLACED with CENTCOM's Friday X-post accounting 'as of August 28': 82 redirected / 3 disabled / 2 boarded (QNA via The Peninsula; first release since Aug 21's 70/3/2, +12 redirected) — this retroactively resolves the 71-vs-70 verification thread: Crypto Briefing's interim 71 (Aug 24) and 75 (Aug 28) figures were not CENTCOM's; a Sep 1 follow-up reports 84 (outside window). Mirror into state.json. Cumulative targets struck: unchanged '300+'. Timing caveats: IRGC Navy statement — Mehr full text stamped Aug 29 07:14 Tehran (03:44 UTC) but carried on Al Jazeera's Friday Aug 28 UTC live page; filed as Aug 28 UTC evening. Trump's Axios phone interview was Thursday (UTC-straddling), carried as Friday's framing (Moneycontrol published Fri 19:20 IST). Venezuela deal announced Friday on Truth Social; Moneycontrol's write-up published Aug 29 16:02 IST. CNBC's weekly wrap published Thu 10:05 PM EDT / updated Sat — settle figures are Friday Aug 28's. Fetch limitations: no CNN Aug 28 live page (URL guess 404'd — do not cite CNN for this day); Politico, USNI News and NYT blocked (403/Cloudflare via curl and webfetch); Al Jazeera's Aug 28 liveblog body is JS-gated (headline-only; used for day scope and to date the IRGC statement, not filed as a corpus article); MSN syndications are JS shells. Kpler revision note: Thursday's transit count printed as 5 in Thursday-early preliminary data (filed in the Aug 27 report, data as of 02:25 GMT) and revised to 7 in Friday's preliminary print — both are the same UTC Thursday; the 10-day average (15) is unchanged. Iranian exports: Kpler per Crypto Briefing (editorial outlet, single-source — not event-filed): August crude exports ~260k bpd, down 80%+ y/y from ~1.7M; central bank governor Hemmati had confirmed export revenues 'effectively zero' on Aug 20. No fresh Aug 28 rial print found — the record low above 2M/USD stands from Aug 27. Sanctions detail: $1.8B window Jan 2024–Jun 2026 for 103 companies (Moneycontrol) vs JNS's 'two-and-a-half-year period, more than 100 companies' — consistent; FinCEN measure is an NPRM, effective only if finalized; UAE-branch scope only, Egyptian parent untouched. Bank Melli has operated two Dubai branches since 1969 and continues to; Iranians in Dubai are weighing hawala transfers if channels close (Arab Times); Iranian airlines still fly direct Iran–UAE; UAE's earlier Iranian Hospital/Iranian Club closures remain. State's Pigott: 'Operation Economic Outcast continues in full force.' Venezuela deal detail: 17 fields, >65B barrels in associated reserves (not immediate production), 55% effective US output share incl. ownership stake + cost-price purchase right, 100-year rights, ~$100B private investment, $209B Venezuelan tax claim, Trump: no taxpayer cost and 'more than double US oil reserves'; Reuters flags constitutional/hydrocarbons-law questions and US companies' historical caution. Axios/Cooper detail: 200+ mine-like objects removed from the main lane, only 11 confirmed mines; Bloomberg's internal-assessment figure of 80–150 mines laid may not all be cleared — US officials call those figures outdated; 20–30 tankers/night, ~9–10M bpd, roughly half pre-war; targets: ≥50 ships/night by mid-September, 60–70% of pre-war exports restored. AJ six-month scorecard detail: fronts reached the Caspian; the June 17 MoU (no nuclear weapon) unraveled over vague wording; a July long-range missile killed 3 US soldiers in Jordan (most recent US fatalities); Trump claims ~82% of Iranian missiles gone and 158 naval vessels hit (April); Houthi blockade on Saudi Arabia at Bab el-Mandeb continues. Threads resolved Aug 28: Treasury's 'by end of week' financial-institution action (FinCEN Banque Misr UAE + OFAC Taeedi/Kameng); CENTCOM 71-vs-70 verification (82/3/2 official). Threads carried: Xi–Trump/Chinese banks (no Chinese FI touched Friday — package hit UAE/Egypt/HK periphery); Bessent's 'broad array' of followers (no new country cut ties); Iran's halt-all-exports threat (no action); tanker-strike threads (no Aug 28 movement on Ash Shishah name, Kuwaiti tow/salvage, or UKMTO follow-ups); Pakistan/Qatar mediation (no new round); Iran–Oman corridor formalization (no announcement; DBS cites corridor talks as a risk-premium factor); Pezeshkian–Putin at SCO Bishkek (Aug 31–Sep 1, prep coverage only); NBC intel-damage report (no confirmation/denial); Rezaei conditions list (still 'being drafted'); DOJ prize courts (no filings). New watch items: FinCEN finalization of the Banque Misr UAE special measure and Egypt/UAE central-bank responses; US–Venezuela deal implementation (SPR, OPEC exit, legal challenges); US strike resumption (feeds indicate Aug 30, outside this window).",
+  "sources": [
+    {
+      "title": "JNS — US sanctions Bank Melli official, targets UAE bank over Iran ties",
+      "url": "https://www.jns.org/news/u-s-news/us-sanctions-bank-melli-official-targets-uae-bank-over-iran-ties"
+    },
+    {
+      "title": "Moneycontrol — US Treasury targets Banque Misr's UAE operations in fresh move to cut Iran's financial lifelines",
+      "url": "https://www.moneycontrol.com/world/us-targets-banque-misrs-uae-operations-in-fresh-move-to-cut-irans-financial-lifelines-article-14017808.html"
+    },
+    {
+      "title": "Arab Times — US targets Egypt's Banque Misr in UAE over Iran support, moves to cut bank off from US system",
+      "url": "https://www.arabtimesonline.com/news/us-targets-egypts-banque-misr-in-uae-over-iran-support-moves-to-cut-bank-off-from-us-system/"
+    },
+    {
+      "title": "The Peninsula (QNA) — CENTCOM: 82 vessels redirected, three disabled to enforce US blockade on Iran",
+      "url": "https://thepeninsulaqatar.com/article/29/08/2026/centcom-82-vessels-redirected-three-disabled-to-enforce-us-blockade-on-iran"
+    },
+    {
+      "title": "Moneycontrol — 'That sucker is open': Trump says Iran has lost leverage over Strait of Hormuz",
+      "url": "https://www.moneycontrol.com/world/that-sucker-is-open-trump-says-iran-has-lost-leverage-over-strait-of-hormuz-article-14017776.html"
+    },
+    {
+      "title": "Mehr News Agency — IRGC has full control over Strait of Hormuz: Statement",
+      "url": "https://en.mehrnews.com/news/247292/IRGC-has-full-control-over-Strait-of-Hormuz-Statement"
+    },
+    {
+      "title": "Moneycontrol — Trump hails 'biggest oil deal' with Venezuela, US to gain control over 65 billion barrels",
+      "url": "https://www.moneycontrol.com/world/trump-hails-biggest-oil-deal-with-venezuela-us-to-gain-control-over-65-billion-barrels-article-14018111.html"
+    },
+    {
+      "title": "CNBC — Oil prices fall for the week on U.S.-Iran talks stalemate",
+      "url": "https://www.cnbc.com/2026/08/28/oil-on-track-for-weekly-loss-even-as-iran-tensions-simmer.html"
+    },
+    {
+      "title": "OilPrice.com — Hormuz Tanker Traffic Drops Despite Recovery in Oil Flows",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Slumps-Even-as-Gulf-Oil-Flows-Rise.html"
+    },
+    {
+      "title": "Al Jazeera — After six months of war, what have US, Iran gained and lost?",
+      "url": "https://www.aljazeera.com/news/2026/8/28/after-six-months-of-war-what-have-us-iran-gained-and-lost"
+    }
+  ]
+}
