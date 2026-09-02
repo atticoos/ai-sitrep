@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-02T12:31:03Z",
+  "updated": "2026-09-02T13:10:45Z",
   "notes": "Continuity ledger for the daily research workflow (spec/RESEARCH_BRIEF.md). The agent reads this before researching and updates it after filing the day report. Hand-correctable at any time — this file wins over prose in dossiers.",
-  "asOf": "2026-08-26",
+  "asOf": "2026-08-27",
   "counters": {
-    "nightsWithoutConfirmedStrikesInIran": 27,
+    "nightsWithoutConfirmedStrikesInIran": 28,
     "cumulativeTargetsStruck": "300+",
     "cumulativeTargetsNote": "Last quantified by CENTCOM Jul 11; treat as floor, only raise with a new official cumulative figure."
   },
@@ -15,11 +15,11 @@
   },
   "openThreads": [
     {
-      "text": "Treasury promised a major financial-institution designation 'by end of week' — watch Fri Aug 28.",
+      "text": "Treasury promised a major financial-institution designation 'by end of week' — still not landed as of Aug 27 night; Bessent now headed to G20 finance ministers in Asheville (Aug 31–Sep 1) with ~a dozen bilaterals planned; watch Fri Aug 28 and the G20 sessions.",
       "since": "2026-08-24"
     },
     {
-      "text": "Upcoming Xi–Trump meeting complicates secondary-sanctions action against Chinese banks.",
+      "text": "Upcoming Xi–Trump meeting complicates secondary-sanctions action against Chinese banks. Updated Aug 27: Trump coy in the Oval Office — 'Who said I'm not? You don't know if I'm doing it' — but no major Chinese financial institution has been listed.",
       "since": "2026-08-24"
     },
     {
@@ -31,7 +31,7 @@
       "since": "2026-08-24"
     },
     {
-      "text": "Identify the tanker struck near Ash Shishah (UKMTO 120-26) and confirm attribution of the projectile hit; watch UKMTO follow-ups, tow/salvage status, and whether Iran claims or denies it.",
+      "text": "Tanker strikes in the strait: Monday's Ash Shishah vessel (UKMTO 120-26) was Liberian-flagged per Fox — name still unconfirmed. Week's second strike: a Kuwaiti-connected tanker hit Wednesday, UKMTO warning Thursday, fire extinguished, crew safe, may need tow (TradeWinds); Kuwait separately told the IMO a KPC supertanker was struck earlier in August. No attribution and no Iranian claim or denial on either; watch tow/salvage status and UKMTO follow-ups.",
       "since": "2026-08-25"
     },
     {
@@ -39,19 +39,15 @@
       "since": "2026-08-25"
     },
     {
-      "text": "Pakistan mediation round one (Munir's Tehran visit) closed without visible outcome — watch for a second round or an announced next step.",
+      "text": "Pakistan mediation round one (Munir's Tehran visit) closed without visible outcome — watch for a second round or an announced next step. Qatar has since become the visible mediation channel.",
       "since": "2026-08-25"
     },
     {
-      "text": "Iran–Oman temporary Hormuz corridor formalization: watch for the announced corridor, US reaction to Tehran's demand to close the UN-authorized southern route along Oman's coast, IMO notification, the transit-fee dispute (Iran charges vs Oman's opposition), and the 30–60-day permanent-scheme negotiation.",
+      "text": "Iran–Oman temporary Hormuz corridor formalization: phased framework (temporary joint navigational corridor + joint mine-clearing) discussed with Qatar's PM Aug 27; Rezaei says a 'designated central channel' opens only if the US first meets Iran's conditions; White House has not engaged (per unfiled headline-only reporting); transit-fee dispute and 30–60-day permanent-scheme negotiation still unresolved — watch for the corridor announcement, US reaction, IMO notification, and corridor usage data.",
       "since": "2026-08-26"
     },
     {
-      "text": "Qatar PM al-Thani announced a Tehran visit for Thursday Aug 27; Pezeshkian–Putin meeting at SCO Bishkek (Sept 1) incl. a reported $25B nuclear-plants MOU — watch for outcomes.",
-      "since": "2026-08-26"
-    },
-    {
-      "text": "Iranian state TV video threatening Barron Trump ($10M bounty claim; Secret Service 'aware') — watch for follow-up, escalation, or US response.",
+      "text": "Pezeshkian–Putin meeting at SCO Bishkek (Sept 1) incl. a reported $25B nuclear-plants MOU — watch for outcomes.",
       "since": "2026-08-26"
     },
     {
@@ -59,8 +55,16 @@
       "since": "2026-08-26"
     },
     {
-      "text": "Southern-route friction: Fars reports an Iranian warship deterred tanker HAANA from the southern 'Oman corridor' (no vessels used it in 24h); Saudi STS supertanker loads off Oman; Trump warned new mine-layers would be 'immediately and systematically destroyed' — watch for enforcement incidents and corridor usage data.",
+      "text": "Southern-route friction: no new enforcement incident Aug 27; Cooper reports mines cleared, international lanes open, 'momentum building' (~1,500 vessels assisted, ~750M barrels protected) while Kpler counted only 5 transits vs traders' ~7–8M bpd exiting (dark/shuttle trade gap); prior items — Iranian warship deterring HAANA from the southern 'Oman corridor', Saudi STS supertankers off Oman, Trump's 'immediately and systematically destroyed' warning to new mine-layers — remain watch items; track enforcement incidents and corridor usage.",
       "since": "2026-08-26"
+    },
+    {
+      "text": "Rezaei compiling Iran's formal conditions list for reopening Hormuz: reportedly up to $300B compensation for wartime damages, removal of US sanctions, ~$100B frozen assets released, end to the regional war, lifting of the naval blockade (exact sums single-outlet via Crypto Briefing; wires confirm the list itself) — watch for the formal list, US response, and whether the 'designated central channel' opens.",
+      "since": "2026-08-27"
+    },
+    {
+      "text": "DOJ reviving maritime prize courts to condemn and sell vessels/cargo seized enforcing the blockade, proceeds to Treasury (Bloomberg via Fox Business; SD Tex US Attorney Reitz) — watch for the first condemnation filings and expected owner legal challenges.",
+      "since": "2026-08-27"
     }
   ]
 }
