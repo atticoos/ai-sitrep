@@ -1,0 +1,180 @@
+{
+  "date": "2026-08-27",
+  "theme": "Tehran's $300B reopening terms",
+  "tempo": "medium",
+  "us": "Trump: 'not looking to meet' · Leavitt: no talks until Tehran 'comes to the table' · Bessent to G20: 'sever the economic leakage' · DOJ prize courts for seized tankers · Roosevelt CSG to deploy",
+  "effects": "2nd tanker struck in the strait · Kpler: 5 transits vs 15 avg · ~7–8M bpd still exiting · Brent ~$82, 3rd straight decline · Rial at record low",
+  "iran": "Rezaei terms: up to $300B, sanctions lifted, blockade ended · Al Thani in Tehran — first since Feb 28 · Pezeshkian: 'will not submit to pressure or coercion' · Ghalibaf taunts Bessent",
+  "tldr": "A second commercial tanker was hit by an unknown projectile in the Strait of Hormuz — the week's second strike, fire extinguished, crew safe, the vessel reportedly Kuwaiti and tow-dependent, with no attribution and no Iranian claim. Tehran formally priced reopening: a compiled conditions list led by reportedly up to $300B in compensation, removal of US sanctions, ~$100B in frozen assets and an end to the regional war before any 'designated central channel' opens. Qatar's PM made the first Qatari PM visit to Tehran since the war began Feb 28 to push the phased Iran–Oman corridor framework, while Trump shut the door in the other direction: 'We don't want to speak to them… not looking to meet.' Beneath the diplomacy the strait stayed bifurcated — Kpler counted 5 transits vs a 15-vessel average even as traders counted ~7–8M bpd flowing — and Brent fell a third straight day to ~$82.",
+  "events": [
+    {
+      "time": "morning",
+      "actor": "Iran (attributed)",
+      "title": "Second tanker in a week hit by projectile in the Strait; Kuwaiti vessel may need tow",
+      "summary": "UKMTO reported Thursday that an oil tanker was struck by an unknown projectile in the Strait of Hormuz — the strike itself occurred Wednesday — causing a fire that has since been extinguished; all crew safe, no environmental impact, vessels advised to transit with caution, and no blame assigned. Fox called it the week's second commercial-vessel strike (Monday's was the Liberian-flagged tanker near Ash Shishah, UKMTO 120-26). TradeWinds reported the Kuwaiti-connected vessel may need a tow; Kuwait separately told the IMO a KPC supertanker was struck earlier in August. No Iranian claim or denial was found. The warning landed hours before al-Thani's Tehran meetings.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-war-us-strait-hormuz-oman-oil-tensions-08-27-26",
+        "https://www.cnn.com/2026/08/27/world/live-news/iran-war-trump",
+        "https://www.tradewindsnews.com/tankers/kuwaiti-tanker-may-need-tow-after-being-hit-by-projectile-in-latest-hormuz-attack/2-1-2034814"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Rezaei compiles Iran's reopening terms: up to $300B, sanctions lifted, blockade ended",
+      "summary": "SNSC secretary Mohsen Rezaei — via Lebanon TV and in his meeting with Qatar's PM — said mediators asked Tehran to outline its demands and a formal list is being drawn up: reportedly up to $300B compensation for wartime damages, removal of US sanctions, release of ~$100B in frozen assets, an end to the regional war (one outlet details it as spanning Lebanon, Gaza, Yemen and Iraq) and lifting of the US naval blockade on Iranian ports. 'The US must first take practical measures toward fulfilling Iran's conditions, after which Iran will move to reopen the Strait of Hormuz.' He said an understanding with Oman covers a corridor partly in each country's waters, with vessels using a designated central channel only if Washington meets the conditions, and warned hostile US action would bring damage on US military and economic interests 'that will be recorded in history.'",
+      "significance": 4,
+      "confidence": "high",
+      "sources": [
+        "https://www.samaa.tv/2087355898-iran-sets-conditions-for-reopening-strait-of-hormuz",
+        "https://www.nationalheraldindia.com/international/iran-drafts-conditions-for-reopening-strait-of-hormuz-as-qatar-steps-up-mediation",
+        "https://cryptobriefing.com/iran-strait-hormuz-conditions-rezaei/",
+        "https://www.anews.com.tr/middle-east/2026/08/27/us-must-meet-irans-conditions-before-hormuz-reopens-top-iranian-official"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Diplomacy",
+      "title": "Qatar PM in Tehran — first visit since the war began — pushes phased corridor framework",
+      "summary": "Sheikh Mohammed bin Abdulrahman Al Thani met Araghchi, Pezeshkian, Ghalibaf and Rezaei in Tehran on Thursday — the first Qatari PM/FM visit since the war began Feb 28. Per the Qatari Foreign Ministry, talks covered the 'phased framework': a temporary joint navigational corridor through the strait and a joint mine-clearing project. Al Thani stressed sovereignty, freedom of navigation and restoring the pre-Feb 28 status quo; Pezeshkian said Iran 'demands nothing beyond its legal rights and will not submit to pressure or coercion'; Ghalibaf (per Tasnim) accused Washington of 'making wrong decisions based on false information.' Araghchi welcomed Qatar's diplomatic efforts; a June MOU mediated by Qatar and Pakistan collapsed over Hormuz control and blockade disputes.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": [
+        "https://dohanews.co/qatar-pm-fm-meets-iranian-foreign-minister-in-tehran-to-discuss-mediation-and-strait-of-hormuz-de-escalation/",
+        "https://www.cnn.com/2026/08/27/world/live-news/iran-war-trump",
+        "https://www.timesnownews.com/world/middle-east/qatars-big-diplomacy-push-in-tehran-with-an-eye-on-hormuz-article-155997262"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Trump shuts the door: 'We don't want to speak to them… not looking to meet'",
+      "summary": "In the Oval Office, Trump said 'there's not a lot to speak to. We don't want to speak to them. We're not looking to meet or anything,' and on sanctioning Chinese banks: 'Who said I'm not? You don't know if I'm doing it… I don't have to announce everything, do I?' — though no major Chinese financial institution has been listed, and his answer contradicts Bessent's Monday claim that Trump was calling leaders 'with specific requests.' Press secretary Leavitt (her final Fox & Friends turn before leaving Aug 31): 'No negotiations are happening right now… until the president feels that maybe they come to the table in a meaningful way. We have not seen that yet'; the naval blockade 'continues to be in effect,' the US is 'essentially controlling the Strait of Hormuz,' and 'we've had Operation Epic Fury to destroy their military. Now we have Operation Economic Outcast to destroy their economy.'",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-war-us-strait-hormuz-oman-oil-tensions-08-27-26",
+        "https://www.cnn.com/2026/08/27/world/live-news/iran-war-trump"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Effects",
+      "title": "Strait stays bifurcated: 5 transits counted, ~7–8M bpd flowing; Brent ~$82",
+      "summary": "Kpler recorded just five commodity vessels transiting Thursday (two medium-range tankers, one VLGC) vs 17 a day earlier and a 10-day average of 15 — preliminary data as of 02:25 GMT, likely revised for dark ships. Yet traders told Bloomberg ~7–8M bpd is now exiting Hormuz, up from ~4M in mid-July (~three-quarters of pre-war levels), with Vortexa's 7-day average near 10M; Kuwait and Qatar are back to ~70% of pre-conflict exports (2M bpd combined pre-war), Kuwait's 11 VLCCs largely dark for 2+ months, and QatarEnergy offered STS crude sales off the strait this week. The gap between counted transits and flowing barrels is the unlit shuttle trade. Brent hovered ~$82, down a third straight day.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.nationalheraldindia.com/international/iran-drafts-conditions-for-reopening-strait-of-hormuz-as-qatar-steps-up-mediation",
+        "https://www.rigzone.com/news/wire/kuwait_qatar_cargoes_boost_hormuz_oil_flows-27-aug-2026-184468-article/",
+        "https://www.foxnews.com/live-news/iran-war-us-strait-hormuz-oman-oil-tensions-08-27-26"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "CENTCOM's Cooper: mines cleared, lanes open, ~750M barrels protected",
+      "summary": "In a Thursday video the CENTCOM commander confirmed sea mines were cleared from the strait's international shipping lanes, displayed a nautical chart of the separated traffic lanes, and said the lanes are open with 'momentum building.' US forces have assisted nearly 1,500 commercial vessels and provided coordinated protection to vessels carrying nearly 750 million barrels of crude. No new blockade accounting was released — the ledger holds at 70 redirected / 3 disabled / 2 boarded. Iranian officials and international allies continue to say drifting mines remain a significant threat.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-war-us-strait-hormuz-oman-oil-tensions-08-27-26",
+        "https://dohanews.co/qatar-pm-fm-meets-iranian-foreign-minister-in-tehran-to-discuss-mediation-and-strait-of-hormuz-de-escalation/"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Bessent to press G20 ministers to 'sever the economic leakage' with Iran",
+      "summary": "Treasury will host G20 finance ministers and central bank governors in Asheville, NC Aug 31–Sep 1, with nearly a dozen bilaterals planned to press countries to cut financial ties with Iran and target IRGC-linked revenue schemes, per a senior Treasury official and a source familiar with Bessent's thinking. No new designations were announced Thursday; the 'major financial institution' sanction promised 'by the end of this week' had not landed.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-war-us-strait-hormuz-oman-oil-tensions-08-27-26"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "DOJ revives maritime prize courts to condemn seized tankers as war prizes",
+      "summary": "Per a Bloomberg report carried by Fox Business, the Justice Department plans to reactivate prize courts so vessels and cargo seized enforcing the naval blockade can be formally condemned and sold, with proceeds to Treasury to help offset war costs. SD Texas US Attorney Aaron Reitz: 'Prize law is an ancient body of maritime law — already codified in statute but which we are now reviving — that sets the rules for how seized maritime property is condemned, returned or disposed of.' The plan likely draws legal challenges from seized vessels' owners.",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-war-us-strait-hormuz-oman-oil-tensions-08-27-26"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Theodore Roosevelt CSG to deploy ≥7 months as carrier strain compounds",
+      "summary": "The Theodore Roosevelt and its ~5,000 crew will leave San Diego 'in the coming weeks' to relieve the George Washington in the 5th Fleet area, with sailors told to plan on eight months ('they know they're going to be there longer than seven months' — Master Chief Perryman). The Abraham Lincoln sits at 279 days deployed, the Bush is also in region, and CNO Caudle conceded extensions are possible: 'I push back hard on that. But the enemy gets a vote.'",
+      "significance": 2,
+      "confidence": "high",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-war-us-strait-hormuz-oman-oil-tensions-08-27-26",
+        "https://www.cnn.com/2026/08/27/world/live-news/iran-war-trump"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "South Pars 40% restored; rial at all-time low; Ghalibaf taunts Bessent",
+      "summary": "Deputy oil minister Zeraatkar said ~40% of the March-strike-damaged South Pars capacity is restored but a full rebuild will take at least two years; oil minister Paknejad conceded sales 'decreased to some extent' under the blockade but 'continued.' The rial sank to an all-time low above 2M/USD as sanctions bit. Parliament speaker Ghalibaf vowed victory in the 'all-out economic war' and answered Bessent's X post mocking Iran's spending: 'Scotty, man, your credibility is on the line. Do something.'",
+      "significance": 2,
+      "confidence": "high",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-war-us-strait-hormuz-oman-oil-tensions-08-27-26",
+        "https://www.cnn.com/2026/08/27/world/live-news/iran-war-trump"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Rezaei dismisses state-TV Barron Trump 'plot' as 'a lie'",
+      "summary": "The SNSC secretary, in an Al-Manar interview, dismissed the state-TV segment that claimed the president's 20-year-old son was being monitored with a $10M bounty on his life — walking back the provocative airing; the Secret Service had said Tuesday it was aware and was investigating. No US response was reported.",
+      "significance": 2,
+      "confidence": "high",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-war-us-strait-hormuz-oman-oil-tensions-08-27-26"
+      ]
+    }
+  ],
+  "dossier": "Night count: 28th consecutive without confirmed strikes inside Iran. Corroborating: no confirmed-strike reporting anywhere in the corpus; both Aug 27 live pages carry a pure economic/diplomatic agenda; strike pause held through Thursday (war resumed Sep 1 per later RSS headlines — outside this window). Blockade ledger carried unchanged at 70 redirected / 3 disabled / 2 boarded — no new CENTCOM accounting found for Aug 27; the 71-vs-70 verification thread stays open. Cooper's Thursday video detail: mines cleared 'thanks to the incredible work of the U.S. military,' lanes open, 'momentum building,' ~1,500 vessels assisted, ~750M barrels protected. Tanker threads: Monday's Ash Shishah vessel (UKMTO 120-26) was Liberian-flagged per Fox; name still unconfirmed; no Iranian claim or denial found for either strike. Wednesday's hit: UKMTO warning issued Thursday, hours before the Al Thani–Araghchi meeting; TradeWinds (paywalled, headline only): Kuwaiti, may need tow; Bloomberg via Rigzone separately reports Kuwait told the IMO a KPC supertanker was struck earlier in August. Dataset tension: Kpler counts 5 transits Thursday (vs 17 prior day, 15 10-day avg; data as of 02:25 GMT, dark ships may revise) vs traders' ~7–8M bpd exiting (Vortexa 7-day ~10M) — the gap is the dark/shuttle trade. Shuttle-trade detail: UAE first to shuttle via Gulf of Oman STS; Saudi pushed back to Hormuz by Houthi Red Sea attacks; QatarEnergy offered STS crude sales off Hormuz this week; Kuwait's spot-cargo offerings sit on top of long-term East Asian commitments. Timing caveats: CNN's Aug 27 page once says Trump 'remained vague Friday' on Chinese banks — the caption, surrounding posts and the Reuters wire put it in Thursday's Oval Office; treated as Thursday. Rezaei's conditions were announced via Lebanon TV (Al-Mayadeen/Al-Manar per wires) and to Al Thani in person; Crypto Briefing alone carries the exact $300B/$100B sums — medium confidence on the figures, high on the list itself (Reuters wires + Tasnim via A News). 'White House silent on Iran–Oman Hormuz plan Tehran says would ban US warships' seen only as an MSN-gated headline — flagged absence, not citable. No new designations Aug 27; Treasury's promised 'major financial institution' sanction had not landed by Thursday night (later headlines place it Fri Aug 28 — UAE branches of an Egyptian bank; for the next day's report). Trump expected to meet refiners and fuel retailers next week as pump pain persists ahead of midterms (Reuters via Fox). G20: Asheville, NC, Aug 31–Sep 1. Rezaei context: Iranian officials previously outlined six specific US actions, chief among them a permanent halt to aggression and full withdrawal of US forces from the region (Crypto Briefing). Also noted: 500+ executions in Iran in 2026 incl. 16 women — highest political-prisoner toll in 30 years per Iran Human Rights (Fox); AEOI chief Eslami accuses US/Israel of pressuring the IAEA to inspect damaged nuclear sites, Iran still in a 'wartime situation' (CNN); a bill criminalizing communications with foreign media advances over some politicians' objections (CNN, low value); CNN analysis: war spillover includes scaled-back US–South Korea exercises, the only US carrier pulled from the Western Pacific, and interceptor shortages for Ukraine; Doha News notes Friday Aug 28 marks six months since the war began.",
+  "sources": [
+    {
+      "title": "Fox News — Iran war live updates (Aug 27): second tanker struck; Trump shuts door on talks",
+      "url": "https://www.foxnews.com/live-news/iran-war-us-strait-hormuz-oman-oil-tensions-08-27-26"
+    },
+    {
+      "title": "CNN — US says it's not talking to Iran as Strait of Hormuz diplomacy intensifies (Aug 27 live)",
+      "url": "https://www.cnn.com/2026/08/27/world/live-news/iran-war-trump"
+    },
+    {
+      "title": "Doha News — Qatar PM-FM meets Iranian Foreign Minister in Tehran on Hormuz de-escalation",
+      "url": "https://dohanews.co/qatar-pm-fm-meets-iranian-foreign-minister-in-tehran-to-discuss-mediation-and-strait-of-hormuz-de-escalation/"
+    },
+    {
+      "title": "National Herald India (Reuters) — Iran drafts conditions for reopening Hormuz as Qatar steps up mediation",
+      "url": "https://www.nationalheraldindia.com/international/iran-drafts-conditions-for-reopening-strait-of-hormuz-as-qatar-steps-up-mediation"
+    },
+    {
+      "title": "Crypto Briefing — Iran sets conditions for reopening Strait of Hormuz, demands $300B in compensation",
+      "url": "https://cryptobriefing.com/iran-strait-hormuz-conditions-rezaei/"
+    },
+    {
+      "title": "A News — US must meet Iran's conditions before Hormuz reopens: Top Iranian official",
+      "url": "https://www.anews.com.tr/middle-east/2026/08/27/us-must-meet-irans-conditions-before-hormuz-reopens-top-iranian-official"
+    },
+    {
+      "title": "Rigzone (Bloomberg) — Kuwait, Qatar Cargoes Boost Hormuz Oil Flows",
+      "url": "https://www.rigzone.com/news/wire/kuwait_qatar_cargoes_boost_hormuz_oil_flows-27-aug-2026-184468-article/"
+    },
+    {
+      "title": "TradeWinds — Kuwaiti tanker may need tow after being hit by projectile in latest Hormuz attack",
+      "url": "https://www.tradewindsnews.com/tankers/kuwaiti-tanker-may-need-tow-after-being-hit-by-projectile-in-latest-hormuz-attack/2-1-2034814"
+    }
+  ]
+}
