@@ -1,9 +1,9 @@
 # Stage 1 (Context) handoff + Stage 2 (Gather) findings — DATE=2026-08-31
 
 Written at end of Stage 2 on 2026-09-02 so a later session can synthesize without this
-conversation. Corpus: 14 articles in this directory (01–14). Scratch (RSS feeds, scripts)
-is in `scratch/` (gitignored). Stop point: after Stage 2 — no day JSON written,
-no state.json touched.
+conversation. Corpus: 19 articles in this directory (01–14 first pass; 15–19 resumed-run
+supplement, see "Supplement" at the end). Scratch (RSS feeds, scripts) is in `scratch/`
+(gitignored). Stop point: after Stage 2 — no day JSON written, no state.json touched.
 
 ## Missed-day check
 
@@ -52,3 +52,13 @@ no state.json touched.
 - UTC-day window: events filed to Aug 31 only if in-window; Sep 1 items (US southern-Iran strikes, wedding strike, Bahrain/Jordan/Iraq attacks, two-tankers-mines claim, G20 wrap, "biggest attack of them all", Bessent "asphyxiate") deliberately NOT filed.
 - MSN/yahoo wrappers labeled with the true outlet (WaPo, CNN, Al Jazeera, MarketWatch, NSJ, Reuters via CNA).
 - Ahram dateline conflict noted in file header (Bing feed 2026-08-31 17:00Z vs page "Tuesday 1 Sep 2026").
+
+## Supplement — resumed run (files 15–19, added 2026-09-02 after re-sweep)
+
+Four genuine gaps from the first pass were filled; key new facts for Stage 3:
+
+1. **Bahri SIDR attack — late Aug 31, two Filipino seafarers killed (corpus 15).** Saudi national shipping company Bahri confirmed on X (Sep 2) that its vessel SIDR was hit in a security incident while transiting the strait "late on Aug 31"; Greek risk firm Marisks had said "unknown projectiles" struck two tankers "overnight from Aug 31 to Sept 1" (both loaded 2M bbl at Juaymah, per Kpler). First confirmed fatalities aboard a commercial vessel in this blockade campaign's tanker-strike sequence; vessel name finally establishes the formerly "Kuwaiti-connected"/unnamed claims' successor sequence. **Timing call needed in Stage 3:** attack is Aug 31-dated (in-window tail) but confirmed Sep 2 — file with `(attributed)`-style timing hedge or hand to Sep 1's run; the IRGC "two tankers hit mines" counter-claim (Sep 2) stays post-window. Updates the "Tanker strikes in the strait" open thread — re-open it if Stage 5 runs after this.
+2. **Venezuela final pacts — in-window Aug 31 (corpus 16 Oilprice + corpus 18 Reuters original).** Chevron, GE Vernova, ONGC, Eni, GeoPark "on track to sign final agreements" (Reuters, five sources; signings land the following week — post-window). Fills the Aug 30 dossier hand-off gap ("Chevron/GE Vernova/ONGC/Eni/GeoPark Venezuela final pacts (Aug 31)"). Adds: Trump told reporters Monday Exxon and Chevron are "committed to invest" in Venezuela; GeoPark's Bare field up to 1B barrels; US–Venezuela pact = 17 fields, ~64B barrels proved reserves (a fifth of Venezuela's total), 1.5M bpd long-term vs 1.25M bpd current; Vance at Joint Base Andrews: "significant increase in oil production out of Venezuela… The 65 billion-barrel reserve is a big part of that." Updates the US–Venezuela SPR/deal open thread (note: Reuters says ~64B; carried thread says >65B — attribute per outlet).
+3. **Reuters day-wrap (corpus 17) — keystone primary for Aug 31.** Published 05:40Z, updated 21:51Z. Confirms in-window: Trump "We're going to hit them hard… There will be a response" (via Fox), Oval Office "That doesn't mean we won't smack them", nuclear ruled out — "no reason… Iran was already 'totally defeated militarily'"; senior Iranian source: "limited and contained confrontation" + harsh response if attacked again; Bessent G20: "They're in shock at the state of their economy… lashing out kinetically because they are losing economically"; Pezeshkian to Modi: "continuing the war is in no one's interest"; Larak tolls (Tasnim 3 / Nournews 2 IRGC Navy); supertanker-mines claim + US denial. Names the April campaign "Operation Epic Fury". Strengthens confidence on items already in corpus 01/02/05/06/07/13.
+4. **Equity reaction Aug 31 (corpus 19, TheStreet via MSN).** Stocks slid Monday (Nasdaq headline; no index percentages in text) on the escalation, compounding a hawkish Jackson Hole (Fed Chair Kevin Warsh) ahead of Friday NFP; IRGC's Sunday claim named Jordan AND UAE bases; CENTCOM Hawkins: "US forces are monitoring the area closely and remain prepared to protect the free flow of commerce." Completes the market-effects category alongside corpus 08 (oil settles).
+5. **Still absent (confirmed absences, for tldr/dossier):** no new OFAC designations Aug 31; no CENTCOM "as of Aug 31" blockade label (84/3/2 stays post-window per corpus 11); no UKMTO update in-window; no rial datapoint dated Aug 31 (Gulf Times' 2.2mn record low is Sep 1, post-window); no NBC intel-damage, prize-court, or Rezaei-list follow-up.
