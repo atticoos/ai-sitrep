@@ -1,0 +1,176 @@
+{
+  "date": "2026-08-31",
+  "theme": "'Limited and contained confrontation'",
+  "tempo": "medium",
+  "us": "Trump: 'hit them hard… There will be a response' · Nuclear use ruled out — 'no reason for it' · Bessent at G20: EU backs Outcast, another bank this week · CENTCOM: supertanker-mine claim 'FALSE' · WaPo: four-star 'non-concurs' on extending the war",
+  "effects": "Brent settles $90.49, highest in a week · Stocks slide on escalation · 2 Filipino seafarers killed aboard SIDR · Blockade tally carried: 83/3/2 · No-strikes streak rebuilds: day 1",
+  "iran": "Senior source: 'limited and contained confrontation' · Pezeshkian: 'never sit idly by' · General Staff: any new US attack draws a 'much heavier' response · Al Minhad drone claim; UAE denies base hit",
+  "tldr": "The first exchange in a month stayed contained: no US strikes inside Iran followed the Larak–Jordan swap — the no-strikes streak rebuilding to day 1 — while Trump threatened to 'hit them hard' and pointedly ruled out nuclear use, and the Pentagon's top commanders were reported warning against extending the war. The strait claimed its first confirmed commercial-vessel fatalities of the campaign: Saudi carrier Bahri said two Filipino seafarers died when its tanker SIDR was hit in a security incident late on Aug 31 — no attribution claimed, and CENTCOM, denying Tehran's same-day supertanker-mine claim, said no ships have hit mines. At the G20 in Asheville, Bessent said Iran's economy could collapse 'within weeks or months', won the EU's explicit backing for Operation Economic Outcast, and promised sanctions on another bank this week — but no new designations landed. Brent settled above $90 (+1.3% to $90.49, highest in a week) as stocks slid.",
+  "events": [
+    {
+      "time": "evening",
+      "actor": "Iran (attributed)",
+      "title": "Saudi tanker SIDR attacked late Aug 31 — two Filipino seafarers killed, first commercial-vessel fatalities of the tanker-strike sequence",
+      "summary": "Bahri, Saudi Arabia's national shipping company, confirmed its tanker SIDR was 'involved in a security incident while transiting the Strait of Hormuz' late on Aug 31, 'confirming the loss of its two Filipino seafarers' — the first confirmed deaths aboard a commercial vessel in this campaign's tanker-strike sequence (the week-of-Aug-24 strikes all reported no injuries). Greek maritime risk firm Marisks had reported unidentified projectiles striking two tankers overnight Aug 31–Sept 1, both loaded with 2M barrels of Saudi crude at Juaymah per Kpler; only SIDR is confirmed by its operator. Attribution is unclaimed: Bahri says only 'security incident' and is coordinating with authorities; the IRGC's competing claim that tankers struck mines came outside this window (Sep 2). Corroborated by AFP/Reuters copy via The Straits Times plus Bahri's statement via Argaam — high confidence on the facts, with the attribution and the Sep 2 confirmation lag hedged here.",
+      "significance": 4,
+      "confidence": "medium",
+      "sources": [
+        "https://www.straitstimes.com/world/middle-east/two-dead-after-attack-on-saudi-oil-tanker-in-hormuz-shipping-firm",
+        "https://www.argaam.com/en/article/articledetail/id/1933536"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Bessent opens G20 with Outcast push: Iran collapse 'within weeks or months', EU backs the campaign, another bank this week",
+      "summary": "Opening the two-day G20 finance meeting in Asheville, Bessent said Iran's leaders are 'in shock at the state of their economy' — 'I would think that they are lashing out kinetically because they are losing economically' — and, with the blockade maintained, collapse could come 'within weeks or months', though 'the economy doesn't have to collapse … we just have to have the regime come to their senses.' The European Commission said it 'welcomes' economic pressure 'including through the US-led Operation Economic Outcast'; Bessent said the EU backed it 'in the strongest terms.' Per AP, 'all options are on the table' on Beijing's continued Iranian oil purchases after his Sunday call with PBoC Governor Pan Gongsheng — 'we have more in common with the Chinese on Iran than we disagree on'; no Chinese institution listed. Sanctions on another Iranian bank are planned this week, one more the following week, with aircraft-leasing measures under consideration. He also met Russia's Finance Minister Siluanov on Trump's 'peace plan'; Treasury barred NYT, WSJ and Bloomberg reporters from the meetings.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": [
+        "https://www.cnbc.com/2026/08/31/g20-finance-meeting-live-updates.html",
+        "https://www.reuters.com/world/middle-east/trump-posts-ai-video-irans-kharg-smithereens-no-evidence-attack-2026-08-31/",
+        "https://www.theguardian.com/world/live/2026/aug/31/us-iran-israel-hormuz-oil-donald-trump-larak-kharg-island-uae-jordan-latest-news-updates",
+        "https://english.ahram.org.eg/News/575767.aspx"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Trump: 'hit them hard… There will be a response' — nuclear use ruled out; fighting seen staying limited",
+      "summary": "After the overnight exchange, Trump told Fox's Trey Yingst 'We're going to hit them hard… There will be a response,' saying US air defenses downed all Iranian missiles that could have caused damage; one Jordan missile was 'allowed to pass' as not on course to hit anything significant (per Yingst). In the Oval Office he called Iran a 'failed nation' with '350 percent inflation' (his Truth Social post put it at 300% — attribute per outlet), said 'That doesn't mean we won't smack them. We'll see what happens,' and on nuclear use: 'I rule that, I rule out, no use. There's no reason for it' — Iran 'totally defeated militarily.' On the strait: 'extremely good shape… we've been averaging 30 ships a night' with Navy assistance. He also raised his claimed protester-death toll to 'over 100,000' (Iran says 3,117). WaPo reads the posture as fighting 'likely to remain limited' — enforcement and traffic expansion, not a new full-scale assault.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.reuters.com/world/middle-east/trump-posts-ai-video-irans-kharg-smithereens-no-evidence-attack-2026-08-31/",
+        "https://www.msn.com/en-us/politics/government/trump-says-us-might-smack-iran-but-that-fighting-is-likely-to-remain-limited/ar-AA2biKkG",
+        "https://www.yahoo.com/news/politics/articles/trump-says-iran-dead-vows-151115486.html",
+        "https://www.theguardian.com/world/live/2026/aug/31/us-iran-israel-hormuz-oil-donald-trump-larak-kharg-island-uae-jordan-latest-news-updates"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Iran's Al Minhad drone claim denied by UAE; General Staff warns any new US attack draws a 'much heavier' response",
+      "summary": "Iran's military said it launched 'dozens of explosive drones' toward Al Minhad Air Base in the UAE, naming US personnel and helicopters as intended targets; the UAE Defence Ministry denied the base was hit, and the foreign ministry condemned the intercepted drone over territorial waters as a 'dangerous escalation,' saying it 'reserves the full right to respond.' Al Jazeera counts Iranian missiles fired at three airbases across the UAE and Jordan, 'none of those reached their targets.' The armed forces' General Staff and Khatam al-Anbiya headquarters warned regional states against letting territory, airspace or coastlines be used for US operations — any new attack will draw a 'much heavier' response — adding 'the US has no choice but to leave the region.' Pezeshkian (IRIB): 'We are not seeking war… in the face of aggression, we will never sit idly by.' UAE presidential adviser Anwar Gargash: 'the state of neither war nor peace cannot be a sustainable solution.'",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.yahoo.com/news/us/articles/us-strikes-iranian-rocket-launchers-201854299.html",
+        "https://www.arabtimesonline.com/news/uae-denies-missile-attack-on-al-minhad-air-base/",
+        "https://www.yahoo.com/news/politics/articles/trump-says-iran-dead-vows-151115486.html",
+        "https://www.theguardian.com/world/live/2026/aug/31/us-iran-israel-hormuz-oil-donald-trump-larak-kharg-island-uae-jordan-latest-news-updates"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "CENTCOM denies IRGC supertanker-mine claim: 'No ships have hit mines… disinformation'",
+      "summary": "Iranian state TV and the IRGC claimed a supertanker caught fire and was brought to a complete stop after striking two naval mines on the strait's southern route — 'a rogue supertanker attempting to pass through the illegal route south of the strait of Hormuz' — without naming the vessel or crew, and warning other rule-breakers would 'face the same fate.' CENTCOM on X: 'This is FALSE. No ships have hit mines in the Strait of Hormuz. This is yet another IRGC attempt to intimidate regional commercial shipping through disinformation.' The IRGC's fuller 'two tankers hit mines' assertion landed Sep 2, outside this window; no UKMTO confirmation followed on Aug 31. See the SIDR event — the day ended with a confirmed fatal attack on a tanker, keeping the intimidation-vs-disinformation question live.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.channelnewsasia.com/world/iran-strait-hormuz-supertanker-struck-mines-6351441",
+        "https://www.msn.com/en-us/war-and-conflicts/military/the-us-navy-has-a-problem-iran-and-oman-are-closing-in-on-a-strait-of-hormuz-deal-where-no-military-vessel-would-ever-pass/ar-AA2bi2vn",
+        "https://www.theguardian.com/world/live/2026/aug/31/us-iran-israel-hormuz-oil-donald-trump-larak-kharg-island-uae-jordan-latest-news-updates",
+        "https://www.reuters.com/world/middle-east/trump-posts-ai-video-irans-kharg-smithereens-no-evidence-attack-2026-08-31/"
+      ]
+    },
+    {
+      "time": "evening",
+      "actor": "Effects",
+      "title": "Brent settles above $90 — highest in a week; stocks slide as escalation compounds a hawkish Fed",
+      "summary": "Brent for November settled +1.3% at $90.49, its highest in a week per FactSet, and WTI +2.8% to $85.76, its biggest one-day gain since early August; Brent finished August +0.4%. Note: Reuters' Aug 30 piece had quoted +2.71% for the same Monday settle — a contract-roll/attribution discrepancy; figures here per MarketWatch/FactSet. Equities slid on the escalation (Nasdaq leading; no index percentages captured), compounding a hawkish Jackson Hole from Fed Chair Kevin Warsh ahead of Friday's non-farm payrolls. SPI's Innes: the conflict 'still has plenty of dry tinder lying around' with Brent back near $90 while Warsh's message is still 'rattling' the bond market. UBS: the US–Venezuela deal has 'little immediate impact' on crude or US gasoline prices — the weekend's fighting offset the deal's supply-hope bump.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.msn.com/en-us/news/other/global-oil-prices-settle-above-90-a-barrel-after-us-and-iran-exchange-fire-for-first-time-in-a-month/ar-AA2bg1RS",
+        "https://www.msn.com/en-us/money/top-stocks/stock-market-today-aug-31-2026-nasdaq-falls-on-escalation-of-us-iran-conflict/ar-AA2bhhTB",
+        "https://www.reuters.com/world/middle-east/trump-posts-ai-video-irans-kharg-smithereens-no-evidence-attack-2026-08-31/"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "WaPo: four-star 'non-concurs' against extending the 50,000-troop posture; Navy destroyer readiness at a quarter",
+      "summary": "The Washington Post reported (story dated Aug 30 — unfiled in that day's report; The Guardian carried the Pentagon's response Aug 31) that in the classified Aug 14 Secretary of Defense Orders Book, the EUCOM, PACOM and SOUTHCOM heads and CNO Adm. Daryl Caudle filed formal 'non-concurs' on orders keeping 50,000+ troops in the Middle East through September, some into 2027 — anonymous sourcing on a classified document. Caudle said the Navy 'cannot sustain' its current level of support with no anticipated end date, with barely one-fourth of the destroyer fleet ready to deploy; Patriot-interceptor depletion is limiting the administration's ability to re-escalate. Elements of the 82nd Airborne will see tours extended to a year (commander's letter dated Sunday Aug 30). Pentagon spokesman Sean Parnell did not dispute the objections — 'Non-concurs are standard' — and warned that 'publishing highly classified assessments from the Secretary's orders book is a crime.'",
+      "significance": 3,
+      "confidence": "medium",
+      "sources": [
+        "https://www.msn.com/en-us/politics/government/military-leaders-warn-hegseth-against-extending-iran-war-operations/ar-AA2bcXDK",
+        "https://www.theguardian.com/world/live/2026/aug/31/us-iran-israel-hormuz-oil-donald-trump-larak-kharg-island-uae-jordan-latest-news-updates"
+      ]
+    },
+    {
+      "time": "morning",
+      "actor": "Diplomacy",
+      "title": "Pezeshkian to Modi at SCO: 'continuing the war is in no one's interest'; US 'has not fulfilled its commitments'",
+      "summary": "On the SCO summit sidelines in Bishkek, Pezeshkian told Modi: 'we believe that continuing the war is in no one's interest, neither ours, nor the region's, nor humanity's' (Tasnim via Reuters) — while per Fars he said the US 'has not fulfilled its commitments' and 'there are currents within America that see their interests in the continuation of war.' Before departure he said Iran does not seek war but would respond with strength and determination to any aggression. Modi reiterated that all issues must be resolved through dialogue and diplomacy and flagged India's priority on the safety of its nationals and unhindered energy transit. His Putin meeting and the summit proper fall on Sep 1 — outside this window.",
+      "significance": 2,
+      "confidence": "high",
+      "sources": [
+        "https://www.reuters.com/world/middle-east/trump-posts-ai-video-irans-kharg-smithereens-no-evidence-attack-2026-08-31/",
+        "https://theprint.in/diplomacy/pm-modi-meets-iranian-president-pezeshkian-on-sidelines-of-sco-summit/3029567/",
+        "https://www.yahoo.com/news/us/articles/us-strikes-iranian-rocket-launchers-201854299.html"
+      ]
+    },
+    {
+      "time": "afternoon",
+      "actor": "US",
+      "title": "Chevron, ONGC, GE Vernova, Eni, GeoPark on track to sign final Venezuela pacts; Trump: Exxon and Chevron 'committed to invest'",
+      "summary": "Per Reuters citing five sources, the companies are on track to sign final agreements 'as early as this week' under Venezuela's amended hydrocarbons law (own-export rights, direct proceeds), separate from last week's US–Venezuela pact covering 17 fields with ~64 billion barrels of proved reserves — a fifth of Venezuela's total (earlier White House framing said >65B; attribute per outlet) and 1.5M bpd long-term potential vs 1.25M bpd now. Trump told reporters Monday that Exxon Mobil and Chevron are among companies 'committed to invest' in Venezuela; ONGC is preparing ~$200M for the San Cristobal field; GeoPark's Bare field could hold up to 1B barrels. Vance: there is already 'a significant increase in oil production out of Venezuela… The 65 billion-barrel reserve is a big part of that.'",
+      "significance": 2,
+      "confidence": "high",
+      "sources": [
+        "https://www.reuters.com/business/energy/firms-including-chevron-ongc-ge-vernova-track-sign-final-pacts-venezuela-sources-2026-08-31/",
+        "https://oilprice.com/Latest-Energy-News/World-News/Chevron-ONGC-and-GE-Vernova-Near-Final-Venezuela-Energy-Deals.html"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "UAE orders 'special and urgent' probe of Banque Misr UAE; Bessent: parent bank spared, comment clock runs to Oct 1",
+      "summary": "The UAE central bank announced a 'special and urgent examination' of Banque Misr's UAE transactions — a forensic/in-depth lookback over the two-year period cited by Treasury — said it expects banks not to expose the UAE financial system to reputational risk, and is weighing options for the bank's status if the US measure takes effect (Bloomberg via The Straits Times; published ~23:35 UTC Aug 30, carried in Aug 31 coverage). At the G20, Bessent said the action deliberately stops at the UAE branches: 'We did not impose sanctions because we did not want the measures to extend to the parent Banque Misr' — invoking Section 311 of the USA PATRIOT Act, a power he said Treasury had 'never engaged in an action at this level of force.' FinCEN's proposed rule carries a 30-day comment period to Oct 1, 2026 — not yet final. (Ahram's page is datelined Sep 1; remarks made on the Asheville sidelines.)",
+      "significance": 2,
+      "confidence": "high",
+      "sources": [
+        "https://www.straitstimes.com/world/middle-east/uae-to-probe-banque-misr-branch-after-us-cites-iran-links",
+        "https://english.ahram.org.eg/News/575767.aspx"
+      ]
+    }
+  ],
+  "dossier": "Night count: no confirmed US strikes inside Iran during the Aug 31 UTC window — the 1st consecutive day without confirmed strikes since the Aug 30 Larak reset; streak rebuilds 0→1 (mirror into state.json). NIGHT 02 never begins: US activity was rhetoric, the G20 economic push and CENTCOM's mine-claim denial; WaPo frames fighting as 'likely to remain limited,' with Patriot-interceptor depletion cited as a re-escalation constraint. Blockade ledger carried unchanged: 83 redirected / 3 disabled / 2 boarded — no CENTCOM accounting with a confirmable 'as of Aug 31' label found in-window; The Peninsula's 84/3/2 ('announced Tuesday,' published Sep 1 18:38 UTC, no 'as of' label quoted) is post-window — hand to Sep 1's run unless it confirms the label. cumulativeTargetsStruck: unchanged '300+'. Missed-day check: 2026-08-30 report exists — no flag. Larak tolls: IRNA citing Qeshm County Gov. Amirtaymouri — 'at least two people were killed and several others wounded' (CNN via Yahoo, corpus 02); Tasnim's 3 / Nournews' 2-IRGC-Navy (Aug 30) unchanged; all Iranian-side, no independent toll. SIDR timing/attribution: attack 'late on Aug 31' per Bahri, confirmed Sep 2 via X (corpus 15/21) — filed in-window tail with hedges; Marisks' two-tanker 'unknown projectiles' claim spans Aug 31→Sep 1; the IRGC's 'two tankers hit mines' counter-claim is Sep 2 (post-window). Tension to watch: CENTCOM's Aug 31 'No ships have hit mines' vs the Sep 2 SIDR confirmation — projectiles ≠ mines, but whether CENTCOM/UKMTO address SIDR is open; do NOT assert the Aug 31 single-supertanker claim was a garbled preview of SIDR. Trump's 'averaging 30 ships a night' escort claim vs Kpler's ~5 visible transits/day (Aug 30 data) — reconcile against next transit counts. Oil datapoint conflict: Reuters (Aug 30) quoted +2.71% for Monday's Brent settle; MarketWatch/FactSet (Aug 31) says +1.3% to the same $90.49 — contract-roll discrepancy, attributed per outlet. Other datapoints: Guardian/Wintour — vegetable oil +383% y/y, eggs +294%, chicken +177%, red meat +148%; Mehr: red-meat demand −50% y/y (April). Trump raised protester deaths to 'over 100,000' (prior claim 60,000; Iranian figure 3,117). WaPo Hegseth story is Aug 30-dated (Bing stamp Aug 30 10:27 GMT) — unfiled in that day's report; filed here with the dateline flagged. Banque Misr: comment period to Oct 1 (updates the Aug 29 Forbes note that the Federal Register clock had not started); UAE probe is a forensic lookback; Bessent promises another bank this week, one more next week. Do NOT file as Aug 31: US strike wave on southern Iran, wedding strike, Bahrain/Jordan/Iraq attacks, 'biggest attack of them all' (Sep 1); CENTCOM 84 (Sep 1); Gulf Times rial 2.2mn record low (Sep 1); G20 wrap + Bessent 'asphyxiate' (Sep 1); IRGC two-tankers claim (Sep 2). Confirmed absences: no new OFAC designations; no UKMTO update; no Aug 31-dated rial datapoint; no NBC intel-damage follow-up; no prize-court filings; no Rezaei-list update; no Iranian move to halt oil exports. Thread status: RESOLVED for Aug 31 — US–Iran exchange follow-up (no follow-up strikes, streak 0→1); retaliation-wave scope (Al Minhad drone claim + UAE denial, no base hit); IRGC supertanker-mines claim (claim + denial, vessel never named). UPDATED — tanker strikes in the strait (SIDR fatal attack; re-open for aftermath); Chinese banks (Bessent–Pan call, 'all options', no listing); southern-route friction ('30 ships a night' vs transit counts); FinCEN Banque Misr (UAE probe, parent spared, Oct 1 clock); weekly sanctions cadence (no package Aug 31, bank promised this week, G20 day one); US–Venezuela deal (final pacts on track, signings this week); Larak casualties (IRNA 'at least two'); Iran–Oman corridor recap (Gharibabadi terms via NSJ; deadlock framing stands); Islamabad MoU (Pezeshkian: US 'has not fulfilled its commitments'). CARRIED — 'broad array' of countries (EU backs Outcast, not a trade cut); Iran oil-export halt threat; Pezeshkian–Putin (pre-meeting in-window; meeting Sep 1); NBC intel-damage; Rezaei $300B list; DOJ prize courts. New threads for Stage 5 (since: 2026-08-31): Hegseth non-concurs / force sustainability and Patriot depletion; SIDR aftermath (attribution, second tanker, UKMTO/CENTCOM response); Trump's '30 ships a night' claim vs transit counts; reported refiners meeting Sep 1; Venezuela pact signings this week.",
+  "sources": [
+    {
+      "title": "Reuters — Trump vows to hit Iran hard after first exchanges of fire in a month",
+      "url": "https://www.reuters.com/world/middle-east/trump-posts-ai-video-irans-kharg-smithereens-no-evidence-attack-2026-08-31/"
+    },
+    {
+      "title": "The Straits Times (AFP/Reuters) — Two dead after Aug 31 attack on Saudi oil tanker in Hormuz: Shipping firm",
+      "url": "https://www.straitstimes.com/world/middle-east/two-dead-after-attack-on-saudi-oil-tanker-in-hormuz-shipping-firm"
+    },
+    {
+      "title": "Argaam — Bahri vessel involved in security incident in Strait of Hormuz",
+      "url": "https://www.argaam.com/en/article/articledetail/id/1933536"
+    },
+    {
+      "title": "CNBC — Bessent, Warsh kick off G20 finance meeting with growth-focused remarks",
+      "url": "https://www.cnbc.com/2026/08/31/g20-finance-meeting-live-updates.html"
+    },
+    {
+      "title": "The Washington Post (via MSN) — Trump says US might 'smack' Iran but that fighting is likely to remain limited",
+      "url": "https://www.msn.com/en-us/politics/government/trump-says-us-might-smack-iran-but-that-fighting-is-likely-to-remain-limited/ar-AA2biKkG"
+    },
+    {
+      "title": "The Washington Post (via MSN) — Military leaders warn Hegseth against extending Iran war operations",
+      "url": "https://www.msn.com/en-us/politics/government/military-leaders-warn-hegseth-against-extending-iran-war-operations/ar-AA2bcXDK"
+    },
+    {
+      "title": "MarketWatch (via MSN) — Global oil prices settle above $90 a barrel after US and Iran exchange fire for first time in a month",
+      "url": "https://www.msn.com/en-us/news/other/global-oil-prices-settle-above-90-a-barrel-after-us-and-iran-exchange-fire-for-first-time-in-a-month/ar-AA2bg1RS"
+    },
+    {
+      "title": "CNA (Reuters) — Iran says supertanker struck by mines in Strait of Hormuz",
+      "url": "https://www.channelnewsasia.com/world/iran-strait-hormuz-supertanker-struck-mines-6351441"
+    }
+  ]
+}
