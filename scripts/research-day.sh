@@ -4,7 +4,7 @@
 # Usage:
 #   scripts/research-day.sh 2026-08-25         # all stages, local run, writes files only
 #   scripts/research-day.sh 2026-08-25 A       # a single stage: A (gather), B (synthesize), C (state)
-#   RESEARCH_MODEL=openrouter/stealth/ox-alpha scripts/research-day.sh 2026-08-25
+#   RESEARCH_MODEL=opencode/claude-sonnet-5 scripts/research-day.sh 2026-08-25
 #   RESEARCH_GIT=1 scripts/research-day.sh …   # CI mode: commit artifacts as produced
 #
 # Requires: opencode (https://opencode.ai), node >= 22.
@@ -45,7 +45,7 @@ if [[ "$DATE" > "$TODAY" ]]; then
   exit 1
 fi
 
-MODEL="${RESEARCH_MODEL:-openrouter/stealth/ox-alpha}"
+MODEL="${RESEARCH_MODEL:-openrouter/z-ai/glm-5.3-flash}"
 GIT_MODE="${RESEARCH_GIT:-0}"
 CORPUS="data/research/${DATE}"
 
