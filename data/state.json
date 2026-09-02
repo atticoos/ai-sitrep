@@ -1,15 +1,15 @@
 {
-  "updated": "2026-09-02T14:42:02Z",
+  "updated": "2026-09-02T16:53:55Z",
   "notes": "Continuity ledger for the daily research workflow (spec/RESEARCH_BRIEF.md). The agent reads this before researching and updates it after filing the day report. Hand-correctable at any time — this file wins over prose in dossiers.",
-  "asOf": "2026-08-28",
+  "asOf": "2026-08-30",
   "counters": {
-    "nightsWithoutConfirmedStrikesInIran": 29,
+    "nightsWithoutConfirmedStrikesInIran": 0,
     "cumulativeTargetsStruck": "300+",
     "cumulativeTargetsNote": "Last quantified by CENTCOM Jul 11; treat as floor, only raise with a new official cumulative figure."
   },
   "blockadeLedger": {
     "note": "CENTCOM maritime interdiction accounting, carried in dossiers since the pause.",
-    "redirected": 82,
+    "redirected": 83,
     "disabled": 3,
     "boarded": 2
   },
@@ -27,11 +27,11 @@
       "since": "2026-08-24"
     },
     {
-      "text": "Tanker strikes in the strait: Monday's Ash Shishah vessel (UKMTO 120-26) was Liberian-flagged per Fox — name still unconfirmed. Week's second strike: a Kuwaiti-connected tanker hit Wednesday, UKMTO warning Thursday, fire extinguished, crew safe, may need tow (TradeWinds); Kuwait separately told the IMO a KPC supertanker was struck earlier in August. No attribution and no Iranian claim or denial on either; watch tow/salvage status and UKMTO follow-ups.",
+      "text": "Tanker strikes in the strait: Khasab is the week's third strike — UKMTO 122-26, an inbound tanker hit by an 'unknown projectile' 12nm north of Khasab, Oman at 20:53 UTC Sat Aug 29, confirmed in a delayed report Sun Aug 30; no casualties or environmental impact. Week's ledger: Ash Shishah (UKMTO 120-26, Monday), a Kuwaiti-connected tanker (Wednesday), Khasab (Saturday) — still no names and no attribution, Iranian claim, or denial on any of the three. IRGC harassment continues (drone overflights, targeted surveillance); watch tow/salvage status and UKMTO follow-ups.",
       "since": "2026-08-25"
     },
     {
-      "text": "Pakistan mediation round one (Munir's Tehran visit) closed without visible outcome — watch for a second round or an announced next step. Qatar has since become the visible mediation channel.",
+      "text": "Pakistan mediation round one (Munir's Tehran visit) closed without visible outcome — watch for a second round or an announced next step. Updated Aug 30: Qatar is the visible mediation channel and says efforts are 'intensifying' with no 'tangible result' yet (Morung wrap, Sep 1-dated).",
       "since": "2026-08-25"
     },
     {
@@ -47,7 +47,7 @@
       "since": "2026-08-26"
     },
     {
-      "text": "Southern-route friction: no new enforcement incident Aug 27; Cooper reports mines cleared, international lanes open, 'momentum building' (~1,500 vessels assisted, ~750M barrels protected) while Kpler counted only 5 transits vs traders' ~7–8M bpd exiting (dark/shuttle trade gap); prior items — Iranian warship deterring HAANA from the southern 'Oman corridor', Saudi STS supertankers off Oman, Trump's 'immediately and systematically destroyed' warning to new mine-layers — remain watch items; track enforcement incidents and corridor usage.",
+      "text": "Southern-route friction: Cooper reports mines cleared, international lanes open, 'momentum building' (~1,500 vessels assisted, ~750M barrels protected); no new enforcement incident through Aug 29 — then the mine threat resurfaced: IRGC crews were 'observed preparing to launch rockets with sea mines' into the demined strait, prompting the Aug 30 US strike on two Larak launchers. Updated Aug 30: TankerTrackers counts 6.7M bpd crude crossing the blockade line over the past seven days (between Kpler's low transit counts and traders' ~7–8M bpd); UKMTO says traffic is 'reduced, albeit with a slight increase compared with recent lows' and IRGC harassment continues. Prior items — Iranian warship deterring HAANA from the southern 'Oman corridor', Saudi STS supertankers off Oman, Trump's 'immediately and systematically destroyed' warning to new mine-layers — remain watch items; track enforcement incidents and corridor usage.",
       "since": "2026-08-26"
     },
     {
@@ -67,8 +67,16 @@
       "since": "2026-08-28"
     },
     {
-      "text": "US strike resumption: stage-2 feed headlines (JNS/NYT/Huffpost, dated Aug 30 — outside the Aug 28 window) show strikes on Iranian rocket launchers/island beginning Aug 30 and call it the end of a 'weeks-long lull' — pause held through Aug 28–29 (streak 29+); confirm against the next day report.",
-      "since": "2026-08-28"
+      "text": "New US strike campaign underway: NIGHT 01 opened Aug 30 with the Larak Island launchers strike (first acknowledged US strike inside Iran since late July, on IRGC crews readying mine-carrying rockets for the strait); Trump threatened Kharg Island ('going to be blown to smithereens!'; NIOC: conditions 'calm and appropriate'); stage-2 next-day leads show further US strikes Sep 1 — watch the campaign's scope and whether Kharg is hit.",
+      "since": "2026-08-30"
+    },
+    {
+      "text": "Iran's retaliation round(s) for Larak: IRGC struck two US air bases in Jordan (Iranian media: King Hussein, Al-Azraq) with ballistic missiles and drones Aug 30; Jordan intercepted 8 missiles; IRGC claims 'heavy damage' flatly contradicted by US officials; Azizi: 'Retaliation is coming… JUST RUN!' Sep 1 leads point to attacks widening to Gulf states and more US bases — watch follow-up rounds and US/Jordanian/UAE responses.",
+      "since": "2026-08-30"
+    },
+    {
+      "text": "UAE front (The Hill, Aug 31-dated — excluded from the Aug 30 report): Fars-reported IRGC claim that Al Minhad air base was struck 'hours after' Jordan, a UAE drone intercept over territorial waters, UAE FM 'dangerous escalation' — verify against UAE/US sources and file in the next day report.",
+      "since": "2026-08-30"
     }
   ]
 }
