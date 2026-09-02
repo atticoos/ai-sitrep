@@ -41,8 +41,14 @@ Method:
   `https://www.bing.com/news/search?q=<url-encoded-query>&format=RSS` — Bing News RSS exposes
   direct publisher URLs. Do NOT use Google News RSS; its links are JS redirects, not citable
   URLs.
-- curl always sends a browser User-Agent (`-A "Mozilla/5.0 …"`); if an outlet still blocks,
-  retry the same URL through the webfetch tool before giving up on it.
+- Fetch articles with the firecrawl MCP scrape tool (markdown format) — it renders
+  JS, gets through anti-bot walls (Akamai blocks, robot tags) that curl/webfetch cannot,
+  and returns main-content text you can file directly. Official PDF releases (Treasury/OFAC,
+  CENTCOM) scrape the same way. For live blogs and rolling wires request an uncached scrape
+  (`maxAge` 0) — the default cache can serve copies hours stale.
+- If firecrawl is unavailable (missing key, rate limit, scrape error), fall back to curl
+  with a browser User-Agent (`-A "Mozilla/5.0 …"`), then the webfetch tool, before giving
+  up on the outlet. Keep Bing News RSS on curl — it already fetches cleanly.
 - Fetch and read full articles from the results — AP, Reuters, Al Jazeera, CNN live pages,
   NBC, Al-Monitor, official releases (CENTCOM, Treasury/OFAC, state media for Iranian claims).
   Headlines alone are not enough for significance ≥ 4 events.

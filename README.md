@@ -112,8 +112,9 @@ continuity ledger (`data/state.json`) and a source corpus (`data/research/YYYY-M
 opens a PR for review.
 
 - **CI:** Actions → "Daily research" → Run workflow with a date (defaults to yesterday UTC)
-  and model (defaults to `openrouter/stealth/ox-alpha`). Provide whichever API key the chosen
-  provider needs as a repo secret: `OPENROUTER_API_KEY` or `ANTHROPIC_API_KEY`.
+  and model (defaults to `openrouter/z-ai/glm-5.3-flash`). Provide whichever API key the chosen
+  provider needs as a repo secret: `OPENROUTER_API_KEY` or `ANTHROPIC_API_KEY`. Also set
+  `FIRECRAWL_API_KEY` for article fetching (works keyless, but rate-limited).
   Re-running a date overwrites its branch/PR cleanly.
 - **Local:** `npm run research -- 2026-08-25` (writes files only; no git operations). Uses
   whatever provider auth your local opencode already has; override with `RESEARCH_MODEL`.

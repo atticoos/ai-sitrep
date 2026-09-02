@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-02T14:42:02Z",
+  "updated": "2026-09-02T15:31:56Z",
   "notes": "Continuity ledger for the daily research workflow (spec/RESEARCH_BRIEF.md). The agent reads this before researching and updates it after filing the day report. Hand-correctable at any time — this file wins over prose in dossiers.",
-  "asOf": "2026-08-28",
+  "asOf": "2026-08-29",
   "counters": {
-    "nightsWithoutConfirmedStrikesInIran": 29,
+    "nightsWithoutConfirmedStrikesInIran": 30,
     "cumulativeTargetsStruck": "300+",
     "cumulativeTargetsNote": "Last quantified by CENTCOM Jul 11; treat as floor, only raise with a new official cumulative figure."
   },
@@ -27,15 +27,15 @@
       "since": "2026-08-24"
     },
     {
-      "text": "Tanker strikes in the strait: Monday's Ash Shishah vessel (UKMTO 120-26) was Liberian-flagged per Fox — name still unconfirmed. Week's second strike: a Kuwaiti-connected tanker hit Wednesday, UKMTO warning Thursday, fire extinguished, crew safe, may need tow (TradeWinds); Kuwait separately told the IMO a KPC supertanker was struck earlier in August. No attribution and no Iranian claim or denial on either; watch tow/salvage status and UKMTO follow-ups.",
+      "text": "Tanker strikes in the strait: week's third commercial-vessel strike — Saturday Aug 29 an unknown projectile hit a tanker 12nm north of al-Khasab, Oman (no injuries or environmental damage; UKMTO warning issued late Sunday — delayed reporting; no attribution, no Iranian claim or denial). Prior items: Monday's Ash Shishah vessel name still unconfirmed (UKMTO 120-26, Liberian-flagged per Fox); Kuwaiti-connected tanker's tow/salvage status unchanged; Kuwait separately told the IMO a KPC supertanker was struck earlier in August. UKMTO Aug 29: strait risk SEVERE, traffic 'significantly reduced,' operators favouring the Northern route, continuing IRGC harassment (drone overflights, targeted surveillance of merchant vessels, radio transmissions). Watch attribution, tow/salvage status, and UKMTO follow-ups.",
       "since": "2026-08-25"
     },
     {
-      "text": "Pakistan mediation round one (Munir's Tehran visit) closed without visible outcome — watch for a second round or an announced next step. Qatar has since become the visible mediation channel.",
+      "text": "Pakistan mediation round one (Munir's Tehran visit) closed without visible outcome. Updated Aug 29: Gharibabadi framed the weekend's Qatari and Pakistani visits as aimed at determining whether the parties can return to implementing the Islamabad MoU's commitments; Qatar remains the visible mediation channel — watch for a second round, a concrete next step, or US engagement on the MoU.",
       "since": "2026-08-25"
     },
     {
-      "text": "Iran–Oman temporary Hormuz corridor formalization: phased framework (temporary joint navigational corridor + joint mine-clearing) discussed with Qatar's PM Aug 27; Rezaei says a 'designated central channel' opens only if the US first meets Iran's conditions; White House has not engaged (per unfiled headline-only reporting); transit-fee dispute and 30–60-day permanent-scheme negotiation still unresolved — watch for the corridor announcement, US reaction, IMO notification, and corridor usage data.",
+      "text": "Iran–Oman Hormuz corridor — first 'reached' claim: Gharibabadi said Aug 29 Iran and Oman have reached an understanding over the strait, but it 'will not be implemented until the United States fulfills its commitments under the Islamabad MoU'; 'the Strait of Hormuz remains closed, and any vessel passing through the strait does so in coordination with Iran'; Tehran will continue 'defensive measures' and is 'prepared for any scenario.' Pezeshkian separately urged reviving the lapsed June 17 MoU (~90M barrels sold under it). Still unresolved: the transit-fee dispute, the 30–60-day permanent-scheme negotiation, Rezaei's 'designated central channel' conditional on the US first meeting Iran's conditions, and White House non-engagement — watch for implementation, US reaction, IMO notification, and corridor usage data.",
       "since": "2026-08-26"
     },
     {
@@ -59,7 +59,7 @@
       "since": "2026-08-27"
     },
     {
-      "text": "FinCEN's Banque Misr UAE special measure is an NPRM (UAE-branch scope only; Egyptian parent untouched) — watch for finalization and for Egyptian/UAE central-bank and Banque Misr responses to the proposed correspondent-account cutoff.",
+      "text": "FinCEN's Banque Misr UAE special measure is an NPRM (UAE-branch scope only; Egyptian parent untouched). Updated Aug 29: Banque Misr says it is reviewing the notice 'with utmost seriousness and attention' while its UAE branches keep serving customers; Egypt's central bank says it and the foreign ministry are in contact with US officials, noting the measure is limited to Banque Misr UAE's USD transactions with correspondent banks. Forbes (Aug 30, post-window): Federal Register publication had not yet appeared — the 30-day comment clock had not started. Watch for Federal Register publication, finalization, and further Egyptian/UAE central-bank responses to the proposed correspondent-account cutoff.",
       "since": "2026-08-28"
     },
     {
@@ -67,8 +67,8 @@
       "since": "2026-08-28"
     },
     {
-      "text": "US strike resumption: stage-2 feed headlines (JNS/NYT/Huffpost, dated Aug 30 — outside the Aug 28 window) show strikes on Iranian rocket launchers/island beginning Aug 30 and call it the end of a 'weeks-long lull' — pause held through Aug 28–29 (streak 29+); confirm against the next day report.",
-      "since": "2026-08-28"
+      "text": "US strike resumption: pause held through Aug 28–29 (streak 30). Post-window reporting (Aug 30): US struck two IRGC rocket launchers on Larak Island — CENTCOM calls it 'limited,' first US military action since Jul 29; Iran retaliated, state TV showing ballistic-missile fire at US bases in Jordan (8 intercepted early Monday); IRGC Gen. Hossein Mohebi: 'fatal mistake… during the economic war.' Aug 30 run: reset the no-strikes streak to 0, set `night` if a consecutive-strike campaign is beginning, and file the strikes/retaliation as Aug 30 events (proof corpus: data/research/2026-08-29/06-ap-first-action-month.md, 07-nbc-first-strikes-since-july.md, 08-ap-markets-first-action.md).",
+      "since": "2026-08-29"
     }
   ]
 }

@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-29",
+  "theme": "Deal reached, 'remains closed'",
+  "tempo": "medium",
+  "us": "White House won't confirm reported refiners meeting · Embassy Beirut demands Hezbollah disarm · CENTCOM sustains Osprey ops",
+  "effects": "3rd tanker struck this week · UKMTO risk 'SEVERE' for the strait · 6,000 sailors stranded · Trade −35%, inflation 66%",
+  "iran": "Gharibabadi: deal reached, gated on Islamabad MoU · Khamenei flags 'economic and livelihood challenges' · Pezeshkian: revive June 17 MoU · 'prepared for any scenario'",
+  "tldr": "Iran declared its Hormuz understanding with Oman 'reached' — but said it will not take effect until the US implements the Islamabad MoU, keeping the strait 'closed' with any transit 'in coordination with Iran' — as a third tanker in a week was struck by an unknown projectile 12nm north of al-Khasab. Mojtaba Khamenei, unseen publicly since February, acknowledged the 'economic and livelihood challenges' for the first time, with Pezeshkian putting foreign trade down ~35% and inflation at 66% while urging revival of the lapsed June 17 MoU. Banque Misr said it is reviewing the FinCEN proposal 'with utmost seriousness' while its UAE branches keep serving customers. No confirmed strikes inside Iran — the 30th consecutive day — and no new US designations or CENTCOM accounting.",
+  "events": [
+    {
+      "time": "day",
+      "actor": "Iran (attributed)",
+      "title": "Third tanker in a week struck by unknown projectile 12nm north of al-Khasab",
+      "summary": "A tanker was struck by an unknown projectile off Oman on Saturday — 12nm north of al-Khasab — with no injuries or environmental damage reported, per UKMTO, which issued its warning late on Sunday (delayed reporting). No attribution; authorities investigating; no Iranian claim or denial found. It is the week's third commercial-vessel strike (Monday's Ash Shishah, Wednesday's Kuwaiti-connected vessel). UKMTO's accompanying report keeps the strait at SEVERE risk, says traffic remains 'significantly reduced' with operators increasingly favouring the Northern route, and logs continuing IRGC harassment — drone overflights, targeted surveillance of merchant vessels, occasional radio transmissions. Single wire report (dpa) carrying UKMTO's X post — treat attribution as unknown.",
+      "significance": 4,
+      "confidence": "medium",
+      "sources": [
+        "https://www.yahoo.com/news/world/articles/tanker-attacked-strait-hormuz-off-184822724.html"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Gharibabadi: Oman Hormuz understanding 'reached' — but not until US honors Islamabad MoU",
+      "summary": "Iran's deputy foreign minister said Saturday that Iran and Oman have reached an understanding over the Strait of Hormuz, but it 'will not be implemented until the United States fulfills its commitments under the Islamabad MoU' — the June agreement Qatar and Pakistan helped broker, which Pezeshkian separately urged reviving on state TV. 'The Strait of Hormuz remains closed, and any vessel passing through the strait does so in coordination with Iran'; Tehran will continue what it calls 'defensive measures' and is 'prepared for any scenario.' Gharibabadi framed the weekend's Qatari and Pakistani visits as aimed at determining whether the parties can return to implementing the MoU's commitments. First 'reached' claim for the corridor, now gated on Washington; CENTCOM maintains Iran does not control the strait. Per Iran International citing Iranian media, carried by Fox — no independent confirmation of the 'reached' claim.",
+      "significance": 4,
+      "confidence": "medium",
+      "sources": [
+        "https://www.iranintl.com/en/202608296391",
+        "https://www.foxnews.com/live-news/iran-war-us-sanctions-trump-strait-hormuz-oman-oil-prices-08-29-2026"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Khamenei flags 'economic and livelihood challenges'; Pezeshkian: trade down ~35%",
+      "summary": "In a written statement attributed to Mojtaba Khamenei — not seen publicly since the Feb 28 attack that killed his father — the supreme leader said 'there is the need to seriously address the chain of economic and livelihood challenges, such as inflation, unemployment, management of prices and the market for goods and services,' as the Outcast campaign mounts. Pezeshkian told state media exports and imports slumped nearly 35% under sanctions and the naval blockade, then called on state TV for revival of the June 17 interim MoU: 'We can solve our problems and gain our privileges with the memorandum of understanding' — the short-lived deal under which Iran sold ~90M barrels. Annual inflation hit 66% last month. Tehran signalled no retreat, calling diplomacy and defence 'two complementary, coordinated and inseparable wings.'",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/",
+        "https://www.foxnews.com/live-news/iran-war-us-sanctions-trump-strait-hormuz-oman-oil-prices-08-29-2026"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Diplomacy",
+      "title": "Banque Misr pushes back: review 'with utmost seriousness', UAE branches keep serving customers",
+      "summary": "The Egyptian state bank's UAE branch — FinCEN's proposed cut from US correspondent banking over ~$1.8B processed for 103 companies allegedly tied to Iranian shadow-banking networks — said Saturday it is reviewing the notice 'with utmost seriousness and attention' while continuing to serve customers. Egypt's central bank said it and the foreign ministry are in contact with US officials, noting the measure is limited to Banque Misr UAE's US dollar transactions with correspondent banks. First public response to the campaign's first bank-facing move; Cairo and the host supervisor so far answer the 'auction' in public, with no final rule in place.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/",
+        "https://www.foxnews.com/live-news/iran-war-us-sanctions-trump-strait-hormuz-oman-oil-prices-08-29-2026"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Khamenei Unity Week letter: Gulf rulers should 'identify your real enemy'",
+      "summary": "In a Telegram statement marking Islamic Unity Week, Mojtaba Khamenei urged Muslim nations — especially Gulf rulers — to unite against their 'real enemy,' advocating mutual defence and joint cooperation, and asking whether 'rogues without identity' would have dared covet Gulf lands had the region been 'united under the flag of Islam.' It echoes his Friday ban on 'discouraging statements' that weaken public and national morale. Timing note: Economic Times syndication ran Saturday Aug 29; the Independent's Reuters bulletin published Aug 30 — treat the letter's landing as approximate to the weekend.",
+      "significance": 2,
+      "confidence": "medium",
+      "sources": [
+        "https://www.independent.co.uk/news/world/middle-east/islamic-unity-week-khamenei-palestine-b3041730.html"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Tehran signals dialogue path open; acting defense minister teases 'surprises'",
+      "summary": "Ambassador to Germany Majid Nili said Tehran is ready to pursue dialogue with the US — 'the path of dialogue and engagement based on mutual respect is still being pursued' (IRNA via Middle East Eye) — following Araghchi's Friday X post that 'putting diplomacy back on track isn't impossible' if Washington builds trust and upholds commitments. Acting defense minister Brig. Gen. Majid Ebn al-Reza (Tasnim): adversaries 'will become aware of Iran's surprises in due time.' Pezeshkian, marking six months of war (IRIB): Iran does not welcome war, 'but we will stand strong against any aggressor, and no power can force a nation that stands with all its might and will to surrender.'",
+      "significance": 2,
+      "confidence": "medium",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-war-us-sanctions-trump-strait-hormuz-oman-oil-prices-08-29-2026"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Diplomacy",
+      "title": "IMO: 6,000 sailors stranded, 19 seafarers killed, 70+ attacks on shipping at six months",
+      "summary": "The UN's maritime agency said Friday that at least 6,000 sailors remain stranded aboard hundreds of ships in the Persian Gulf six months into the war, that 19 seafarers have been killed since Feb 28, and that at least 70 attacks on international shipping have been recorded — carried on Fox's Aug 29 page. The war's cumulative toll on commercial shipping, quantified by the agency; no follow-up US or Iranian comment found.",
+      "significance": 2,
+      "confidence": "medium",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-war-us-sanctions-trump-strait-hormuz-oman-oil-prices-08-29-2026"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Trump reportedly to convene refiners and fuel retailers Sept 1 on gas prices; White House won't confirm",
+      "summary": "Reuters reported, citing people familiar with the matter, that Trump will meet US oil refiners and fuel retailers next week on efforts to lower consumer prices; Bloomberg separately put the meeting on the afternoon of Tuesday Sept 1 with representatives of at least 10 fuel makers and distributors. Asked about it, a White House official did not confirm: 'The Trump Administration will make a decision that is best for consumers, farmers, and energy supply chains.' The reported session tracks the war's pump-price pressure (AAA ~$4.09/gal Friday, per the Aug 28 report).",
+      "significance": 2,
+      "confidence": "medium",
+      "sources": [
+        "https://www.foxnews.com/live-news/iran-war-us-sanctions-trump-strait-hormuz-oman-oil-prices-08-29-2026"
+      ]
+    }
+  ],
+  "dossier": "Night count: 30th consecutive without confirmed strikes inside Iran (increment from 29 — mirror into state.json). Corroborating: no kinetic-strike posts anywhere on the Aug 29 Fox page or in the corpus window; the resumption is dated Sunday Aug 30 — CENTCOM's 'limited' strike on two IRGC rocket launchers on Larak Island, first US military action since Jul 29 (AP/NBC corpus items 06/07, post-window, filed to prove the streak and pre-load the Aug 30 report). Do NOT set night — the consecutive-strike campaign begins Aug 30, not Aug 29. Blockade ledger carried unchanged at 82 redirected / 3 disabled / 2 boarded (CENTCOM 'as of August 28'); no new CENTCOM accounting found for Aug 29 — next release lands Sep 1 (The Peninsula: 84 redirected; post-window, seen in Bing feed, unfiled). Cumulative targets struck: unchanged '300+'. Missed-day check: 2026-08-28 report exists — no flag. Tanker thread: Saturday's al-Khasab strike is the week's third (Ash Shishah vessel name still unconfirmed; Kuwaiti vessel tow status unchanged); UKMTO logs continuing IRGC harassment (drone overflights, targeted surveillance, radio transmissions), SEVERE risk for the strait, traffic 'significantly reduced,' operators favouring the Northern route, slight uptick from recent lows. Corridor/Islamabad thread: Gharibabadi's gating condition is the first 'reached' claim for the Oman corridor; prior state — phased framework discussed with Qatar's PM Aug 27, Rezaei's 'designated central channel' conditional on US meeting Iran's conditions, transit-fee dispute unresolved; Pezeshkian separately urged reviving the June 17 MoU (~90M barrels sold under it, per Pezeshkian). Dubai lifeline (Iran International page context, FT-derived; not separately filed): dhow trade with Iran stopped ('No more Iran since last week'), pre-war Iran–UAE commerce ~$30B/yr, Bank Melli/Bank Saderat still serving through a dozen+ UAE branches; same page: China warned it 'would respond' if Chinese companies were targeted by significant secondary-sanctions expansion — Xi–Trump thread context, single-page provenance, timing approximate. Federal Register: Forbes (Aug 30, post-window) — Banque Misr NPRM publication had not appeared, so the 30-day comment clock had not started; Iran's central bank per Forbes says oil exports have stopped. Timing caveats: al-Khasab strike occurred Saturday but UKMTO warned 'late on Sunday' — filed to the occurrence day; Reuters economy piece published Aug 29 02:04 UTC, updated 15:08 UTC; IRGC Navy 'obvious lie' reprise in Reuters restates Friday's statement, not new. CENTCOM released Saturday photos of Marines refueling an MV-22 Osprey (sustainment, no strike activity). Attribution limits: teachers'-crackdown figures (15 dead, 78 arrested; one educator facing two death sentences) are single-source (Teachers' Movement Research Institute via Fox Digital, 'could not be independently verified') — not filed as an event. US Embassy Beirut demanded Hezbollah disarm ('simply taking orders from Iran') — X post via Fox, not filed as an event. Post-window corpus items 06 (AP), 07 (NBC), 08 (AP markets), 09 (Forbes) inform streak math and the Aug 30 handoff only.",
+  "sources": [
+    {
+      "title": "Reuters — War weighs on Iran's economy as US intensifies sanctions",
+      "url": "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/"
+    },
+    {
+      "title": "Iran International — Iran says Hormuz remains closed pending US compliance with Islamabad MoU",
+      "url": "https://www.iranintl.com/en/202608296391"
+    },
+    {
+      "title": "Fox News — Iran war live updates: Iran's supreme leader admits economic hardships as US sanctions campaign takes toll (Aug 29)",
+      "url": "https://www.foxnews.com/live-news/iran-war-us-sanctions-trump-strait-hormuz-oman-oil-prices-08-29-2026"
+    },
+    {
+      "title": "Yahoo News (dpa) — Tanker attacked in Strait of Hormuz off Omani coast",
+      "url": "https://www.yahoo.com/news/world/articles/tanker-attacked-strait-hormuz-off-184822724.html"
+    },
+    {
+      "title": "The Independent (Reuters) — Iran's Khamenei tells Gulf rulers to confront 'real enemy' for Islamic Unity Week",
+      "url": "https://www.independent.co.uk/news/world/middle-east/islamic-unity-week-khamenei-palestine-b3041730.html"
+    }
+  ]
+}
