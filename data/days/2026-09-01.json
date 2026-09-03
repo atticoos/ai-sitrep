@@ -1,0 +1,193 @@
+{
+  "date": "2026-09-01",
+  "night": "NIGHT 02",
+  "theme": "'Biggest exchange since July'",
+  "tempo": "high",
+  "us": "Strikes ~100 targets across southern Iran · CENTCOM: air defenses, radar, maritime assets, mine-laying · 'Tanker-for-tanker': 2 government tankers hit (Axios, single-chain) · Trump: 'almost total control of the Hormuz Strait' · Bessent: 'economically asphyxiate this regime'",
+  "effects": "Jordan intercepts 10 of 13 ballistic missiles · WTI +5.2% to $90.22, 6-week high · 2 laden tankers hit overnight, no attribution · Gasoline $4.10/gal, stocks tumble · Streak resets: NIGHT 02",
+  "iran": "Mojtaba Khamenei: 'unforgettable lessons' in store · General Staff: 'crushing and devastating blows' · Claims US personnel killed — US: no casualties · MOFA: acting in self-defense · Hemmati: up to $2B to defend the rial",
+  "tldr": "The pause broke for the second time in three days and this time it held: US forces struck roughly 100 targets across southern Iran — air defenses, radars, maritime assets, mine-laying capabilities — in the biggest exchange since July, reportedly including two Iranian government tankers in a new 'tanker-for-tanker' turn (Axios, single-chain). Iran answered with missiles and drones at US positions in Jordan, Bahrain, Kuwait and Iraq — Jordan intercepted 10 of 13 ballistic missiles, and US officials reported no casualties despite Iranian claims of killed personnel. Iranian officials said a US strike hit a wedding gathering in Kuhestak, killing 4–5 and wounding up to 68 — CENTCOM: 'The U.S. military never targets civilians.' WTI settled +5.2% at $90.22, a six-week high, and gasoline hit $4.10 — while on G20 day two no new designations landed and China blocked a joint communiqué.",
+  "events": [
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "US strikes ~100 targets across southern Iran — biggest exchange since July; CENTCOM says barrage 'completed'",
+      "summary": "US forces hit Iranian military targets including air defense sites, radar systems, maritime assets, mine-laying capabilities and communications infrastructure, CENTCOM said Tuesday evening US ET (~Sep 2 00:00–04:00 UTC), citing Tehran's 'overnight attacks on ships transiting' the strait and 'recent attempted attacks' on shipping and US service members. Trump told Fox the strikes hit radars Iran was rebuilding: 'We waited until it was almost built and then we hit it.' Axios reported the operation ran to roughly 100 targets and that US forces struck two Iranian government tankers in their engine rooms off Iran's coast north of the blockade line — a 'tanker-for-tanker' turn in direct retaliation for attacks on shipping (single-chain via Axios; unconfirmed). Iranian media logged strikes on Sirik, Konarak, Bandar Abbas, Jask, Asaluyeh, Ahvaz and Qeshm Island, the civilian Jiroft Airport (projectile outside the runway, no damage), a fishmeal factory, Sirik's fishing pier and Ports & Maritime Organization tower, and Hormozgan power-grid parts; Bandar Abbas witnesses told AP the explosions were stronger than Sunday's. Trump denied an ABC report that the strikes aimed to force Iran to the table — 'I couldn't care less if they sign a worthless, to them, agreement… When are the Iranian people going to rise up and fight?' — and warned retaliation would be met 'at a much harder and higher level.'",
+      "significance": 5,
+      "confidence": "high",
+      "sources": [
+        "https://www.usnews.com/news/world/articles/2026-09-01/us-says-its-hitting-targets-in-iran-as-hostilities-flare-again-after-month-with-no-military-action",
+        "https://www.usatoday.com/story/news/world/2026/09/02/us-strikes-iran-tehran-responds/91576000007/",
+        "https://www.yahoo.com/news/us/articles/us-launches-strikes-against-iran-164556132.html",
+        "https://www.yahoo.com/news/us/articles/us-hit-iranian-tankers-tanker-010027031.html"
+      ]
+    },
+    {
+      "time": "evening",
+      "actor": "Iran",
+      "title": "Iran retaliates across the Gulf: 13 ballistic missiles at Jordan, drones and missiles at US positions in Bahrain, Kuwait and Iraq",
+      "summary": "Iran fired 13 ballistic missiles at Jordan — 10 intercepted, three landing in open ground, no injuries per Jordan's military, interceptions visible over Aqaba. The IRGC claimed ballistic-missile strikes on Camp Titin, a US Marine site near the Gulf of Aqaba, and Jordan's Prince Hassan airbase — destroying hangars housing RQ-4 and MQ-9 drones and killing US personnel; a US official told Al Jazeera there were no injuries or significant damage at Camp Titin, and US officials told Reuters initial assessments showed no casualties. Iran's army said it struck radar installations at Bahrain's Sheikh Isa airbase (Bahrain: attacks intercepted and destroyed); Kuwait said its defenses confronted 'hostile drones and missiles' and firefighters extinguished a drone-started residential blaze near Ali Al Salem Air Base, which Iran said it attacked along with a US commander's residence; the IRGC separately claimed repair-centre, warehouse and fuel-tank damage in Erbil. Kuwait called the attacks 'criminal Iranian aggression'; Qatar said it holds Iran responsible for the attacks and their repercussions. Al Jazeera could not independently verify the damage claims.",
+      "significance": 5,
+      "confidence": "high",
+      "sources": [
+        "https://www.yahoo.com/news/us/articles/us-launches-strikes-against-iran-164556132.html",
+        "https://www.usnews.com/news/world/articles/2026-09-01/us-says-its-hitting-targets-in-iran-as-hostilities-flare-again-after-month-with-no-military-action",
+        "https://www.usatoday.com/story/news/world/2026/09/02/us-strikes-iran-tehran-responds/91576000007/",
+        "https://apnews.com/article/mideast-iran-hormuz-washington-september-1-2026-e0165815fef56d94b1a07793d24fdee3"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "US strike hits wedding gathering in Kuhestak — 4–5 killed (Iranian tolls revised), up to 68 wounded; CENTCOM: 'never targets civilians'",
+      "summary": "A US strike hit a home hosting a wedding in Kuhestak (Sirik County), on the coast overlooking the strait: Hormozgan deputy governor Ahmad Nafisi told state TV five people were killed including a child and at least 68 wounded; IRNA and state TV later revised the toll to four — two women and two children aged 4 and 16 — with no explanation (Iranian-side figures; Reuters could not independently verify). Iranian media tallied the wounded at 63–68 across variants. CENTCOM's Capt. Tim Hawkins: 'We are aware of reports, which originated from Iranian state media. The U.S. military never targets civilians, unlike the IRGC.' Iranian officials likened the strike to the war's first-night girls'-school strike that killed 160 — the Pentagon has never released that investigation's findings — and Red Crescent images from the site showed rubble and blood-soaked carpets.",
+      "significance": 4,
+      "confidence": "medium",
+      "sources": [
+        "https://www.usnews.com/news/world/articles/2026-09-01/us-says-its-hitting-targets-in-iran-as-hostilities-flare-again-after-month-with-no-military-action",
+        "https://apnews.com/article/mideast-iran-hormuz-washington-september-1-2026-e0165815fef56d94b1a07793d24fdee3",
+        "https://www.usatoday.com/story/news/world/2026/09/02/us-strikes-iran-tehran-responds/91576000007/"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Effects",
+      "title": "Oil surges to six-week highs on the exchange — WTI +5.2% to $90.22, biggest gain since Jul 29; stocks tumble",
+      "summary": "WTI for October settled +5.2% at $90.22 — its highest in nearly six weeks and largest daily advance since July 29 per FactSet; Brent rose 4.49% to $94.55 (The Punch via MSN footnote; MarketWatch's syndicated headline called both benchmarks six-week highs, and The Hill's intraday $92.50 Brent / $88 WTI predates the settle — attribute per outlet). Crude is up ~7% on the week (AP) and US gasoline hit $4.10/gal (AAA) — diesel near $6 (Bloomberg). Asian and European stocks tumbled on the strikes (Reuters). Oil has climbed more than 50% this year; regular gasoline was $3.19 a gallon a year ago.",
+      "significance": 4,
+      "confidence": "high",
+      "sources": [
+        "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708",
+        "https://www.msn.com/en-xl/news/other/trump-puts-pressure-on-squeezed-us-oil-refiners-to-ease-pump-prices/ar-AA2bnLRF",
+        "https://www.usatoday.com/story/news/world/2026/09/02/us-strikes-iran-tehran-responds/91576000007/",
+        "https://www.usnews.com/news/world/articles/2026-09-01/us-says-its-hitting-targets-in-iran-as-hostilities-flare-again-after-month-with-no-military-action"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Iran",
+      "title": "Mojtaba Khamenei: 'unforgettable lessons' in store; General Staff promises 'crushing and devastating blows'",
+      "summary": "In his first message after the strikes, Supreme Leader Mojtaba Khamenei said the armed forces have 'unforgettable lessons' in store for Washington. Khatam al-Anbiya spokesman Col. Ebrahim Zolfaghari: offensive operations 'will continue until they regret their crimes,' warning of 'heavier, more widespread, and devastating responses' and 'dangerous consequences' for any country cooperating with the US. The General Staff promised 'crushing and devastating blows'; the IRGC said the attacks had only strengthened Iran's resolve and 'tightened' its effective closure of the strait; parliament security chief Ebrahim Azizi: 'Make no mistake: these crimes will not go unpunished'; MOFA spokesman Baghaei framed Iran as acting in self-defense against violations of its sovereignty. None of Iran's damage claims from the retaliation have been independently verified.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.yahoo.com/news/us/articles/us-launches-strikes-against-iran-164556132.html",
+        "https://www.usnews.com/news/world/articles/2026-09-01/us-says-its-hitting-targets-in-iran-as-hostilities-flare-again-after-month-with-no-military-action",
+        "https://apnews.com/article/mideast-iran-hormuz-washington-september-1-2026-e0165815fef56d94b1a07793d24fdee3"
+      ]
+    },
+    {
+      "time": "overnight",
+      "actor": "Effects",
+      "title": "Two more laden tankers hit overnight; counts vs claims: Axios 15–20 tankers/night vs Kpler's 5; INTERTANKO: clearance 'not sufficient'",
+      "summary": "Two tankers carrying Saudi crude were struck within minutes of each other by unidentified projectiles overnight Aug 31–Sep 1 — the Saudi-flagged SIDR (Bahri confirmed two Filipino seafarers killed) and the Liberian-flagged Senegal Prosperity, per Newsmax citing shipping-intelligence and vessel-tracking firms (second vessel's name single-chain; no attribution claimed; no UKMTO bulletin captured in-window). CENTCOM cited Tehran's 'overnight attacks on ships transiting' the waterway as part of the strike wave's trigger. The claims-vs-counts gap widened: US officials tell Axios that 15–20 tankers have been moving through the southern corridor on many nights (~10M bpd, roughly half prewar volume), while preliminary Kpler data show just five vessels transited Monday with no liquid tankers among them — against Trump's 'averaging 30 ships a night'; Energy Secretary Chris Wright said more than 17M barrels exited the strait Aug 31. INTERTANKO (Sep 1): TSS mine clearance is 'a necessary condition… not sufficient on its own' — Iran still insists vessels use its northern corridor, and JMIC keeps warning of drifting or uncharted mines.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.yahoo.com/news/us/articles/us-hit-iranian-tankers-tanker-010027031.html",
+        "https://gcaptain.com/intertanko-hormuz-mine-clearance-not-sufficient-to-restore-normal-shipping/",
+        "https://www.usatoday.com/story/news/world/2026/09/02/us-strikes-iran-tehran-responds/91576000007/",
+        "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "G20 closes without communiqué — China lone holdout; Bessent vows to 'economically asphyxiate this regime'; no new designations",
+      "summary": "The two-day G20 finance meeting in Asheville ended with no joint statement: China was the lone holdout, objecting to four sections including one on the Strait of Hormuz and ongoing wars; the US issued a chair's statement agreed by all members except China, and Bessent called it 'incredible to get 19 countries to agree to anything.' At a Kudlow-moderated event he vowed to 'economically asphyxiate this regime' — 'We know where in the British Virgin Islands your accounts are at these trust companies… We know the $100 million houses you have around the world. We are going to freeze those' — likening Iran's government to a snake still wriggling after its head was cut off. Per Reuters, Washington is eyeing airlines, the maritime industry and digital assets as the next pressure targets. No new designations were announced Sep 1; bank sanctions are 'expected to start this week.'",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.axios.com/2026/09/02/china-g20-bessent-trade",
+        "https://nypost.com/2026/09/01/us-news/bessent-vows-to-asphyxiate-iran-with-sanctions-taking-away-irgcs-offshore-accounts-luxury-homes/",
+        "https://www.usatoday.com/story/news/world/2026/09/02/us-strikes-iran-tehran-responds/91576000007/"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "Diplomacy",
+      "title": "Pezeshkian–Putin at SCO Bishkek: Putin pledges 'necessary assistance'; SCO condemns strikes on Iran; Pezeshkian offers MoU reciprocity",
+      "summary": "Pezeshkian thanked Putin for wartime support and urged joint opposition to US sanctions — 'we can counter U.S. unilateralism and the unjust sanctions imposed upon us… within frameworks like the SCO' — while Putin said Russia is 'striving to provide you with the necessary assistance… supplying you with essential goods' and lamented the 'unstable and all too fragile' June truce (Kremlin readout via WaPo). The SCO's joint statement condemned 'military strikes on the territory of the Islamic Republic of Iran, which have resulted in numerous civilian casualties' and opposed 'unilateral coercive measures.' Before the strikes, Pezeshkian offered: 'If the U.S. returns to its commitments in the memorandum of understanding, the Islamic Republic of Iran will immediately reciprocate' (AP). Pakistan PM Sharif met Pezeshkian on the sidelines — Islamabad says it 'remains engaged' with both sides. The reported $25B nuclear-plants MOU is unconfirmed by any fetched Sep 1 coverage.",
+      "significance": 3,
+      "confidence": "high",
+      "sources": [
+        "https://www.msn.com/en-us/news/other/putin-pledges-support-to-iran-rallies-leaders-to-challenge-us/ar-AA2bmcQG",
+        "https://www.usnews.com/news/world/articles/2026-09-01/us-says-its-hitting-targets-in-iran-as-hostilities-flare-again-after-month-with-no-military-action",
+        "https://apnews.com/article/mideast-iran-hormuz-washington-september-1-2026-e0165815fef56d94b1a07793d24fdee3"
+      ]
+    },
+    {
+      "time": "day",
+      "actor": "US",
+      "title": "Trump presses refiners on pump prices in Cabinet Room meeting — RFS earful, Venezuelan crude, no price-relief promise",
+      "summary": "Trump met roughly a dozen refining and fuel-distribution executives — Delek US, PBF Energy, Marathon Petroleum, Valero among them — for an hour in the Cabinet Room, asking how to expand capacity and lower pump prices, with Energy Secretary Wright and Interior Secretary Burgum present. He got an earful on record-high Renewable Fuel Standard quotas (the EPA granted small-refinery exemptions Monday) and questions on how to process more Venezuelan crude; participants praised the Jones Act waiver. Fuel is at its highest seasonal level ever — gasoline above $4/gal, diesel nearly $6 (AAA per Bloomberg) — and Trump told reporters Monday he could not promise pre-election price relief. Resolves the 'reported US refiners meeting' thread carried since Aug 31.",
+      "significance": 2,
+      "confidence": "high",
+      "sources": [
+        "https://www.msn.com/en-xl/news/other/trump-puts-pressure-on-squeezed-us-oil-refiners-to-ease-pump-prices/ar-AA2bnLRF"
+      ]
+    },
+    {
+      "time": "evening",
+      "actor": "US",
+      "title": "Driscoll exits as Army secretary — no reason given; Army without Senate-confirmed leaders as strikes resume",
+      "summary": "Army Secretary Dan Driscoll's first public statement since the White House confirmed his departure Monday came late Tuesday on X — 'the honor of a lifetime,' no reason given, praise for Hegseth — with Wednesday his last full day. His exit leaves the Army without Senate-confirmed civilian or uniformed leaders as strikes resume (Gen. Randy George was ousted in April; acting chief Gen. Christopher LaNeve recently killed a drone program Driscoll championed). Bipartisan criticism landed: Sen. Tillis urged Trump to 'find a new leader at the Pentagon who will retain and empower our military talent'; Sen. Reed accused Hegseth of 'cultivating a culture where dissent is punished'; Sen. Rounds predicted 'serious questions' when senators return. Updates the WaPo Hegseth 'non-concurs' civil-military-friction thread.",
+      "significance": 2,
+      "confidence": "high",
+      "sources": [
+        "https://www.yahoo.com/news/politics/articles/driscoll-offers-no-reason-exit-160729383.html"
+      ]
+    }
+  ],
+  "dossier": "Night count: streak RESET — confirmed US strikes inside Iran on Sep 1 (CENTCOM completion statement; AP/Reuters/Al Jazeera; Iranian media log hits in Hormozgan, Qeshm, Kerman, Khuzestan). Counter resets to 0 and NIGHT 02 opens — the consecutive-strike campaign resumes per the state.json counters note (NIGHT 01 was Aug 30 Larak). Mirror into state.json: nightsWithoutConfirmedStrikesInIran = 0. Blockade ledger: CARRY 83/3/2 UNCHANGED — no CENTCOM accounting with a confirmable 'as of Sep 1' label in any fetched source; The Peninsula's 84/3/2 ('announced Tuesday' per QNA, published Sep 1 18:38 UTC) quotes no 'as of' label — post-window approximate, do not present as CENTCOM-labeled. Mirror into state.json: unchanged. cumulativeTargetsStruck: unchanged '300+' — Axios's ~100-target figure is single-chain reporting, not an official cumulative. Missed-day check: 2026-08-31 report exists — no flag. Timing straddle: CENTCOM's 'Tuesday evening' completion statement (US ET) lands ~Sep 2 00:00–04:00 UTC; the exchange straddles Sep 1→2 like Aug 30→31 (AP's wire is continuously updated; AJ's copy says 'early on Wednesday,' Middle East-local). Wedding toll variants: 5 killed incl. a child per deputy Gov. Nafisi (Sep 1, AP) → revised to 4 — two women, two children aged 4 and 16 — by IRNA/state TV (Sep 2) with no explanation; wounded ≥63 (AJ) / ≥68 (AP/Reuters); Reuters could not independently verify; filed as '4–5 killed (Iranian tolls revised)'. Iranian officials liken it to the war's first-night girls'-school strike (160 killed; Pentagon probe findings never released) — expect 'war crime' framing to develop Sep 2. Confirmed absences Sep 1: no new OFAC/FinCEN designations (bank sanctions 'expected to start this week'; next targets airlines/maritime/digital assets per Bessent); no CENTCOM tally with confirmable 'as of Sep 1' label; no UKMTO bulletin or CENTCOM statement on the two-tanker projectiles or SIDR in fetched sources; no confirmation of the reported $25B Rosatom–Iran nuclear-plants MOU (report dates to Aug 28, unfetched); no update on Iran's oil-export-halt threat, DOJ prize courts, the Rezaei conditions list, the NBC intel-damage report, Larak independent tolls, or Banque Misr finalization. Post-window Sep 2 items NOT filed as Sep 1 events (thread updates for Stage 5): IRGC claims two tankers hit naval mines + CENTCOM denial ('No ships have hit mines… yet another IRGC attempt to intimidate… disinformation') — both Sep 2; note CENTCOM's denial addresses mines, not projectiles, and predates/omits SIDR; rial record low 2.20M/USD (~10% past Aug 25's 2.02M) is a Sep 2 print 'hours after the exchange' — not a Sep 1 datapoint; Hemmati's $2B pledge and 'collapse has never happened and will never happen… just psychological warfare' ARE Sep 1 (Reuters 06:41 UTC) — grid only, no event; Bessent on Fox Business Tuesday: the strait becomes a 'worthless piece of water' in two years (in-window remark, Sep 2-dated piece); Bessent Fox & Friends: 'We are going to sever every tie that they have from the outside world' (Sep 2); Chevron's $7B signing — 600K bpd by 2031, two more Orinoco fields, doubling from ~280K bpd (Sep 2 — resolves the 'Venezuela pact signings this week' thread post-window; NABEP has granted DoD a 35% equity stake; Wright visiting Venezuela Wednesday); Philippine Migrant Workers Secretary Cacdac: two killed and 14 survivors to be flown home, ~3,000 Filipino seafarers still in the Gulf (Sep 2); Saudi MOFA condemned the SIDR attack, urged return to negotiations (Sep 2); Saudi accusation of Iran is Sep 2 framing (unfetched); Egypt–Qatar foreign ministers call for a return to negotiations (Sep 2); Council of Arab Interior Ministers condemns attacks on Kuwait/Jordan/UAE/Bahrain as a 'violation of international law' (Sep 2 roundup, timing approximate); Mashhad car-ramming kills 4 (Sep 2 report; Iran calls it an accident); 'Treasury moves to freeze IRGC assets worldwide' video tease (Sep 2 MSN, unfetched); Trump floats renaming the strait 'Trump Strait' (Sep 2 MSN, unfetched); NYT's 'Two More Oil Tankers Are Attacked' — nytimes.com blocked by firecrawl, not in corpus, substance covered via corpus 02/09. New thread candidates (since 2026-09-01): 'tanker-for-tanker' precedent — Axios single-chain; watch confirmation, Iranian retaliation against commercial shipping, war-risk insurance; wedding-strike fallout — contested toll, war-crime framing vs US denial, unpublished girls'-school probe; FT via CNBC: Russia secretly helping Iran develop supersonic anti-ship cruise missiles threatening US carriers (single-chain, likely Sep 2-dated — verify); Gulf-states exposure — Kuwait hit directly, Qatar holds Iran responsible; Treasury IRGC-asset-freeze implementation (BVI accounts, '$100 million houses'). Thread statuses for Stage 5 — RESOLVED: refiners meeting (held Sep 1, see event); INTERTANKO warning landed Sep 1 (16:17 UTC, see event). UPDATED: tanker strikes in the strait — second overnight vessel named Senegal Prosperity (single-chain); prior strikes' tow/salvage status unchanged; southern-route friction — counts fight: Axios 15–20 tankers/night ~10M bpd vs Kpler 5 Monday vessels vs Trump '30 ships a night', still unreconciled; Wright: >17M bbl exited Aug 31; WaPo Hegseth thread — Driscoll exit public, Army leaderless as strikes resume (see event); Pezeshkian–Putin — held Sep 1, readout quotes, SCO statement (see event); Pakistan mediation — Sharif–Pezeshkian at SCO, Islamabad 'remains engaged'; weekly sanctions cadence — no designations Sep 1, G20 closed without communiqué (China lone holdout on four sections incl. Hormuz/wars; US chair's statement agreed by all but China), next targets airlines/maritime/digital assets; Xi–Trump/Chinese banks — China the G20 holdout, still no Chinese institution listed, Bessent 'all options are on the table' stands. CARRIED: 'broad array' of countries following UAE — none named Sep 1 (UK Healey endorsement re-cited via NYP; EU 'fulsome support' per Bessent via The Hill); Iran oil-export-halt threat; Iran–Oman corridor — INTERTANKO notes Iran still insists on the northern corridor; no implementation/IMO news; Rezaei $300B conditions list; DOJ prize courts; NBC intel-damage report; Banque Misr NPRM — no Federal Register/finalization movement found; Larak casualty tolls — no independent confirmation. Oil datapoint conflicts: MarketWatch/FactSet anchors WTI $90.22 +5.2% (6-week high, biggest gain since Jul 29); The Punch via MSN (corpus 12 footnote) adds Brent $94.55 +4.49% and Murban +7.30%; The Hill intraday Brent $92.50/WTI $88 predates the settle; WSJ (via corpus 09) had Brent above $92 after the tanker attacks; AJ says oil jumped >4% — attribute per outlet. Notable quotes: Trump — 'We waited until it was almost built and then we hit it'; 'When are the Iranian people going to rise up and fight?'; Hawkins — 'The U.S. military never targets civilians, unlike the IRGC'; Putin — 'we are striving to provide you with the necessary assistance… supplying you with essential goods'; Pezeshkian — 'If the U.S. returns to its commitments in the memorandum of understanding, the Islamic Republic of Iran will immediately reciprocate'; Bessent — 'We are going to economically asphyxiate this regime… We are going to freeze those'; Zolfaghari — operations 'will continue until they regret their crimes'.",
+  "sources": [
+    {
+      "title": "U.S. News & World Report (AP) — US Military Completes Latest Strikes Against Iran, While Trump Vows More for Tehran's Retaliation",
+      "url": "https://www.usnews.com/news/world/articles/2026-09-01/us-says-its-hitting-targets-in-iran-as-hostilities-flare-again-after-month-with-no-military-action"
+    },
+    {
+      "title": "USA TODAY (Reuters) — US pounds Iran, Tehran strikes back at bases in biggest exchange since July",
+      "url": "https://www.usatoday.com/story/news/world/2026/09/02/us-strikes-iran-tehran-responds/91576000007/"
+    },
+    {
+      "title": "Al Jazeera (via Yahoo) — Iran claims attacks on Bahrain, Jordan, Iraq after US strikes kill 11",
+      "url": "https://www.yahoo.com/news/us/articles/us-launches-strikes-against-iran-164556132.html"
+    },
+    {
+      "title": "Associated Press — Iran targets US allies in Gulf after overnight attacks, and other Mideast news",
+      "url": "https://apnews.com/article/mideast-iran-hormuz-washington-september-1-2026-e0165815fef56d94b1a07793d24fdee3"
+    },
+    {
+      "title": "Newsmax (via Yahoo, citing Axios) — US Hit Iranian Tankers in 'Tanker-for-Tanker' Escalation",
+      "url": "https://www.yahoo.com/news/us/articles/us-hit-iranian-tankers-tanker-010027031.html"
+    },
+    {
+      "title": "MarketWatch — Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz",
+      "url": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708"
+    },
+    {
+      "title": "Axios — China's objections derail G20 finance statement",
+      "url": "https://www.axios.com/2026/09/02/china-g20-bessent-trade"
+    },
+    {
+      "title": "New York Post — Scott Bessent vows to 'asphyxiate' Iran with sanctions, taking away IRGC's offshore accounts, luxury homes",
+      "url": "https://nypost.com/2026/09/01/us-news/bessent-vows-to-asphyxiate-iran-with-sanctions-taking-away-irgcs-offshore-accounts-luxury-homes/"
+    },
+    {
+      "title": "The Washington Post (via MSN) — Putin pledges support to Iran, rallies leaders to challenge US",
+      "url": "https://www.msn.com/en-us/news/other/putin-pledges-support-to-iran-rallies-leaders-to-challenge-us/ar-AA2bmcQG"
+    },
+    {
+      "title": "gCaptain — INTERTANKO: Hormuz Mine Clearance 'Not Sufficient' to Restore Normal Shipping",
+      "url": "https://gcaptain.com/intertanko-hormuz-mine-clearance-not-sufficient-to-restore-normal-shipping/"
+    },
+    {
+      "title": "Bloomberg (via MSN) — Trump puts pressure on squeezed US oil refiners to ease pump prices",
+      "url": "https://www.msn.com/en-xl/news/other/trump-puts-pressure-on-squeezed-us-oil-refiners-to-ease-pump-prices/ar-AA2bnLRF"
+    },
+    {
+      "title": "U.S. News & World Report (Reuters) — Iran Says It Has Enough Foreign Currency Despite US Sanctions",
+      "url": "https://www.usnews.com/news/world/articles/2026-09-01/iran-says-it-has-enough-foreign-currency-despite-us-sanctions"
+    }
+  ]
+}
